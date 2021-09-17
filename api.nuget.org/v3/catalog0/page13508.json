@@ -1,11 +1,3555 @@
 {
   "@id": "https://api.nuget.org/v3/catalog0/page13508.json",
   "@type": "CatalogPage",
-  "commitId": "3064158f-0597-4d7f-bf34-9058a56d4e28",
-  "commitTimeStamp": "2021-09-16T01:05:17.6864833Z",
-  "count": 102,
+  "commitId": "9edd548c-22da-4630-916b-0a565a63f0fb",
+  "commitTimeStamp": "2021-09-16T02:35:04.8917904Z",
+  "count": 545,
   "parent": "https://api.nuget.org/v3/catalog0/index.json",
   "items": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.35.04/yoakke.lexer.generator.2021.9.16-2.27.34-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9edd548c-22da-4630-916b-0a565a63f0fb",
+      "commitTimeStamp": "2021-09-16T02:35:04.8917904Z",
+      "nuget:id": "Yoakke.Lexer.Generator",
+      "nuget:version": "2021.9.16-2.27.34-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.35.04/yoakke.lexer.2021.9.16-2.27.34-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9edd548c-22da-4630-916b-0a565a63f0fb",
+      "commitTimeStamp": "2021-09-16T02:35:04.8917904Z",
+      "nuget:id": "Yoakke.Lexer",
+      "nuget:version": "2021.9.16-2.27.34-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.35.04/yoakke.platform.x86.2021.9.16-2.27.34-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9edd548c-22da-4630-916b-0a565a63f0fb",
+      "commitTimeStamp": "2021-09-16T02:35:04.8917904Z",
+      "nuget:id": "Yoakke.Platform.X86",
+      "nuget:version": "2021.9.16-2.27.34-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.35.04/yoakke.lexerutils.2021.9.16-2.27.34-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9edd548c-22da-4630-916b-0a565a63f0fb",
+      "commitTimeStamp": "2021-09-16T02:35:04.8917904Z",
+      "nuget:id": "Yoakke.LexerUtils",
+      "nuget:version": "2021.9.16-2.27.34-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.34.43/dwframework.web.5.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "133bd96e-4a60-46bc-a045-5c920b0b568c",
+      "commitTimeStamp": "2021-09-16T02:34:43.0007606Z",
+      "nuget:id": "DwFramework.Web",
+      "nuget:version": "5.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.34.22/dwframework.sqlsugar.5.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9f4a343-aca8-441b-b2d7-7870da3d7f73",
+      "commitTimeStamp": "2021-09-16T02:34:22.2816497Z",
+      "nuget:id": "DwFramework.SqlSugar",
+      "nuget:version": "5.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.34.01/hona.1.2.69.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5bdcf132-eb51-4767-9c08-dd43dc209120",
+      "commitTimeStamp": "2021-09-16T02:34:01.0625175Z",
+      "nuget:id": "Hona",
+      "nuget:version": "1.2.69"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.34.01/dwframework.rabbitmq.5.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5bdcf132-eb51-4767-9c08-dd43dc209120",
+      "commitTimeStamp": "2021-09-16T02:34:01.0625175Z",
+      "nuget:id": "DwFramework.RabbitMQ",
+      "nuget:version": "5.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.33.39/dwframework.quartz.5.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b680263f-9f52-491a-bd55-74c7671c96f9",
+      "commitTimeStamp": "2021-09-16T02:33:39.0621178Z",
+      "nuget:id": "DwFramework.Quartz",
+      "nuget:version": "5.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.33.39/atlas.library.0.0.10.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b680263f-9f52-491a-bd55-74c7671c96f9",
+      "commitTimeStamp": "2021-09-16T02:33:39.0621178Z",
+      "nuget:id": "Atlas.Library",
+      "nuget:version": "0.0.10"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.33.17/yoakke.text.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "86d18c96-bc21-4c41-a3b3-b647ff5c71b1",
+      "commitTimeStamp": "2021-09-16T02:33:17.4679753Z",
+      "nuget:id": "Yoakke.Text",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.33.17/yoakke.syntaxtree.generator.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "86d18c96-bc21-4c41-a3b3-b647ff5c71b1",
+      "commitTimeStamp": "2021-09-16T02:33:17.4679753Z",
+      "nuget:id": "Yoakke.SyntaxTree.Generator",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.32.55/dwframework.core.5.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f07a50d3-f399-46f5-b4ce-edb568a8392c",
+      "commitTimeStamp": "2021-09-16T02:32:55.9520185Z",
+      "nuget:id": "DwFramework.Core",
+      "nuget:version": "5.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.32.55/yoakke.symbols.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f07a50d3-f399-46f5-b4ce-edb568a8392c",
+      "commitTimeStamp": "2021-09-16T02:32:55.9520185Z",
+      "nuget:id": "Yoakke.Symbols",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.32.55/yoakke.syntaxtree.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f07a50d3-f399-46f5-b4ce-edb568a8392c",
+      "commitTimeStamp": "2021-09-16T02:32:55.9520185Z",
+      "nuget:id": "Yoakke.SyntaxTree",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.32.33/yoakke.sourcegenerator.common.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "591598a1-8dec-4432-a39a-8f33df7f9c5e",
+      "commitTimeStamp": "2021-09-16T02:32:33.982824Z",
+      "nuget:id": "Yoakke.SourceGenerator.Common",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.32.33/yoakke.streams.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "591598a1-8dec-4432-a39a-8f33df7f9c5e",
+      "commitTimeStamp": "2021-09-16T02:32:33.982824Z",
+      "nuget:id": "Yoakke.Streams",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.32.12/yoakke.polyfill.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e6442bd2-446a-474f-a63a-8a7706e5d726",
+      "commitTimeStamp": "2021-09-16T02:32:12.6543066Z",
+      "nuget:id": "Yoakke.Polyfill",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.32.12/yoakke.reporting.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e6442bd2-446a-474f-a63a-8a7706e5d726",
+      "commitTimeStamp": "2021-09-16T02:32:12.6543066Z",
+      "nuget:id": "Yoakke.Reporting",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.31.51/51uns.grpc.shared.1.1.4.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "60126776-2222-41bc-aba8-bb00547907e0",
+      "commitTimeStamp": "2021-09-16T02:31:51.5289223Z",
+      "nuget:id": "51uns.Grpc.Shared",
+      "nuget:version": "1.1.4.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.31.51/yoakke.platform.x86.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "60126776-2222-41bc-aba8-bb00547907e0",
+      "commitTimeStamp": "2021-09-16T02:31:51.5289223Z",
+      "nuget:id": "Yoakke.Platform.X86",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.31.51/yoakke.parser.generator.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "60126776-2222-41bc-aba8-bb00547907e0",
+      "commitTimeStamp": "2021-09-16T02:31:51.5289223Z",
+      "nuget:id": "Yoakke.Parser.Generator",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.31.28/yoakke.lsp.server.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "57db41b6-a7b6-4d79-bd2c-e28fd611b7a5",
+      "commitTimeStamp": "2021-09-16T02:31:28.934754Z",
+      "nuget:id": "Yoakke.Lsp.Server",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.31.28/yoakke.parser.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "57db41b6-a7b6-4d79-bd2c-e28fd611b7a5",
+      "commitTimeStamp": "2021-09-16T02:31:28.934754Z",
+      "nuget:id": "Yoakke.Parser",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.31.07/yoakke.lexerutils.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f39ec172-c506-4282-a4c8-c7f55a57a577",
+      "commitTimeStamp": "2021-09-16T02:31:07.2781229Z",
+      "nuget:id": "Yoakke.LexerUtils",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.31.07/intellitect.aspnetcore.signalr.sqlserver.0.1.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f39ec172-c506-4282-a4c8-c7f55a57a577",
+      "commitTimeStamp": "2021-09-16T02:31:07.2781229Z",
+      "nuget:id": "IntelliTect.AspNetCore.SignalR.SqlServer",
+      "nuget:version": "0.1.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.31.07/autotestextras.core.0.13.9-beta.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f39ec172-c506-4282-a4c8-c7f55a57a577",
+      "commitTimeStamp": "2021-09-16T02:31:07.2781229Z",
+      "nuget:id": "AutoTestExtras.Core",
+      "nuget:version": "0.13.9-beta"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.31.07/yoakke.lsp.model.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f39ec172-c506-4282-a4c8-c7f55a57a577",
+      "commitTimeStamp": "2021-09-16T02:31:07.2781229Z",
+      "nuget:id": "Yoakke.Lsp.Model",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.30.46/yoakke.lexer.generator.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "47fe5c69-6d93-4e43-bc6c-66e7d1f7060c",
+      "commitTimeStamp": "2021-09-16T02:30:46.6214991Z",
+      "nuget:id": "Yoakke.Lexer.Generator",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.30.46/yoakke.lexer.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "47fe5c69-6d93-4e43-bc6c-66e7d1f7060c",
+      "commitTimeStamp": "2021-09-16T02:30:46.6214991Z",
+      "nuget:id": "Yoakke.Lexer",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.30.25/pnp.framework.1.6.53-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d6ef51b3-2c6f-4f42-bed5-1c25c430b8af",
+      "commitTimeStamp": "2021-09-16T02:30:25.6211071Z",
+      "nuget:id": "PnP.Framework",
+      "nuget:version": "1.6.53-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.30.25/yoakke.collections.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d6ef51b3-2c6f-4f42-bed5-1c25c430b8af",
+      "commitTimeStamp": "2021-09-16T02:30:25.6211071Z",
+      "nuget:id": "Yoakke.Collections",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.30.25/yoakke.ir.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d6ef51b3-2c6f-4f42-bed5-1c25c430b8af",
+      "commitTimeStamp": "2021-09-16T02:30:25.6211071Z",
+      "nuget:id": "Yoakke.Ir",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.30.25/yoakke.c.syntax.2021.9.15-2.24.30-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d6ef51b3-2c6f-4f42-bed5-1c25c430b8af",
+      "commitTimeStamp": "2021-09-16T02:30:25.6211071Z",
+      "nuget:id": "Yoakke.C.Syntax",
+      "nuget:version": "2021.9.15-2.24.30-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.21.20/hygeian.healthcare.identity.oauth.weixin.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a0baa1fd-2058-484f-a121-c5bc55cb109e",
+      "commitTimeStamp": "2021-09-16T02:21:20.4714339Z",
+      "nuget:id": "Hygeian.Healthcare.Identity.OAuth.Weixin",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.20.30/hygeian.healthcare.identity.oauth.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7725291d-eb67-4a0e-bac6-93a9e4ebe5af",
+      "commitTimeStamp": "2021-09-16T02:20:30.3455886Z",
+      "nuget:id": "Hygeian.Healthcare.Identity.OAuth",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.15.16/smartengage.integration.sqlserver.1.0.6.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "bf5872dd-678c-4955-8363-b431621e10aa",
+      "commitTimeStamp": "2021-09-16T02:15:16.7129693Z",
+      "nuget:id": "SmartEngage.Integration.SqlServer",
+      "nuget:version": "1.0.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.14.55/rulesengineeditor.1.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7bd2ee87-35ab-4e3a-8074-1c8a1fde74be",
+      "commitTimeStamp": "2021-09-16T02:14:55.6969672Z",
+      "nuget:id": "RulesEngineEditor",
+      "nuget:version": "1.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.14.55/smartengage.integration.interfaces.1.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7bd2ee87-35ab-4e3a-8074-1c8a1fde74be",
+      "commitTimeStamp": "2021-09-16T02:14:55.6969672Z",
+      "nuget:id": "SmartEngage.Integration.Interfaces",
+      "nuget:version": "1.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.14.35/hanatech.framework.appsettings.init.2.0.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2e96dc08-3762-4ca9-abe0-2946fdd201b0",
+      "commitTimeStamp": "2021-09-16T02:14:35.2278408Z",
+      "nuget:id": "HanaTech.Framework.Appsettings.Init",
+      "nuget:version": "2.0.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.14.35/hanatech.framework.appsettings.core.2.0.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2e96dc08-3762-4ca9-abe0-2946fdd201b0",
+      "commitTimeStamp": "2021-09-16T02:14:35.2278408Z",
+      "nuget:id": "HanaTech.Framework.Appsettings.Core",
+      "nuget:version": "2.0.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.14.35/hanatech.framework.appsettings.api.2.0.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2e96dc08-3762-4ca9-abe0-2946fdd201b0",
+      "commitTimeStamp": "2021-09-16T02:14:35.2278408Z",
+      "nuget:id": "HanaTech.Framework.Appsettings.Api",
+      "nuget:version": "2.0.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.14.14/smartengage.integration.domain.1.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "c434113b-1871-47bf-a24b-e0e6edeb4c14",
+      "commitTimeStamp": "2021-09-16T02:14:14.6493439Z",
+      "nuget:id": "SmartEngage.Integration.Domain",
+      "nuget:version": "1.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.13.53/hanatech.framework.appsettings.api.2.0.8.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "cc40f7a6-eb88-4db6-83f4-61fcad669447",
+      "commitTimeStamp": "2021-09-16T02:13:53.3989701Z",
+      "nuget:id": "HanaTech.Framework.Appsettings.Api",
+      "nuget:version": "2.0.8"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.13.53/hanatech.framework.appsettings.core.2.0.8.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "cc40f7a6-eb88-4db6-83f4-61fcad669447",
+      "commitTimeStamp": "2021-09-16T02:13:53.3989701Z",
+      "nuget:id": "HanaTech.Framework.Appsettings.Core",
+      "nuget:version": "2.0.8"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.13.53/hanatech.framework.appsettings.init.2.0.8.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "cc40f7a6-eb88-4db6-83f4-61fcad669447",
+      "commitTimeStamp": "2021-09-16T02:13:53.3989701Z",
+      "nuget:id": "HanaTech.Framework.Appsettings.Init",
+      "nuget:version": "2.0.8"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.13.33/hanatech.framework.appsettings.init.2.0.9.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "56d342a6-e795-490d-9cfc-96d14f4e6a24",
+      "commitTimeStamp": "2021-09-16T02:13:33.1017309Z",
+      "nuget:id": "HanaTech.Framework.Appsettings.Init",
+      "nuget:version": "2.0.9"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.12.06/hanatech.web.3.1.13.5-preview825.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7e6b7c51-9cda-4fb3-bc0d-5eaac97cb448",
+      "commitTimeStamp": "2021-09-16T02:12:06.1470196Z",
+      "nuget:id": "HanaTech.Web",
+      "nuget:version": "3.1.13.5-preview825"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.44/hanatech.framework.mongodb.3.1.13.5-preview825.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5d92bae8-9a0d-4c7d-b53e-b71f13535884",
+      "commitTimeStamp": "2021-09-16T02:11:44.1466359Z",
+      "nuget:id": "HanaTech.Framework.MongoDB",
+      "nuget:version": "3.1.13.5-preview825"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.44/hanatech.framework.dynamicwebapi.3.1.13.5-preview825.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5d92bae8-9a0d-4c7d-b53e-b71f13535884",
+      "commitTimeStamp": "2021-09-16T02:11:44.1466359Z",
+      "nuget:id": "HanaTech.Framework.DynamicWebApi",
+      "nuget:version": "3.1.13.5-preview825"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.44/hanatech.framework.dapper.3.1.13.5-preview825.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5d92bae8-9a0d-4c7d-b53e-b71f13535884",
+      "commitTimeStamp": "2021-09-16T02:11:44.1466359Z",
+      "nuget:id": "HanaTech.Framework.Dapper",
+      "nuget:version": "3.1.13.5-preview825"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.44/hanatech.framework.message.3.1.13.5-preview825.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5d92bae8-9a0d-4c7d-b53e-b71f13535884",
+      "commitTimeStamp": "2021-09-16T02:11:44.1466359Z",
+      "nuget:id": "HanaTech.Framework.Message",
+      "nuget:version": "3.1.13.5-preview825"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.44/hanatech.framework.workflow.3.1.13.5-preview825.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5d92bae8-9a0d-4c7d-b53e-b71f13535884",
+      "commitTimeStamp": "2021-09-16T02:11:44.1466359Z",
+      "nuget:id": "HanaTech.Framework.WorkFlow",
+      "nuget:version": "3.1.13.5-preview825"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.44/hanatech.entityconfiguration.3.1.13.5-preview825.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5d92bae8-9a0d-4c7d-b53e-b71f13535884",
+      "commitTimeStamp": "2021-09-16T02:11:44.1466359Z",
+      "nuget:id": "HanaTech.EntityConfiguration",
+      "nuget:version": "3.1.13.5-preview825"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.44/hanatech.framework.core.3.1.13.5-preview825.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5d92bae8-9a0d-4c7d-b53e-b71f13535884",
+      "commitTimeStamp": "2021-09-16T02:11:44.1466359Z",
+      "nuget:id": "HanaTech.Framework.Core",
+      "nuget:version": "3.1.13.5-preview825"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.44/hanatech.framework.ldap.3.1.13.5-preview825.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5d92bae8-9a0d-4c7d-b53e-b71f13535884",
+      "commitTimeStamp": "2021-09-16T02:11:44.1466359Z",
+      "nuget:id": "HanaTech.Framework.Ldap",
+      "nuget:version": "3.1.13.5-preview825"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.44/hanatech.framework.swagger.3.1.13.5-preview825.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5d92bae8-9a0d-4c7d-b53e-b71f13535884",
+      "commitTimeStamp": "2021-09-16T02:11:44.1466359Z",
+      "nuget:id": "HanaTech.Framework.Swagger",
+      "nuget:version": "3.1.13.5-preview825"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.44/hanatech.framework.mvcfunction.3.1.13.5-preview825.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5d92bae8-9a0d-4c7d-b53e-b71f13535884",
+      "commitTimeStamp": "2021-09-16T02:11:44.1466359Z",
+      "nuget:id": "HanaTech.Framework.MvcFunction",
+      "nuget:version": "3.1.13.5-preview825"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.20/hanatech.framework.swagger.3.1.13.5-preview826.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a2b2fb23-c767-4014-ba2d-ea99d76e23ec",
+      "commitTimeStamp": "2021-09-16T02:11:20.4274518Z",
+      "nuget:id": "HanaTech.Framework.Swagger",
+      "nuget:version": "3.1.13.5-preview826"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.20/hanatech.application.3.1.13.5-preview825.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a2b2fb23-c767-4014-ba2d-ea99d76e23ec",
+      "commitTimeStamp": "2021-09-16T02:11:20.4274518Z",
+      "nuget:id": "HanaTech.Application",
+      "nuget:version": "3.1.13.5-preview825"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.20/hanatech.core.3.1.13.5-preview825.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a2b2fb23-c767-4014-ba2d-ea99d76e23ec",
+      "commitTimeStamp": "2021-09-16T02:11:20.4274518Z",
+      "nuget:id": "HanaTech.Core",
+      "nuget:version": "3.1.13.5-preview825"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.20/hanatech.framework.workflow.3.1.13.5-preview826.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a2b2fb23-c767-4014-ba2d-ea99d76e23ec",
+      "commitTimeStamp": "2021-09-16T02:11:20.4274518Z",
+      "nuget:id": "HanaTech.Framework.WorkFlow",
+      "nuget:version": "3.1.13.5-preview826"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.20/hanatech.framework.mvcfunction.3.1.13.5-preview826.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a2b2fb23-c767-4014-ba2d-ea99d76e23ec",
+      "commitTimeStamp": "2021-09-16T02:11:20.4274518Z",
+      "nuget:id": "HanaTech.Framework.MvcFunction",
+      "nuget:version": "3.1.13.5-preview826"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.11.20/hanatech.web.3.1.13.5-preview826.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a2b2fb23-c767-4014-ba2d-ea99d76e23ec",
+      "commitTimeStamp": "2021-09-16T02:11:20.4274518Z",
+      "nuget:id": "HanaTech.Web",
+      "nuget:version": "3.1.13.5-preview826"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.57/hanatech.core.3.1.13.5-preview826.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "293834c5-4d53-4c58-9215-be35c1093413",
+      "commitTimeStamp": "2021-09-16T02:10:57.7395436Z",
+      "nuget:id": "HanaTech.Core",
+      "nuget:version": "3.1.13.5-preview826"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.57/hanatech.framework.core.3.1.13.5-preview826.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "293834c5-4d53-4c58-9215-be35c1093413",
+      "commitTimeStamp": "2021-09-16T02:10:57.7395436Z",
+      "nuget:id": "HanaTech.Framework.Core",
+      "nuget:version": "3.1.13.5-preview826"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.57/hanatech.application.3.1.13.5-preview826.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "293834c5-4d53-4c58-9215-be35c1093413",
+      "commitTimeStamp": "2021-09-16T02:10:57.7395436Z",
+      "nuget:id": "HanaTech.Application",
+      "nuget:version": "3.1.13.5-preview826"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.57/hanatech.framework.dynamicwebapi.3.1.13.5-preview826.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "293834c5-4d53-4c58-9215-be35c1093413",
+      "commitTimeStamp": "2021-09-16T02:10:57.7395436Z",
+      "nuget:id": "HanaTech.Framework.DynamicWebApi",
+      "nuget:version": "3.1.13.5-preview826"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.57/hanatech.framework.message.3.1.13.5-preview826.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "293834c5-4d53-4c58-9215-be35c1093413",
+      "commitTimeStamp": "2021-09-16T02:10:57.7395436Z",
+      "nuget:id": "HanaTech.Framework.Message",
+      "nuget:version": "3.1.13.5-preview826"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.57/hanatech.framework.mongodb.3.1.13.5-preview826.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "293834c5-4d53-4c58-9215-be35c1093413",
+      "commitTimeStamp": "2021-09-16T02:10:57.7395436Z",
+      "nuget:id": "HanaTech.Framework.MongoDB",
+      "nuget:version": "3.1.13.5-preview826"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.57/hanatech.entityconfiguration.3.1.13.5-preview826.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "293834c5-4d53-4c58-9215-be35c1093413",
+      "commitTimeStamp": "2021-09-16T02:10:57.7395436Z",
+      "nuget:id": "HanaTech.EntityConfiguration",
+      "nuget:version": "3.1.13.5-preview826"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.57/hanatech.framework.dapper.3.1.13.5-preview826.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "293834c5-4d53-4c58-9215-be35c1093413",
+      "commitTimeStamp": "2021-09-16T02:10:57.7395436Z",
+      "nuget:id": "HanaTech.Framework.Dapper",
+      "nuget:version": "3.1.13.5-preview826"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.57/hanatech.framework.ldap.3.1.13.5-preview826.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "293834c5-4d53-4c58-9215-be35c1093413",
+      "commitTimeStamp": "2021-09-16T02:10:57.7395436Z",
+      "nuget:id": "HanaTech.Framework.Ldap",
+      "nuget:version": "3.1.13.5-preview826"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.35/hanatech.web.3.1.13.5-preview828.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ae8070fd-e282-4b45-aaf7-7950680136c9",
+      "commitTimeStamp": "2021-09-16T02:10:35.8797781Z",
+      "nuget:id": "HanaTech.Web",
+      "nuget:version": "3.1.13.5-preview828"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.13/hanatech.framework.workflow.3.1.13.5-preview828.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "58a14394-a1d2-42bc-8f24-6e3afd778cda",
+      "commitTimeStamp": "2021-09-16T02:10:13.1918629Z",
+      "nuget:id": "HanaTech.Framework.WorkFlow",
+      "nuget:version": "3.1.13.5-preview828"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.13/hanatech.framework.dapper.3.1.13.5-preview828.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "58a14394-a1d2-42bc-8f24-6e3afd778cda",
+      "commitTimeStamp": "2021-09-16T02:10:13.1918629Z",
+      "nuget:id": "HanaTech.Framework.Dapper",
+      "nuget:version": "3.1.13.5-preview828"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.13/hanatech.framework.ldap.3.1.13.5-preview828.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "58a14394-a1d2-42bc-8f24-6e3afd778cda",
+      "commitTimeStamp": "2021-09-16T02:10:13.1918629Z",
+      "nuget:id": "HanaTech.Framework.Ldap",
+      "nuget:version": "3.1.13.5-preview828"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.13/hanatech.framework.mvcfunction.3.1.13.5-preview828.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "58a14394-a1d2-42bc-8f24-6e3afd778cda",
+      "commitTimeStamp": "2021-09-16T02:10:13.1918629Z",
+      "nuget:id": "HanaTech.Framework.MvcFunction",
+      "nuget:version": "3.1.13.5-preview828"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.13/hanatech.entityconfiguration.3.1.13.5-preview828.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "58a14394-a1d2-42bc-8f24-6e3afd778cda",
+      "commitTimeStamp": "2021-09-16T02:10:13.1918629Z",
+      "nuget:id": "HanaTech.EntityConfiguration",
+      "nuget:version": "3.1.13.5-preview828"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.13/hanatech.framework.core.3.1.13.5-preview828.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "58a14394-a1d2-42bc-8f24-6e3afd778cda",
+      "commitTimeStamp": "2021-09-16T02:10:13.1918629Z",
+      "nuget:id": "HanaTech.Framework.Core",
+      "nuget:version": "3.1.13.5-preview828"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.13/hanatech.framework.mongodb.3.1.13.5-preview828.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "58a14394-a1d2-42bc-8f24-6e3afd778cda",
+      "commitTimeStamp": "2021-09-16T02:10:13.1918629Z",
+      "nuget:id": "HanaTech.Framework.MongoDB",
+      "nuget:version": "3.1.13.5-preview828"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.13/hanatech.framework.message.3.1.13.5-preview828.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "58a14394-a1d2-42bc-8f24-6e3afd778cda",
+      "commitTimeStamp": "2021-09-16T02:10:13.1918629Z",
+      "nuget:id": "HanaTech.Framework.Message",
+      "nuget:version": "3.1.13.5-preview828"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.13/hanatech.framework.swagger.3.1.13.5-preview828.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "58a14394-a1d2-42bc-8f24-6e3afd778cda",
+      "commitTimeStamp": "2021-09-16T02:10:13.1918629Z",
+      "nuget:id": "HanaTech.Framework.Swagger",
+      "nuget:version": "3.1.13.5-preview828"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.10.13/hanatech.framework.dynamicwebapi.3.1.13.5-preview828.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "58a14394-a1d2-42bc-8f24-6e3afd778cda",
+      "commitTimeStamp": "2021-09-16T02:10:13.1918629Z",
+      "nuget:id": "HanaTech.Framework.DynamicWebApi",
+      "nuget:version": "3.1.13.5-preview828"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.49/hanatech.application.3.1.13.5-preview828.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7830f710-519f-45e5-b9f7-164d042278a3",
+      "commitTimeStamp": "2021-09-16T02:09:49.2851927Z",
+      "nuget:id": "HanaTech.Application",
+      "nuget:version": "3.1.13.5-preview828"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.49/hanatech.core.3.1.13.5-preview828.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7830f710-519f-45e5-b9f7-164d042278a3",
+      "commitTimeStamp": "2021-09-16T02:09:49.2851927Z",
+      "nuget:id": "HanaTech.Core",
+      "nuget:version": "3.1.13.5-preview828"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.26/hanatech.framework.workflow.3.1.13.5-preview827.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8a74f25b-ff92-46be-8f54-3473ec8b4d37",
+      "commitTimeStamp": "2021-09-16T02:09:26.5035209Z",
+      "nuget:id": "HanaTech.Framework.WorkFlow",
+      "nuget:version": "3.1.13.5-preview827"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.26/hanatech.framework.message.3.1.13.5-preview827.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8a74f25b-ff92-46be-8f54-3473ec8b4d37",
+      "commitTimeStamp": "2021-09-16T02:09:26.5035209Z",
+      "nuget:id": "HanaTech.Framework.Message",
+      "nuget:version": "3.1.13.5-preview827"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.26/hanatech.web.3.1.13.5-preview827.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8a74f25b-ff92-46be-8f54-3473ec8b4d37",
+      "commitTimeStamp": "2021-09-16T02:09:26.5035209Z",
+      "nuget:id": "HanaTech.Web",
+      "nuget:version": "3.1.13.5-preview827"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.26/hanatech.framework.mongodb.3.1.13.5-preview827.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8a74f25b-ff92-46be-8f54-3473ec8b4d37",
+      "commitTimeStamp": "2021-09-16T02:09:26.5035209Z",
+      "nuget:id": "HanaTech.Framework.MongoDB",
+      "nuget:version": "3.1.13.5-preview827"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.26/hanatech.framework.ldap.3.1.13.5-preview827.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8a74f25b-ff92-46be-8f54-3473ec8b4d37",
+      "commitTimeStamp": "2021-09-16T02:09:26.5035209Z",
+      "nuget:id": "HanaTech.Framework.Ldap",
+      "nuget:version": "3.1.13.5-preview827"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.26/hanatech.framework.dynamicwebapi.3.1.13.5-preview827.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8a74f25b-ff92-46be-8f54-3473ec8b4d37",
+      "commitTimeStamp": "2021-09-16T02:09:26.5035209Z",
+      "nuget:id": "HanaTech.Framework.DynamicWebApi",
+      "nuget:version": "3.1.13.5-preview827"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.26/hanatech.framework.swagger.3.1.13.5-preview827.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8a74f25b-ff92-46be-8f54-3473ec8b4d37",
+      "commitTimeStamp": "2021-09-16T02:09:26.5035209Z",
+      "nuget:id": "HanaTech.Framework.Swagger",
+      "nuget:version": "3.1.13.5-preview827"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.26/hanatech.framework.mvcfunction.3.1.13.5-preview827.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8a74f25b-ff92-46be-8f54-3473ec8b4d37",
+      "commitTimeStamp": "2021-09-16T02:09:26.5035209Z",
+      "nuget:id": "HanaTech.Framework.MvcFunction",
+      "nuget:version": "3.1.13.5-preview827"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.05/hanatech.framework.core.3.1.13.5-preview827.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a54a0f26-efcc-487b-95e1-0063719f548c",
+      "commitTimeStamp": "2021-09-16T02:09:05.2375037Z",
+      "nuget:id": "HanaTech.Framework.Core",
+      "nuget:version": "3.1.13.5-preview827"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.05/hanatech.framework.dapper.3.1.13.5-preview827.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a54a0f26-efcc-487b-95e1-0063719f548c",
+      "commitTimeStamp": "2021-09-16T02:09:05.2375037Z",
+      "nuget:id": "HanaTech.Framework.Dapper",
+      "nuget:version": "3.1.13.5-preview827"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.05/hanatech.core.3.1.13.5-preview827.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a54a0f26-efcc-487b-95e1-0063719f548c",
+      "commitTimeStamp": "2021-09-16T02:09:05.2375037Z",
+      "nuget:id": "HanaTech.Core",
+      "nuget:version": "3.1.13.5-preview827"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.05/hanatech.entityconfiguration.3.1.13.5-preview827.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a54a0f26-efcc-487b-95e1-0063719f548c",
+      "commitTimeStamp": "2021-09-16T02:09:05.2375037Z",
+      "nuget:id": "HanaTech.EntityConfiguration",
+      "nuget:version": "3.1.13.5-preview827"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.09.05/hanatech.application.3.1.13.5-preview827.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a54a0f26-efcc-487b-95e1-0063719f548c",
+      "commitTimeStamp": "2021-09-16T02:09:05.2375037Z",
+      "nuget:id": "HanaTech.Application",
+      "nuget:version": "3.1.13.5-preview827"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.08.10/atlas.metis.client.1.0.13.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "07990a67-e38a-4975-9d83-8acd5fd7452f",
+      "commitTimeStamp": "2021-09-16T02:08:10.8615312Z",
+      "nuget:id": "Atlas.Metis.Client",
+      "nuget:version": "1.0.13"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.05.39/application.jingdong.extension.1.1.6.6.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0594176b-3996-4d44-97f1-c385b0bc1433",
+      "commitTimeStamp": "2021-09-16T02:05:39.7494737Z",
+      "nuget:id": "Application.Jingdong.Extension",
+      "nuget:version": "1.1.6.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.02.05.39/gridify5.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0594176b-3996-4d44-97f1-c385b0bc1433",
+      "commitTimeStamp": "2021-09-16T02:05:39.7494737Z",
+      "nuget:id": "Gridify5",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.56.01/jwttokenmiddleware.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f9b32dba-5b23-4036-9ac2-75ef038802eb",
+      "commitTimeStamp": "2021-09-16T01:56:01.9584939Z",
+      "nuget:id": "JwtTokenMiddleware",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.55.08/firenet.1.2.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6b577527-c56a-47c5-aa67-7e2021bc8e2d",
+      "commitTimeStamp": "2021-09-16T01:55:08.4419283Z",
+      "nuget:id": "Firenet",
+      "nuget:version": "1.2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.54.14/deviot.common.1.0.3.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "fd9f619e-b9ba-4afa-a1b7-a3272e6cbe62",
+      "commitTimeStamp": "2021-09-16T01:54:14.519076Z",
+      "nuget:id": "Deviot.Common",
+      "nuget:version": "1.0.3.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.53.52/phoenixtoolkits.protobuf.extendtypes.0.0.1-alpha.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8518eb6a-af9b-4d40-9408-ed05b1f91c06",
+      "commitTimeStamp": "2021-09-16T01:53:52.9718172Z",
+      "nuget:id": "PhoenixToolkits.Protobuf.ExtendTypes",
+      "nuget:version": "0.0.1-alpha"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.52.58/trafficguarantee.redisdatastorage.1.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "53bce754-69f9-42de-90a4-3f741d46201b",
+      "commitTimeStamp": "2021-09-16T01:52:58.6739496Z",
+      "nuget:id": "TrafficGuarantee.RedisDataStorage",
+      "nuget:version": "1.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.52.37/application.jingdong.extension.1.1.6.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b1e4217d-57c5-4f35-b210-6f8731123233",
+      "commitTimeStamp": "2021-09-16T01:52:37.501707Z",
+      "nuget:id": "Application.Jingdong.Extension",
+      "nuget:version": "1.1.6.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.49.32/willable.imagesensor.1.0.11.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dcb63b40-00c9-49b7-96d2-9a648265b573",
+      "commitTimeStamp": "2021-09-16T01:49:32.8733558Z",
+      "nuget:id": "willable.ImageSensor",
+      "nuget:version": "1.0.11"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.48.37/coder.authentication.1.0.4.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8f6db0fd-d925-49cf-b790-4951f23eb38a",
+      "commitTimeStamp": "2021-09-16T01:48:37.6067875Z",
+      "nuget:id": "Coder.Authentication",
+      "nuget:version": "1.0.4.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.46.37/tvdb.sdk.4.3.17-beta.202109160143.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d1160a93-a71a-49e2-9a2d-fe716094294d",
+      "commitTimeStamp": "2021-09-16T01:46:37.574032Z",
+      "nuget:id": "Tvdb.Sdk",
+      "nuget:version": "4.3.17-beta.202109160143"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.46.37/api-aggregator.1.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d1160a93-a71a-49e2-9a2d-fe716094294d",
+      "commitTimeStamp": "2021-09-16T01:46:37.574032Z",
+      "nuget:id": "api-aggregator",
+      "nuget:version": "1.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.43.37/clownfish.nebula.net.1.21.915.100.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f118a7b7-6ec7-49d9-8476-01031c26f0cc",
+      "commitTimeStamp": "2021-09-16T01:43:37.6489279Z",
+      "nuget:id": "ClownFish.Nebula.net",
+      "nuget:version": "1.21.915.100"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.40.03/timhanewich.cds.0.10.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "61bb22b4-d8df-4b9f-81eb-6e0a0c5859c5",
+      "commitTimeStamp": "2021-09-16T01:40:03.223135Z",
+      "nuget:id": "TimHanewich.Cds",
+      "nuget:version": "0.10.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.37.00/aspose.cells.gridweb.21.9.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "788bc65d-3633-40e3-ae42-89c5d6d332e0",
+      "commitTimeStamp": "2021-09-16T01:37:00.9230591Z",
+      "nuget:id": "Aspose.Cells.GridWeb",
+      "nuget:version": "21.9.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.36.06/aspose.cells.gridjs.21.9.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "98396b86-2e70-4da3-b4d5-5d12ece51e03",
+      "commitTimeStamp": "2021-09-16T01:36:06.8440081Z",
+      "nuget:id": "Aspose.Cells.GridJs",
+      "nuget:version": "21.9.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.35.12/aspose.cells.griddesktop.21.9.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6cad6a20-0c93-41fd-abb9-f20df01f4551",
+      "commitTimeStamp": "2021-09-16T01:35:12.5773013Z",
+      "nuget:id": "Aspose.Cells.GridDesktop",
+      "nuget:version": "21.9.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.34.20/fiction.controls.0.1.16-alpha.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "cce3358d-f5dc-483b-9e0c-c6cef739f3dd",
+      "commitTimeStamp": "2021-09-16T01:34:20.2170156Z",
+      "nuget:id": "Fiction.Controls",
+      "nuget:version": "0.1.16-alpha"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.34.20/stereokit.0.3.3-preview.6.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "cce3358d-f5dc-483b-9e0c-c6cef739f3dd",
+      "commitTimeStamp": "2021-09-16T01:34:20.2170156Z",
+      "nuget:id": "StereoKit",
+      "nuget:version": "0.3.3-preview.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.32.17/ban3.libraries.shares.csrc.collector.1.210916.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "05733eec-b8f2-44fd-aa90-fc47faa2e282",
+      "commitTimeStamp": "2021-09-16T01:32:17.7304Z",
+      "nuget:id": "Ban3.Libraries.Shares.Csrc.Collector",
+      "nuget:version": "1.210916.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.31.21/solicit.dapper.1.0.9.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7b4a1eca-b2e6-4757-afa8-fb47e7400833",
+      "commitTimeStamp": "2021-09-16T01:31:21.5420744Z",
+      "nuget:id": "Solicit.Dapper",
+      "nuget:version": "1.0.9"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.31.21/karfans.microservice.sdk.client.1.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7b4a1eca-b2e6-4757-afa8-fb47e7400833",
+      "commitTimeStamp": "2021-09-16T01:31:21.5420744Z",
+      "nuget:id": "KarFans.MicroService.SDK.Client",
+      "nuget:version": "1.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.30.27/katya.2.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5fb4f4de-af97-41e0-82fc-2ca90f0a449d",
+      "commitTimeStamp": "2021-09-16T01:30:27.6820247Z",
+      "nuget:id": "Katya",
+      "nuget:version": "2.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.30.27/zoomnet.0.32.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5fb4f4de-af97-41e0-82fc-2ca90f0a449d",
+      "commitTimeStamp": "2021-09-16T01:30:27.6820247Z",
+      "nuget:id": "ZoomNet",
+      "nuget:version": "0.32.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.27.55/org.cdk8s.plus17.1.0.0-beta.71.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "140a22ca-84e2-4191-80a2-5132db8eb767",
+      "commitTimeStamp": "2021-09-16T01:27:55.0389493Z",
+      "nuget:id": "Org.Cdk8s.Plus17",
+      "nuget:version": "1.0.0-beta.71"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.27.00/microsoft.dotnet.upgradeassistant.abstractions.0.3.246501.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8bd0ed47-7993-4254-bb59-9b902e77ddd7",
+      "commitTimeStamp": "2021-09-16T01:27:00.3973251Z",
+      "nuget:id": "Microsoft.DotNet.UpgradeAssistant.Abstractions",
+      "nuget:version": "0.3.246501"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.26.38/voterapide.models.1.0.118.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8e5eb4c0-9cb1-4f48-ae84-d5e341811bae",
+      "commitTimeStamp": "2021-09-16T01:26:38.8344197Z",
+      "nuget:id": "VoteRapide.Models",
+      "nuget:version": "1.0.118"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.26.38/microsoft.dotnet.upgradeassistant.extensions.default.analyzers.0.3.246501.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8e5eb4c0-9cb1-4f48-ae84-d5e341811bae",
+      "commitTimeStamp": "2021-09-16T01:26:38.8344197Z",
+      "nuget:id": "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers",
+      "nuget:version": "0.3.246501"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.24.35/upgrade-assistant.0.3.246501.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "fcb32a49-2113-40ef-864c-d25f3337e08b",
+      "commitTimeStamp": "2021-09-16T01:24:35.8165416Z",
+      "nuget:id": "upgrade-assistant",
+      "nuget:version": "0.3.246501"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.24.35/reactiveproperty.xamarinios.8.0.0-pre202109160117.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "fcb32a49-2113-40ef-864c-d25f3337e08b",
+      "commitTimeStamp": "2021-09-16T01:24:35.8165416Z",
+      "nuget:id": "ReactiveProperty.XamariniOS",
+      "nuget:version": "8.0.0-pre202109160117"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.24.11/trafficguarantee.redisdatastorage.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f40359a5-61fa-4626-9564-1c365eac0a5c",
+      "commitTimeStamp": "2021-09-16T01:24:11.9098464Z",
+      "nuget:id": "TrafficGuarantee.RedisDataStorage",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.23.49/reactiveproperty.xamarinandroid.8.0.0-pre202109160117.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0ddcca71-8014-42d3-996c-27764966cd92",
+      "commitTimeStamp": "2021-09-16T01:23:49.9094455Z",
+      "nuget:id": "ReactiveProperty.XamarinAndroid",
+      "nuget:version": "8.0.0-pre202109160117"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.23.49/reactiveproperty.core.8.0.0-pre202109160117.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0ddcca71-8014-42d3-996c-27764966cd92",
+      "commitTimeStamp": "2021-09-16T01:23:49.9094455Z",
+      "nuget:id": "ReactiveProperty.Core",
+      "nuget:version": "8.0.0-pre202109160117"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.23.27/karfans.c800pro.sdk.1.0.15.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d49d9ef5-b344-461b-b01e-5ae962a6d178",
+      "commitTimeStamp": "2021-09-16T01:23:27.59653Z",
+      "nuget:id": "KarFans.C800Pro.SDK",
+      "nuget:version": "1.0.15"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.23.27/reactiveproperty.wpf.8.0.0-pre202109160117.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d49d9ef5-b344-461b-b01e-5ae962a6d178",
+      "commitTimeStamp": "2021-09-16T01:23:27.59653Z",
+      "nuget:id": "ReactiveProperty.WPF",
+      "nuget:version": "8.0.0-pre202109160117"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.23.27/reactiveproperty.8.0.0-pre202109160117.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d49d9ef5-b344-461b-b01e-5ae962a6d178",
+      "commitTimeStamp": "2021-09-16T01:23:27.59653Z",
+      "nuget:id": "ReactiveProperty",
+      "nuget:version": "8.0.0-pre202109160117"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.19.45/nehta.vendorlibrary.mhr.1.4.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0d2260de-529b-4379-a9df-df67e3f65bc2",
+      "commitTimeStamp": "2021-09-16T01:19:45.7954268Z",
+      "nuget:id": "Nehta.VendorLibrary.MHR",
+      "nuget:version": "1.4.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.17.06/destiny2.1.12.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8c5d5cc3-fec8-4906-9119-50f5a197acb4",
+      "commitTimeStamp": "2021-09-16T01:17:06.5737542Z",
+      "nuget:id": "Destiny2",
+      "nuget:version": "1.12.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.58/awssdk.workmailmessageflow.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a64a2b3a-11eb-4373-bc43-9909c4cdbd8c",
+      "commitTimeStamp": "2021-09-16T01:14:58.0557554Z",
+      "nuget:id": "AWSSDK.WorkMailMessageFlow",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.58/mylab.asyncprocessor.sdk.1.4.6.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a64a2b3a-11eb-4373-bc43-9909c4cdbd8c",
+      "commitTimeStamp": "2021-09-16T01:14:58.0557554Z",
+      "nuget:id": "MyLab.AsyncProcessor.Sdk",
+      "nuget:version": "1.4.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.58/awssdk.translate.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a64a2b3a-11eb-4373-bc43-9909c4cdbd8c",
+      "commitTimeStamp": "2021-09-16T01:14:58.0557554Z",
+      "nuget:id": "AWSSDK.Translate",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.58/karfans.c800pro.sdk.1.0.15.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a64a2b3a-11eb-4373-bc43-9909c4cdbd8c",
+      "commitTimeStamp": "2021-09-16T01:14:58.0557554Z",
+      "nuget:id": "KarFans.C800Pro.SDK",
+      "nuget:version": "1.0.15"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.58/awssdk.xray.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a64a2b3a-11eb-4373-bc43-9909c4cdbd8c",
+      "commitTimeStamp": "2021-09-16T01:14:58.0557554Z",
+      "nuget:id": "AWSSDK.XRay",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.58/awssdk.workspaces.3.7.1.40.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a64a2b3a-11eb-4373-bc43-9909c4cdbd8c",
+      "commitTimeStamp": "2021-09-16T01:14:58.0557554Z",
+      "nuget:id": "AWSSDK.WorkSpaces",
+      "nuget:version": "3.7.1.40"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.58/awssdk.worklink.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a64a2b3a-11eb-4373-bc43-9909c4cdbd8c",
+      "commitTimeStamp": "2021-09-16T01:14:58.0557554Z",
+      "nuget:id": "AWSSDK.WorkLink",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.transfer.3.7.3.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.Transfer",
+      "nuget:version": "3.7.3.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.ssoadmin.3.7.0.67.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.SSOAdmin",
+      "nuget:version": "3.7.0.67"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.storagegateway.3.7.2.29.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.StorageGateway",
+      "nuget:version": "3.7.2.29"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.ssooidc.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.SSOOIDC",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.waf.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.WAF",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.stepfunctions.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.StepFunctions",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.workdocs.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.WorkDocs",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.timestreamquery.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.TimestreamQuery",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/swashbuckle.nodatime.aspnetcore.4.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "Swashbuckle.NodaTime.AspNetCore",
+      "nuget:version": "4.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.sso.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.SSO",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.workmail.3.7.1.62.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.WorkMail",
+      "nuget:version": "3.7.1.62"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.transcribeservice.3.7.7.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.TranscribeService",
+      "nuget:version": "3.7.7.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.simplenotificationservice.3.7.2.37.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.SimpleNotificationService",
+      "nuget:version": "3.7.2.37"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.wafv2.3.7.5.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.WAFV2",
+      "nuget:version": "3.7.5.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.textract.3.7.1.22.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.Textract",
+      "nuget:version": "3.7.1.22"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.wellarchitected.3.7.1.24.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.WellArchitected",
+      "nuget:version": "3.7.1.24"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.ssmincidents.3.7.1.18.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.SSMIncidents",
+      "nuget:version": "3.7.1.18"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.synthetics.3.7.1.22.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.Synthetics",
+      "nuget:version": "3.7.1.22"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/awssdk.timestreamwrite.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "AWSSDK.TimestreamWrite",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.14.27/flatsharp.runtime.6.0.0-beta3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ede4fd13-3671-4691-90cf-2cfd038f8a6e",
+      "commitTimeStamp": "2021-09-16T01:14:27.6958214Z",
+      "nuget:id": "FlatSharp.Runtime",
+      "nuget:version": "6.0.0-beta3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.simpledb.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.SimpleDB",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.ram.3.7.1.38.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.RAM",
+      "nuget:version": "3.7.1.38"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.simplesystemsmanagement.3.7.5.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.SimpleSystemsManagement",
+      "nuget:version": "3.7.5.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.wafregional.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.WAFRegional",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.servicequotas.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.ServiceQuotas",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.securityhub.3.7.5.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.SecurityHub",
+      "nuget:version": "3.7.5.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.serverlessapplicationrepository.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.ServerlessApplicationRepository",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.simpleworkflow.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.SimpleWorkflow",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.shield.3.7.1.57.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.Shield",
+      "nuget:version": "3.7.1.57"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.route53recoveryreadiness.3.7.0.21.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.Route53RecoveryReadiness",
+      "nuget:version": "3.7.0.21"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.simpleemail.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.SimpleEmail",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.redshift.3.7.8.19.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.Redshift",
+      "nuget:version": "3.7.8.19"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.s3control.3.7.3.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.S3Control",
+      "nuget:version": "3.7.3.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/flatsharp.compiler.6.0.0-beta3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "FlatSharp.Compiler",
+      "nuget:version": "6.0.0-beta3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.servermigrationservice.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.ServerMigrationService",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.ssmcontacts.3.7.2.19.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.SSMContacts",
+      "nuget:version": "3.7.2.19"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.sqs.3.7.1.9.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.SQS",
+      "nuget:version": "3.7.1.9"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.snowball.3.7.2.31.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.Snowball",
+      "nuget:version": "3.7.2.31"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.snowdevicemanagement.3.7.0.16.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.SnowDeviceManagement",
+      "nuget:version": "3.7.0.16"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.53/awssdk.servicecatalog.3.7.1.37.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4f48b444-9954-4f45-b672-06c2894e15b1",
+      "commitTimeStamp": "2021-09-16T01:13:53.4608557Z",
+      "nuget:id": "AWSSDK.ServiceCatalog",
+      "nuget:version": "3.7.1.37"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.pinpointsmsvoice.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.PinpointSMSVoice",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.signer.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.Signer",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.schemas.3.7.1.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.Schemas",
+      "nuget:version": "3.7.1.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.pinpointemail.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.PinpointEmail",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/tencentcloudsdk.tic.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "TencentCloudSDK.Tic",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.sagemakerfeaturestoreruntime.3.7.1.37.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.SageMakerFeatureStoreRuntime",
+      "nuget:version": "3.7.1.37"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.pricing.3.7.1.62.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.Pricing",
+      "nuget:version": "3.7.1.62"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.route53domains.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.Route53Domains",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.proton.3.7.1.34.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.Proton",
+      "nuget:version": "3.7.1.34"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.rekognition.3.7.3.11.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.Rekognition",
+      "nuget:version": "3.7.3.11"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.sagemaker.3.7.14.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.SageMaker",
+      "nuget:version": "3.7.14.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.route53recoverycontrolconfig.3.7.0.21.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.Route53RecoveryControlConfig",
+      "nuget:version": "3.7.0.21"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.savingsplans.3.7.2.20.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.SavingsPlans",
+      "nuget:version": "3.7.2.20"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.rdsdataservice.3.7.0.67.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.RDSDataService",
+      "nuget:version": "3.7.0.67"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.redshiftdataapiservice.3.7.2.21.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.RedshiftDataAPIService",
+      "nuget:version": "3.7.2.21"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.prometheusservice.3.7.1.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.PrometheusService",
+      "nuget:version": "3.7.1.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.simpleemailv2.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.SimpleEmailV2",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.resourcegroups.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.ResourceGroups",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.s3.3.7.2.6.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.S3",
+      "nuget:version": "3.7.2.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.13.16/awssdk.secretsmanager.3.7.1.19.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ccb80df-2f19-47c1-a318-f2ac663c7169",
+      "commitTimeStamp": "2021-09-16T01:13:16.9915346Z",
+      "nuget:id": "AWSSDK.SecretsManager",
+      "nuget:version": "3.7.1.19"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.personalizeruntime.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.PersonalizeRuntime",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.pi.3.7.1.37.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.PI",
+      "nuget:version": "3.7.1.37"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.servicediscovery.3.7.3.31.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.ServiceDiscovery",
+      "nuget:version": "3.7.3.31"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/flatsharp.6.0.0-beta3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "FlatSharp",
+      "nuget:version": "6.0.0-beta3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.quicksight.3.7.6.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.QuickSight",
+      "nuget:version": "3.7.6.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.polly.3.7.3.9.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.Polly",
+      "nuget:version": "3.7.3.9"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.personalize.3.7.5.23.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.Personalize",
+      "nuget:version": "3.7.5.23"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.sagemakerruntime.3.7.1.14.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.SageMakerRuntime",
+      "nuget:version": "3.7.1.14"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.personalizeevents.3.7.1.37.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.PersonalizeEvents",
+      "nuget:version": "3.7.1.37"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.robomaker.3.7.3.24.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.RoboMaker",
+      "nuget:version": "3.7.3.24"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.sagemakeredgemanager.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.SagemakerEdgeManager",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.route53.3.7.1.23.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.Route53",
+      "nuget:version": "3.7.1.23"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.outposts.3.7.3.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.Outposts",
+      "nuget:version": "3.7.3.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.route53resolver.3.7.1.62.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.Route53Resolver",
+      "nuget:version": "3.7.1.62"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.resourcegroupstaggingapi.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.ResourceGroupsTaggingAPI",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.rds.3.7.5.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.RDS",
+      "nuget:version": "3.7.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.s3outposts.3.7.1.22.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.S3Outposts",
+      "nuget:version": "3.7.1.22"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.securitytoken.3.7.1.56.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.SecurityToken",
+      "nuget:version": "3.7.1.56"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.route53recoverycluster.3.7.0.21.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.Route53RecoveryCluster",
+      "nuget:version": "3.7.0.21"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.40/awssdk.qldbsession.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "85042ad2-1b07-4a93-89f0-18f7ca081535",
+      "commitTimeStamp": "2021-09-16T01:12:40.8972983Z",
+      "nuget:id": "AWSSDK.QLDBSession",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.opsworks.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.OpsWorks",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.mq.3.7.1.29.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.MQ",
+      "nuget:version": "3.7.1.29"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.migrationhub.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.MigrationHub",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.mediaconnect.3.7.3.36.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.MediaConnect",
+      "nuget:version": "3.7.3.36"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.machinelearning.3.7.1.62.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.MachineLearning",
+      "nuget:version": "3.7.1.62"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.mobileanalytics.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.MobileAnalytics",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.opsworkscm.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.OpsWorksCM",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.mgn.3.7.1.29.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.Mgn",
+      "nuget:version": "3.7.1.29"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.mobile.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.Mobile",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.pinpoint.3.7.1.63.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.Pinpoint",
+      "nuget:version": "3.7.1.63"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.organizations.3.7.0.67.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.Organizations",
+      "nuget:version": "3.7.0.67"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.migrationhubconfig.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.MigrationHubConfig",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.mwaa.3.7.1.39.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.MWAA",
+      "nuget:version": "3.7.1.39"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.neptune.3.7.1.45.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.Neptune",
+      "nuget:version": "3.7.1.45"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.mediaconvert.3.7.6.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.MediaConvert",
+      "nuget:version": "3.7.6.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.networkmanager.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.NetworkManager",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.nimblestudio.3.7.1.16.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.NimbleStudio",
+      "nuget:version": "3.7.1.16"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.qldb.3.7.2.22.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.QLDB",
+      "nuget:version": "3.7.2.22"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.mturk.3.7.0.67.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.MTurk",
+      "nuget:version": "3.7.0.67"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.12.01/awssdk.networkfirewall.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6466240e-9f3e-48a1-a38f-065726756fde",
+      "commitTimeStamp": "2021-09-16T01:12:01.4904652Z",
+      "nuget:id": "AWSSDK.NetworkFirewall",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.opensearchservice.3.7.0.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.OpenSearchService",
+      "nuget:version": "3.7.0.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.kinesisanalytics.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.KinesisAnalytics",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.lambda.3.7.3.15.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.Lambda",
+      "nuget:version": "3.7.3.15"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/mylab.asyncprocessor.sdk.1.4.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "MyLab.AsyncProcessor.Sdk",
+      "nuget:version": "1.4.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.macie.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.Macie",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.kinesisvideomedia.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.KinesisVideoMedia",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.mediatailor.3.7.4.8.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.MediaTailor",
+      "nuget:version": "3.7.4.8"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.marketplaceentitlementservice.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.MarketplaceEntitlementService",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.mediapackagevod.3.7.2.31.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.MediaPackageVod",
+      "nuget:version": "3.7.2.31"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.mediapackage.3.7.3.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.MediaPackage",
+      "nuget:version": "3.7.3.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.lookoutmetrics.3.7.4.36.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.LookoutMetrics",
+      "nuget:version": "3.7.4.36"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.medialive.3.7.5.22.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.MediaLive",
+      "nuget:version": "3.7.5.22"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.macie2.3.7.3.37.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.Macie2",
+      "nuget:version": "3.7.3.37"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.kinesisvideosignalingchannels.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.KinesisVideoSignalingChannels",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/smartengage.integration.sqlserver.1.0.6.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "SmartEngage.Integration.SqlServer",
+      "nuget:version": "1.0.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.lakeformation.3.7.1.49.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.LakeFormation",
+      "nuget:version": "3.7.1.49"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.mediastore.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.MediaStore",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.kendra.3.7.8.23.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.Kendra",
+      "nuget:version": "3.7.8.23"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.ioteventsdata.3.7.1.38.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.IoTEventsData",
+      "nuget:version": "3.7.1.38"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.11.25/awssdk.mediastoredata.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a5e1e062-5c81-47f7-a6c1-0dd9d104a983",
+      "commitTimeStamp": "2021-09-16T01:11:25.0366596Z",
+      "nuget:id": "AWSSDK.MediaStoreData",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.lightsail.3.7.3.17.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.Lightsail",
+      "nuget:version": "3.7.3.17"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.lexruntimev2.3.7.1.35.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.LexRuntimeV2",
+      "nuget:version": "3.7.1.35"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.licensemanager.3.7.3.14.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.LicenseManager",
+      "nuget:version": "3.7.3.14"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.ivs.3.7.1.58.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.IVS",
+      "nuget:version": "3.7.1.58"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.iotdata.3.7.1.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.IotData",
+      "nuget:version": "3.7.1.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.lex.3.7.1.60.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.Lex",
+      "nuget:version": "3.7.1.60"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.iotanalytics.3.7.2.21.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.IoTAnalytics",
+      "nuget:version": "3.7.2.21"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/smartengage.integration.interfaces.1.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "SmartEngage.Integration.Interfaces",
+      "nuget:version": "1.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.keymanagementservice.3.7.2.10.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.KeyManagementService",
+      "nuget:version": "3.7.2.10"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.kinesisfirehose.3.7.1.10.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.KinesisFirehose",
+      "nuget:version": "3.7.1.10"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.lexmodelbuildingservice.3.7.4.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.LexModelBuildingService",
+      "nuget:version": "3.7.4.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.memorydb.3.7.0.13.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.MemoryDB",
+      "nuget:version": "3.7.0.13"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.iotevents.3.7.1.38.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.IoTEvents",
+      "nuget:version": "3.7.1.38"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.iotdeviceadvisor.3.7.1.45.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.IoTDeviceAdvisor",
+      "nuget:version": "3.7.1.45"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.kinesisanalyticsv2.3.7.4.43.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.KinesisAnalyticsV2",
+      "nuget:version": "3.7.4.43"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.kafka.3.7.2.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.Kafka",
+      "nuget:version": "3.7.2.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.lookoutforvision.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.LookoutforVision",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.lexmodelsv2.3.7.5.18.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.LexModelsV2",
+      "nuget:version": "3.7.5.18"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.kinesisvideo.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.KinesisVideo",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.49/awssdk.locationservice.3.7.3.23.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0d24716-01e0-4ba4-bc65-95daaf038a48",
+      "commitTimeStamp": "2021-09-16T01:10:49.4422797Z",
+      "nuget:id": "AWSSDK.LocationService",
+      "nuget:version": "3.7.3.23"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.iotsecuretunneling.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.IoTSecureTunneling",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.kinesisvideoarchivedmedia.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.KinesisVideoArchivedMedia",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.fis.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.FIS",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/tencentcloudsdk.youmall.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "TencentCloudSDK.Youmall",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.healthlake.3.7.1.24.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.HealthLake",
+      "nuget:version": "3.7.1.24"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.kinesis.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.Kinesis",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.iotthingsgraph.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.IoTThingsGraph",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.iot1clickprojects.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.IoT1ClickProjects",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.identitymanagement.3.7.2.46.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.IdentityManagement",
+      "nuget:version": "3.7.2.46"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.greengrass.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.Greengrass",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.lookoutequipment.3.7.1.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.LookoutEquipment",
+      "nuget:version": "3.7.1.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.iotjobsdataplane.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.IoTJobsDataPlane",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.marketplacecatalog.3.7.1.50.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.MarketplaceCatalog",
+      "nuget:version": "3.7.1.50"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.gamelift.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.GameLift",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/tencentcloudsdk.yunjing.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "TencentCloudSDK.Yunjing",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.glacier.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.Glacier",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.greengrassv2.3.7.2.19.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.GreengrassV2",
+      "nuget:version": "3.7.2.19"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.managedblockchain.3.7.1.37.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.ManagedBlockchain",
+      "nuget:version": "3.7.1.37"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.gluedatabrew.3.7.4.15.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.GlueDataBrew",
+      "nuget:version": "3.7.4.15"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.10.16/awssdk.iot.3.7.5.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "97c2b8d6-b5ff-4b9d-8819-a0d8cc0c5b32",
+      "commitTimeStamp": "2021-09-16T01:10:16.2072956Z",
+      "nuget:id": "AWSSDK.IoT",
+      "nuget:version": "3.7.5.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.elasticloadbalancing.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.ElasticLoadBalancing",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.imagebuilder.3.7.2.31.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.Imagebuilder",
+      "nuget:version": "3.7.2.31"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.iotwireless.3.7.6.21.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.IoTWireless",
+      "nuget:version": "3.7.6.21"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.elasticloadbalancingv2.3.7.0.69.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.ElasticLoadBalancingV2",
+      "nuget:version": "3.7.0.69"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/tencentcloudsdk.zj.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "TencentCloudSDK.Zj",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.importexport.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.ImportExport",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.finspacedata.3.7.0.51.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.FinSpaceData",
+      "nuget:version": "3.7.0.51"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/tencentcloudsdk.vm.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "TencentCloudSDK.Vm",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.identitystore.3.7.0.67.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.IdentityStore",
+      "nuget:version": "3.7.0.67"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.elasticmapreduce.3.7.4.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.ElasticMapReduce",
+      "nuget:version": "3.7.4.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.iotsitewise.3.7.7.14.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.IoTSiteWise",
+      "nuget:version": "3.7.7.14"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/tencentcloudsdk.yunsou.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "TencentCloudSDK.Yunsou",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.glue.3.7.7.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.Glue",
+      "nuget:version": "3.7.7.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.iotfleethub.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.IoTFleetHub",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.groundstation.3.7.1.53.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.GroundStation",
+      "nuget:version": "3.7.1.53"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.emrcontainers.3.7.1.23.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.EMRContainers",
+      "nuget:version": "3.7.1.23"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.fsx.3.7.4.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.FSx",
+      "nuget:version": "3.7.4.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.inspector.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.Inspector",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/tencentcloudsdk.wss.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "TencentCloudSDK.Wss",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.40/awssdk.guardduty.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7a34b5c4-79e8-4db3-a1ec-5e2d7ae5be7d",
+      "commitTimeStamp": "2021-09-16T01:09:40.5191377Z",
+      "nuget:id": "AWSSDK.GuardDuty",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.elastictranscoder.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.ElasticTranscoder",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.honeycode.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.Honeycode",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/tencentcloudsdk.wav.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "TencentCloudSDK.Wav",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.fms.3.7.3.11.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.FMS",
+      "nuget:version": "3.7.3.11"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.globalaccelerator.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.GlobalAccelerator",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/tencentcloudsdk.tts.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "TencentCloudSDK.Tts",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.elasticsearch.3.7.1.45.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.Elasticsearch",
+      "nuget:version": "3.7.1.45"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.forecastqueryservice.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.ForecastQueryService",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.autoscalingplans.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.AutoScalingPlans",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.finspace.3.7.0.51.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.Finspace",
+      "nuget:version": "3.7.0.51"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.eventbridge.3.7.4.11.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.EventBridge",
+      "nuget:version": "3.7.4.11"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/tencentcloudsdk.vpc.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "TencentCloudSDK.Vpc",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.forecastservice.3.7.5.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.ForecastService",
+      "nuget:version": "3.7.5.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.elasticinference.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.ElasticInference",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.elasticfilesystem.3.7.2.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.ElasticFileSystem",
+      "nuget:version": "3.7.2.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.ecs.3.7.2.42.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.ECS",
+      "nuget:version": "3.7.2.42"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.iot1clickdevicesservice.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.IoT1ClickDevicesService",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.elasticache.3.7.3.15.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.ElastiCache",
+      "nuget:version": "3.7.3.15"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/awssdk.frauddetector.3.7.4.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "AWSSDK.FraudDetector",
+      "nuget:version": "3.7.4.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.09.02/tencentcloudsdk.waf.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "559d68ec-3693-413b-b705-8b99f300692a",
+      "commitTimeStamp": "2021-09-16T01:09:02.4559443Z",
+      "nuget:id": "TencentCloudSDK.Waf",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/tencentcloudsdk.vod.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "TencentCloudSDK.Vod",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/awssdk.connectcontactlens.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "AWSSDK.ConnectContactLens",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/tencentcloudsdk.trtc.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "TencentCloudSDK.Trtc",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/awssdk.eks.3.7.8.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "AWSSDK.EKS",
+      "nuget:version": "3.7.8.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/tencentcloudsdk.tia.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "TencentCloudSDK.Tia",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/tencentcloudsdk.tiw.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "TencentCloudSDK.Tiw",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/awssdk.ebs.3.7.0.67.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "AWSSDK.EBS",
+      "nuget:version": "3.7.0.67"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/awssdk.docdb.3.7.2.38.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "AWSSDK.DocDB",
+      "nuget:version": "3.7.2.38"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/tencentcloudsdk.tkgdq.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "TencentCloudSDK.Tkgdq",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/tencentcloudsdk.tsw.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "TencentCloudSDK.Tsw",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/awssdk.costexplorer.3.7.3.14.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "AWSSDK.CostExplorer",
+      "nuget:version": "3.7.3.14"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/tencentcloudsdk.tsf.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "TencentCloudSDK.Tsf",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/awssdk.ecrpublic.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "AWSSDK.ECRPublic",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/awssdk.dax.3.7.1.32.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "AWSSDK.DAX",
+      "nuget:version": "3.7.1.32"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/awssdk.detective.3.7.2.53.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "AWSSDK.Detective",
+      "nuget:version": "3.7.2.53"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/tencentcloudsdk.tmt.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "TencentCloudSDK.Tmt",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/awssdk.dlm.3.7.1.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "AWSSDK.DLM",
+      "nuget:version": "3.7.1.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/awssdk.elasticbeanstalk.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "AWSSDK.ElasticBeanstalk",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/tencentcloudsdk.vms.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "TencentCloudSDK.Vms",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.08.25/awssdk.ec2instanceconnect.3.7.1.63.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e03d8672-8119-48c1-a37e-901d45ca4671",
+      "commitTimeStamp": "2021-09-16T01:08:25.5646472Z",
+      "nuget:id": "AWSSDK.EC2InstanceConnect",
+      "nuget:version": "3.7.1.63"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.customerprofiles.3.7.3.15.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.CustomerProfiles",
+      "nuget:version": "3.7.3.15"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.devicefarm.3.7.1.38.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.DeviceFarm",
+      "nuget:version": "3.7.1.38"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.dataexchange.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.DataExchange",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.databasemigrationservice.3.7.3.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.DatabaseMigrationService",
+      "nuget:version": "3.7.3.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.comprehend.3.7.3.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.Comprehend",
+      "nuget:version": "3.7.3.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.datasync.3.7.2.11.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.DataSync",
+      "nuget:version": "3.7.2.11"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/tencentcloudsdk.ump.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "TencentCloudSDK.Ump",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.computeoptimizer.3.7.3.11.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.ComputeOptimizer",
+      "nuget:version": "3.7.3.11"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.cognitoidentityprovider.3.7.1.38.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.CognitoIdentityProvider",
+      "nuget:version": "3.7.1.38"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/tencentcloudsdk.tse.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "TencentCloudSDK.Tse",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.dynamodbv2.3.7.0.67.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.DynamoDBv2",
+      "nuget:version": "3.7.0.67"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.costandusagereport.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.CostAndUsageReport",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.codestar.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.CodeStar",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.ecr.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.ECR",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.connect.3.7.4.17.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.Connect",
+      "nuget:version": "3.7.4.17"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.ec2.3.7.28.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.EC2",
+      "nuget:version": "3.7.28.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.directconnect.3.7.2.25.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.DirectConnect",
+      "nuget:version": "3.7.2.25"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/awssdk.devopsguru.3.7.3.24.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "AWSSDK.DevOpsGuru",
+      "nuget:version": "3.7.3.24"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/tencentcloudsdk.ticm.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "TencentCloudSDK.Ticm",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.53/tencentcloudsdk.tke.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9fb2810c-7d84-44b8-b012-2ac5a4ef6e57",
+      "commitTimeStamp": "2021-09-16T01:07:53.095296Z",
+      "nuget:id": "TencentCloudSDK.Tke",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/awssdk.codecommit.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "AWSSDK.CodeCommit",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/awssdk.codeartifact.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "AWSSDK.CodeArtifact",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/awssdk.cloudsearchdomain.3.7.0.67.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "AWSSDK.CloudSearchDomain",
+      "nuget:version": "3.7.0.67"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/tencentcloudsdk.tics.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "TencentCloudSDK.Tics",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/awssdk.datapipeline.3.7.1.62.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "AWSSDK.DataPipeline",
+      "nuget:version": "3.7.1.62"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/awssdk.comprehendmedical.3.7.1.55.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "AWSSDK.ComprehendMedical",
+      "nuget:version": "3.7.1.55"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/awssdk.cognitoidentity.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "AWSSDK.CognitoIdentity",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/tencentcloudsdk.tci.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "TencentCloudSDK.Tci",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/tencentcloudsdk.tcaplusdb.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "TencentCloudSDK.Tcaplusdb",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/awssdk.cognitosync.3.7.1.62.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "AWSSDK.CognitoSync",
+      "nuget:version": "3.7.1.62"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/awssdk.directoryservice.3.7.1.14.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "AWSSDK.DirectoryService",
+      "nuget:version": "3.7.1.14"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/tencentcloudsdk.tms.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "TencentCloudSDK.Tms",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/tencentcloudsdk.tiia.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "TencentCloudSDK.Tiia",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/tencentcloudsdk.tdid.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "TencentCloudSDK.Tdid",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/tencentcloudsdk.tiems.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "TencentCloudSDK.Tiems",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/awssdk.codebuild.3.7.6.15.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "AWSSDK.CodeBuild",
+      "nuget:version": "3.7.6.15"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/awssdk.connectparticipant.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "AWSSDK.ConnectParticipant",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/awssdk.codestarnotifications.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "AWSSDK.CodeStarNotifications",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/awssdk.codepipeline.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "AWSSDK.CodePipeline",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.07.17/awssdk.chimesdkidentity.3.7.0.17.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "472c2c82-dbc1-4d16-897c-ab40c4d49710",
+      "commitTimeStamp": "2021-09-16T01:07:17.3446315Z",
+      "nuget:id": "AWSSDK.ChimeSDKIdentity",
+      "nuget:version": "3.7.0.17"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/awssdk.clouddirectory.3.7.0.67.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "AWSSDK.CloudDirectory",
+      "nuget:version": "3.7.0.67"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/awssdk.cloudhsm.3.7.1.62.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "AWSSDK.CloudHSM",
+      "nuget:version": "3.7.1.62"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/awssdk.codedeploy.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "AWSSDK.CodeDeploy",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/awssdk.codestarconnections.3.7.1.55.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "AWSSDK.CodeStarconnections",
+      "nuget:version": "3.7.1.55"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/awssdk.chime.3.7.11.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "AWSSDK.Chime",
+      "nuget:version": "3.7.11.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/tencentcloudsdk.tione.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "TencentCloudSDK.Tione",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/awssdk.configservice.3.7.4.14.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "AWSSDK.ConfigService",
+      "nuget:version": "3.7.4.14"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/awssdk.cloudwatchlogs.3.7.1.41.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "AWSSDK.CloudWatchLogs",
+      "nuget:version": "3.7.1.41"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/awssdk.cloudwatchevents.3.7.4.11.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "AWSSDK.CloudWatchEvents",
+      "nuget:version": "3.7.4.11"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/awssdk.codeguruprofiler.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "AWSSDK.CodeGuruProfiler",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/tencentcloudsdk.tdmq.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "TencentCloudSDK.Tdmq",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/awssdk.cloud9.3.7.2.14.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "AWSSDK.Cloud9",
+      "nuget:version": "3.7.2.14"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/tencentcloudsdk.tcb.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "TencentCloudSDK.Tcb",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/awssdk.codegurureviewer.3.7.4.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "AWSSDK.CodeGuruReviewer",
+      "nuget:version": "3.7.4.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/tencentcloudsdk.tcr.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "TencentCloudSDK.Tcr",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/awssdk.cloudwatch.3.7.2.22.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "AWSSDK.CloudWatch",
+      "nuget:version": "3.7.2.22"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.41/awssdk.cloudformation.3.7.5.10.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "15403a37-499b-4e78-8466-fb4093532754",
+      "commitTimeStamp": "2021-09-16T01:06:41.4064836Z",
+      "nuget:id": "AWSSDK.CloudFormation",
+      "nuget:version": "3.7.5.10"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.12/awssdk.cloudhsmv2.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f5136515-945d-41e2-8077-e446b4f454a7",
+      "commitTimeStamp": "2021-09-16T01:06:12.2965947Z",
+      "nuget:id": "AWSSDK.CloudHSMV2",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.12/tencentcloudsdk.tcex.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f5136515-945d-41e2-8077-e446b4f454a7",
+      "commitTimeStamp": "2021-09-16T01:06:12.2965947Z",
+      "nuget:id": "TencentCloudSDK.Tcex",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.12/awssdk.awsmarketplacecommerceanalytics.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f5136515-945d-41e2-8077-e446b4f454a7",
+      "commitTimeStamp": "2021-09-16T01:06:12.2965947Z",
+      "nuget:id": "AWSSDK.AWSMarketplaceCommerceAnalytics",
+      "nuget:version": "3.7.0.66"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.12/tencentcloudsdk.tbp.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f5136515-945d-41e2-8077-e446b4f454a7",
+      "commitTimeStamp": "2021-09-16T01:06:12.2965947Z",
+      "nuget:id": "TencentCloudSDK.Tbp",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.12/awssdk.cloudtrail.3.7.0.67.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f5136515-945d-41e2-8077-e446b4f454a7",
+      "commitTimeStamp": "2021-09-16T01:06:12.2965947Z",
+      "nuget:id": "AWSSDK.CloudTrail",
+      "nuget:version": "3.7.0.67"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.12/awssdk.cloudfront.3.7.3.29.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f5136515-945d-41e2-8077-e446b4f454a7",
+      "commitTimeStamp": "2021-09-16T01:06:12.2965947Z",
+      "nuget:id": "AWSSDK.CloudFront",
+      "nuget:version": "3.7.3.29"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.12/awssdk.cloudsearch.3.7.1.33.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f5136515-945d-41e2-8077-e446b4f454a7",
+      "commitTimeStamp": "2021-09-16T01:06:12.2965947Z",
+      "nuget:id": "AWSSDK.CloudSearch",
+      "nuget:version": "3.7.1.33"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.12/tencentcloudsdk.taf.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f5136515-945d-41e2-8077-e446b4f454a7",
+      "commitTimeStamp": "2021-09-16T01:06:12.2965947Z",
+      "nuget:id": "TencentCloudSDK.Taf",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.12/tencentcloudsdk.tbaas.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f5136515-945d-41e2-8077-e446b4f454a7",
+      "commitTimeStamp": "2021-09-16T01:06:12.2965947Z",
+      "nuget:id": "TencentCloudSDK.Tbaas",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.12/tencentcloudsdk.tem.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f5136515-945d-41e2-8077-e446b4f454a7",
+      "commitTimeStamp": "2021-09-16T01:06:12.2965947Z",
+      "nuget:id": "TencentCloudSDK.Tem",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.12/awssdk.certificatemanager.3.7.1.24.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f5136515-945d-41e2-8077-e446b4f454a7",
+      "commitTimeStamp": "2021-09-16T01:06:12.2965947Z",
+      "nuget:id": "AWSSDK.CertificateManager",
+      "nuget:version": "3.7.1.24"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.12/awssdk.chimesdkmessaging.3.7.0.17.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f5136515-945d-41e2-8077-e446b4f454a7",
+      "commitTimeStamp": "2021-09-16T01:06:12.2965947Z",
+      "nuget:id": "AWSSDK.ChimeSDKMessaging",
+      "nuget:version": "3.7.0.17"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.06.12/tencentcloudsdk.tbm.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f5136515-945d-41e2-8077-e446b4f454a7",
+      "commitTimeStamp": "2021-09-16T01:06:12.2965947Z",
+      "nuget:id": "TencentCloudSDK.Tbm",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.05.45/tencentcloudsdk.tat.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "90fac31b-923f-4ccc-9b9f-5e14e099f487",
+      "commitTimeStamp": "2021-09-16T01:05:45.7180644Z",
+      "nuget:id": "TencentCloudSDK.Tat",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.05.45/awssdk.batch.3.7.2.21.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "90fac31b-923f-4ccc-9b9f-5e14e099f487",
+      "commitTimeStamp": "2021-09-16T01:05:45.7180644Z",
+      "nuget:id": "AWSSDK.Batch",
+      "nuget:version": "3.7.2.21"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.05.45/awssdk.braket.3.7.1.37.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "90fac31b-923f-4ccc-9b9f-5e14e099f487",
+      "commitTimeStamp": "2021-09-16T01:05:45.7180644Z",
+      "nuget:id": "AWSSDK.Braket",
+      "nuget:version": "3.7.1.37"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.05.45/awssdk.awshealth.3.7.1.23.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "90fac31b-923f-4ccc-9b9f-5e14e099f487",
+      "commitTimeStamp": "2021-09-16T01:05:45.7180644Z",
+      "nuget:id": "AWSSDK.AWSHealth",
+      "nuget:version": "3.7.1.23"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.05.45/tencentcloudsdk.sts.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "90fac31b-923f-4ccc-9b9f-5e14e099f487",
+      "commitTimeStamp": "2021-09-16T01:05:45.7180644Z",
+      "nuget:id": "TencentCloudSDK.Sts",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.05.45/tencentcloudsdk.tag.3.0.367.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "90fac31b-923f-4ccc-9b9f-5e14e099f487",
+      "commitTimeStamp": "2021-09-16T01:05:45.7180644Z",
+      "nuget:id": "TencentCloudSDK.Tag",
+      "nuget:version": "3.0.367"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.05.45/awssdk.backup.3.7.1.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "90fac31b-923f-4ccc-9b9f-5e14e099f487",
+      "commitTimeStamp": "2021-09-16T01:05:45.7180644Z",
+      "nuget:id": "AWSSDK.Backup",
+      "nuget:version": "3.7.1.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.05.45/awssdk.awsmarketplacemetering.3.7.0.66.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "90fac31b-923f-4ccc-9b9f-5e14e099f487",
+      "commitTimeStamp": "2021-09-16T01:05:45.7180644Z",
+      "nuget:id": "AWSSDK.AWSMarketplaceMetering",
+      "nuget:version": "3.7.0.66"
+    },
     {
       "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.16.01.05.17/awssdk.budgets.3.7.0.66.json",
       "@type": "nuget:PackageDetails",
