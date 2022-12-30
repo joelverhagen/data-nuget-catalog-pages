@@ -1,11 +1,2275 @@
 {
   "@id": "https://api.nuget.org/v3/catalog0/page17828.json",
   "@type": "CatalogPage",
-  "commitId": "6affcd40-46ec-4882-8b7c-d05d794df32e",
-  "commitTimeStamp": "2022-12-29T01:27:04.6480412Z",
-  "count": 266,
+  "commitId": "ae6f1ce1-facc-4f18-9073-fba2cc2912ad",
+  "commitTimeStamp": "2022-12-29T01:55:15.2120826Z",
+  "count": 549,
   "parent": "https://api.nuget.org/v3/catalog0/index.json",
   "items": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.55.15/azure.resourcemanager.synapse.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ae6f1ce1-facc-4f18-9073-fba2cc2912ad",
+      "commitTimeStamp": "2022-12-29T01:55:15.2120826Z",
+      "nuget:id": "Azure.ResourceManager.Synapse",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.54.14/discordintegration.2.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6845a549-c39e-4256-a337-8292b07cb6fa",
+      "commitTimeStamp": "2022-12-29T01:54:14.2229977Z",
+      "nuget:id": "DiscordIntegration",
+      "nuget:version": "2.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.53.13/ufx.orleans.signalr.0.1.1-alpha.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e59bb4e9-d5f9-479e-b099-fef680ffcc24",
+      "commitTimeStamp": "2022-12-29T01:53:13.374633Z",
+      "nuget:id": "UFX.Orleans.SignalR",
+      "nuget:version": "0.1.1-alpha"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.52.11/diligent-sharpgen.runtime.2.0.0-beta.11.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "429816ba-7825-427c-90e9-30a9b14e530e",
+      "commitTimeStamp": "2022-12-29T01:52:11.979285Z",
+      "nuget:id": "Diligent-SharpGen.Runtime",
+      "nuget:version": "2.0.0-beta.11"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.49.33/dcms.module.csms.web.1.2.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "283637aa-2b87-4d10-9fe6-12e6abaff86b",
+      "commitTimeStamp": "2022-12-29T01:49:33.6543234Z",
+      "nuget:id": "DCMS.Module.CSMS.Web",
+      "nuget:version": "1.2.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.49.33/dcms.module.csms.infrastructure.1.2.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "283637aa-2b87-4d10-9fe6-12e6abaff86b",
+      "commitTimeStamp": "2022-12-29T01:49:33.6543234Z",
+      "nuget:id": "DCMS.Module.CSMS.Infrastructure",
+      "nuget:version": "1.2.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.49.09/dcms.module.csms.domain.1.2.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a4b1b71a-0c6f-4587-b919-d0c6d2bddb5b",
+      "commitTimeStamp": "2022-12-29T01:49:09.7463558Z",
+      "nuget:id": "DCMS.Module.CSMS.Domain",
+      "nuget:version": "1.2.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.49.09/dcms.module.csms.quartz.1.2.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a4b1b71a-0c6f-4587-b919-d0c6d2bddb5b",
+      "commitTimeStamp": "2022-12-29T01:49:09.7463558Z",
+      "nuget:id": "DCMS.Module.CSMS.Quartz",
+      "nuget:version": "1.2.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.49.09/dcms.module.csms.application.1.2.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a4b1b71a-0c6f-4587-b919-d0c6d2bddb5b",
+      "commitTimeStamp": "2022-12-29T01:49:09.7463558Z",
+      "nuget:id": "DCMS.Module.CSMS.Application",
+      "nuget:version": "1.2.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.46.29/azure.resourcemanager.mixedreality.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b4008cc3-e194-4411-ac6f-9554f014f47a",
+      "commitTimeStamp": "2022-12-29T01:46:29.4534727Z",
+      "nuget:id": "Azure.ResourceManager.MixedReality",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.46.01/diligent-sharpgentools.sdk.2.0.0-beta.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6c736f74-4d10-4737-aacf-df9484ac202d",
+      "commitTimeStamp": "2022-12-29T01:46:01.0295237Z",
+      "nuget:id": "Diligent-SharpGenTools.Sdk",
+      "nuget:version": "2.0.0-beta.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.45.33/diligent-sharpgen.runtime.2.0.0-beta.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "80738dfe-1391-48f1-b09e-dbcd2201dabd",
+      "commitTimeStamp": "2022-12-29T01:45:33.418146Z",
+      "nuget:id": "Diligent-SharpGen.Runtime",
+      "nuget:version": "2.0.0-beta.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.45.33/octopus.server.messagecontracts.2023.1.5183.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "80738dfe-1391-48f1-b09e-dbcd2201dabd",
+      "commitTimeStamp": "2022-12-29T01:45:33.418146Z",
+      "nuget:id": "Octopus.Server.MessageContracts",
+      "nuget:version": "2023.1.5183"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.45.05/azure.resourcemanager.resourcegraph.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d6a57051-ddb0-48a7-ac59-05a11560550d",
+      "commitTimeStamp": "2022-12-29T01:45:05.7911169Z",
+      "nuget:id": "Azure.ResourceManager.ResourceGraph",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.44.37/octopus.server.messagecontracts.base.2023.1.5183.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6ee06f4e-936c-4645-8b0b-4d69018ef4e0",
+      "commitTimeStamp": "2022-12-29T01:44:37.7265803Z",
+      "nuget:id": "Octopus.Server.MessageContracts.Base",
+      "nuget:version": "2023.1.5183"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.44.37/octopus.server.messagecontracts.httproutes.2023.1.5183.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6ee06f4e-936c-4645-8b0b-4d69018ef4e0",
+      "commitTimeStamp": "2022-12-29T01:44:37.7265803Z",
+      "nuget:id": "Octopus.Server.MessageContracts.HttpRoutes",
+      "nuget:version": "2023.1.5183"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.44.37/octopus.server.messagecontracts.base.httproutes.2023.1.5183.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6ee06f4e-936c-4645-8b0b-4d69018ef4e0",
+      "commitTimeStamp": "2022-12-29T01:44:37.7265803Z",
+      "nuget:id": "Octopus.Server.MessageContracts.Base.HttpRoutes",
+      "nuget:version": "2023.1.5183"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.43.40/dbdeploy.core.2.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "914c536a-2a64-4d41-956a-319260188613",
+      "commitTimeStamp": "2022-12-29T01:43:40.3786232Z",
+      "nuget:id": "Dbdeploy.Core",
+      "nuget:version": "2.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.43.17/alibabacloud.sdk.dingtalk.1.5.15.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ee8bf42f-32c3-40aa-891d-0c244512c382",
+      "commitTimeStamp": "2022-12-29T01:43:17.830058Z",
+      "nuget:id": "AlibabaCloud.SDK.Dingtalk",
+      "nuget:version": "1.5.15"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.42.21/ao.stock.kata.1.0.0-preview.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "219e0b89-ffd5-408d-a479-f97f48551bc1",
+      "commitTimeStamp": "2022-12-29T01:42:21.1228326Z",
+      "nuget:id": "Ao.Stock.Kata",
+      "nuget:version": "1.0.0-preview.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.42.21/ao.stock.dynamics.1.0.0-preview.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "219e0b89-ffd5-408d-a479-f97f48551bc1",
+      "commitTimeStamp": "2022-12-29T01:42:21.1228326Z",
+      "nuget:id": "Ao.Stock.Dynamics",
+      "nuget:version": "1.0.0-preview.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.41.56/azure.resourcemanager.signalr.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6ed1e7d-049e-45e0-a8b1-02f1b04446be",
+      "commitTimeStamp": "2022-12-29T01:41:56.3241328Z",
+      "nuget:id": "Azure.ResourceManager.SignalR",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.41.56/ao.stock.sql.mysql.1.0.0-preview.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6ed1e7d-049e-45e0-a8b1-02f1b04446be",
+      "commitTimeStamp": "2022-12-29T01:41:56.3241328Z",
+      "nuget:id": "Ao.Stock.SQL.MySql",
+      "nuget:version": "1.0.0-preview.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.41.56/ao.stock.sql.mssql.1.0.0-preview.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6ed1e7d-049e-45e0-a8b1-02f1b04446be",
+      "commitTimeStamp": "2022-12-29T01:41:56.3241328Z",
+      "nuget:id": "Ao.Stock.SQL.MSSQL",
+      "nuget:version": "1.0.0-preview.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.41.33/ao.stock.sql.1.0.0-preview.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8a727fc6-1856-4c80-b057-dbaef5d958d8",
+      "commitTimeStamp": "2022-12-29T01:41:33.0724289Z",
+      "nuget:id": "Ao.Stock.SQL",
+      "nuget:version": "1.0.0-preview.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.41.33/ao.stock.sql.sqlite.1.0.0-preview.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8a727fc6-1856-4c80-b057-dbaef5d958d8",
+      "commitTimeStamp": "2022-12-29T01:41:33.0724289Z",
+      "nuget:id": "Ao.Stock.SQL.Sqlite",
+      "nuget:version": "1.0.0-preview.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.41.33/ao.stock.1.0.0-preview.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8a727fc6-1856-4c80-b057-dbaef5d958d8",
+      "commitTimeStamp": "2022-12-29T01:41:33.0724289Z",
+      "nuget:id": "Ao.Stock",
+      "nuget:version": "1.0.0-preview.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.38.46/nativosistemas.dkbase.1.0.24.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "730a0c11-dede-465b-b0ea-d6a421eb95dc",
+      "commitTimeStamp": "2022-12-29T01:38:46.2944456Z",
+      "nuget:id": "NativoSistemas.DKbase",
+      "nuget:version": "1.0.24"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.37.01/amazon.cdk.aws.codedeploy.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b4f9726a-023d-49f3-ac3f-11906d7c31a6",
+      "commitTimeStamp": "2022-12-29T01:37:01.5053124Z",
+      "nuget:id": "Amazon.CDK.AWS.CodeDeploy",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.37.01/littleblocks.dependencyinjection.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b4f9726a-023d-49f3-ac3f-11906d7c31a6",
+      "commitTimeStamp": "2022-12-29T01:37:01.5053124Z",
+      "nuget:id": "LittleBlocks.DependencyInjection",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.37.01/littleblocks.logging.extensions.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b4f9726a-023d-49f3-ac3f-11906d7c31a6",
+      "commitTimeStamp": "2022-12-29T01:37:01.5053124Z",
+      "nuget:id": "LittleBlocks.Logging.Extensions",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.37.01/littleblocks.aspnetcore.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b4f9726a-023d-49f3-ac3f-11906d7c31a6",
+      "commitTimeStamp": "2022-12-29T01:37:01.5053124Z",
+      "nuget:id": "LittleBlocks.AspNetCore",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.37.01/southport.messaging.email.core.1.19.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b4f9726a-023d-49f3-ac3f-11906d7c31a6",
+      "commitTimeStamp": "2022-12-29T01:37:01.5053124Z",
+      "nuget:id": "Southport.Messaging.Email.Core",
+      "nuget:version": "1.19.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.37.01/littleblocks.resilience.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b4f9726a-023d-49f3-ac3f-11906d7c31a6",
+      "commitTimeStamp": "2022-12-29T01:37:01.5053124Z",
+      "nuget:id": "LittleBlocks.Resilience",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.37.01/littleblocks.extensions.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b4f9726a-023d-49f3-ac3f-11906d7c31a6",
+      "commitTimeStamp": "2022-12-29T01:37:01.5053124Z",
+      "nuget:id": "LittleBlocks.Extensions",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.37.01/amazon.cdk.monocdk.1.186.0-devpreview.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b4f9726a-023d-49f3-ac3f-11906d7c31a6",
+      "commitTimeStamp": "2022-12-29T01:37:01.5053124Z",
+      "nuget:id": "Amazon.CDK.MonoCDK",
+      "nuget:version": "1.186.0-devpreview"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.restease.client.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks.RestEase.Client",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.http.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks.Http",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/wadidegla.core.be.2.36.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "WadiDegla.Core.BE",
+      "nuget:version": "2.36.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.configurations.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks.Configurations",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.logging.serilog.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks.Logging.SeriLog",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/amazon.cdk.aws.iot1click.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "Amazon.CDK.AWS.IoT1Click",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.bootstrap.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks.Bootstrap",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.logging.serilog.logentries.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks.Logging.SeriLog.LogEntries",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/amazon.cdk.aws.s3outposts.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "Amazon.CDK.AWS.S3Outposts",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/amazon.cdk.aws.cloudwatch.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "Amazon.CDK.AWS.CloudWatch",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.testing.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks.Testing",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.logging.serilog.loggly.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks.Logging.SeriLog.Loggly",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.testing.integration.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks.Testing.Integration",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.logging.serilog.seq.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks.Logging.SeriLog.Seq",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.restease.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks.RestEase",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/amazon.cdk.aws.cassandra.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "Amazon.CDK.AWS.Cassandra",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.logging.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks.Logging",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/amazon.cdk.aws.dax.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "Amazon.CDK.AWS.DAX",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.36.20/littleblocks.aspnetcore.bootstrap.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ea20a7a-1633-455c-8565-73e931c9c996",
+      "commitTimeStamp": "2022-12-29T01:36:20.4709537Z",
+      "nuget:id": "LittleBlocks.AspNetCore.Bootstrap",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.timestream.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.Timestream",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.forecast.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.Forecast",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.lambda.eventsources.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.Lambda.EventSources",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/littleblocks.exceptionhandling.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "LittleBlocks.ExceptionHandling",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.iotfleethub.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.IoTFleetHub",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/littleblocks.hosting.windowsservice.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "LittleBlocks.Hosting.WindowsService",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.kinesisfirehose.destinations.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.KinesisFirehose.Destinations",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.secretsmanager.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.SecretsManager",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.lambdalayer.awscli.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.LambdaLayer.AwsCli",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.kms.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.KMS",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.eventschemas.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.EventSchemas",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.ses.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.SES",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.cognito.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.Cognito",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.stepfunctions.tasks.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.StepFunctions.Tasks",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.codepipeline.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.CodePipeline",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.pinpointemail.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.PinpointEmail",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.amplify.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.Amplify",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.applicationinsights.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.ApplicationInsights",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.codestar.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.CodeStar",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.35.35/amazon.cdk.aws.aps.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f63ce46e-84a2-436b-ba42-b226af7953cf",
+      "commitTimeStamp": "2022-12-29T01:35:35.6550119Z",
+      "nuget:id": "Amazon.CDK.AWS.APS",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.iotfleetwise.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.IoTFleetWise",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.docdbelastic.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.DocDBElastic",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.waf.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.WAF",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.dms.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.DMS",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.panorama.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.Panorama",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.frauddetector.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.FraudDetector",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.lambdalayer.kubectl.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.LambdaLayer.Kubectl",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.securityhub.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.SecurityHub",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.lambda.python.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.Lambda.Python",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.nimblestudio.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.NimbleStudio",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.ivs.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.IVS",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.lambda.nodejs.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.Lambda.Nodejs",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.ecs.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.ECS",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.fsx.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.FSx",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.opensearchservice.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.OpenSearchService",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.ssmcontacts.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.SSMContacts",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.ses.actions.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.SES.Actions",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.apigatewayv2.authorizers.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.APIGatewayv2.Authorizers",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.directoryservice.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.DirectoryService",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.51/amazon.cdk.aws.mediaconvert.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "43d305aa-dc9c-4b3e-8101-a860b4682876",
+      "commitTimeStamp": "2022-12-29T01:34:51.7766259Z",
+      "nuget:id": "Amazon.CDK.AWS.MediaConvert",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.healthlake.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.HealthLake",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.kinesisanalyticsv2.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.KinesisAnalyticsV2",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.events.targets.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.Events.Targets",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.imagebuilder.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.ImageBuilder",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.sdb.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.SDB",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.cloudtrail.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.CloudTrail",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.elasticache.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.ElastiCache",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.events.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.Events",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.kafkaconnect.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.KafkaConnect",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.lookoutvision.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.LookoutVision",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.yaml.cfn.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.Yaml.Cfn",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.ssmincidents.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.SSMIncidents",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.ec2.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.EC2",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.opsworkscm.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.OpsWorksCM",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.autoscaling.hooktargets.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.AutoScaling.HookTargets",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.emrserverless.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.EMRServerless",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/carinastudio.appsuite.core.2.2.16.1229-dev.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "CarinaStudio.AppSuite.Core",
+      "nuget:version": "2.2.16.1229-dev"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.greengrass.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.Greengrass",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.globalaccelerator.endpoints.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.GlobalAccelerator.Endpoints",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.34.10/amazon.cdk.aws.rds.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7660250-63bc-484e-83e7-6c64f38e9645",
+      "commitTimeStamp": "2022-12-29T01:34:10.8202814Z",
+      "nuget:id": "Amazon.CDK.AWS.RDS",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.33.25/amazon.cdk.aws.resourceexplorer2.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f571b6cc-a6da-4219-9bc1-41af9f9f8975",
+      "commitTimeStamp": "2022-12-29T01:33:25.8792103Z",
+      "nuget:id": "Amazon.CDK.AWS.ResourceExplorer2",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.33.25/amazon.cdk.aws.wafv2.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f571b6cc-a6da-4219-9bc1-41af9f9f8975",
+      "commitTimeStamp": "2022-12-29T01:33:25.8792103Z",
+      "nuget:id": "Amazon.CDK.AWS.WAFv2",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.33.25/amazon.cdk.aws.dlm.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f571b6cc-a6da-4219-9bc1-41af9f9f8975",
+      "commitTimeStamp": "2022-12-29T01:33:25.8792103Z",
+      "nuget:id": "Amazon.CDK.AWS.DLM",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.33.25/amazon.cdk.aws.route53.targets.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f571b6cc-a6da-4219-9bc1-41af9f9f8975",
+      "commitTimeStamp": "2022-12-29T01:33:25.8792103Z",
+      "nuget:id": "Amazon.CDK.AWS.Route53.Targets",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.33.25/amazon.cdk.aws.emrcontainers.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f571b6cc-a6da-4219-9bc1-41af9f9f8975",
+      "commitTimeStamp": "2022-12-29T01:33:25.8792103Z",
+      "nuget:id": "Amazon.CDK.AWS.EMRContainers",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.33.25/amazon.cdk.aws.s3.notifications.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f571b6cc-a6da-4219-9bc1-41af9f9f8975",
+      "commitTimeStamp": "2022-12-29T01:33:25.8792103Z",
+      "nuget:id": "Amazon.CDK.AWS.S3.Notifications",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.33.25/amazon.cdk.aws.codeguruprofiler.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f571b6cc-a6da-4219-9bc1-41af9f9f8975",
+      "commitTimeStamp": "2022-12-29T01:33:25.8792103Z",
+      "nuget:id": "Amazon.CDK.AWS.CodeGuruProfiler",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.33.25/amazon.cdk.aws.rum.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f571b6cc-a6da-4219-9bc1-41af9f9f8975",
+      "commitTimeStamp": "2022-12-29T01:33:25.8792103Z",
+      "nuget:id": "Amazon.CDK.AWS.RUM",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.33.25/amazon.cdk.aws.workspaces.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f571b6cc-a6da-4219-9bc1-41af9f9f8975",
+      "commitTimeStamp": "2022-12-29T01:33:25.8792103Z",
+      "nuget:id": "Amazon.CDK.AWS.WorkSpaces",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.iotwireless.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.IoTWireless",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.opensearchserverless.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.OpenSearchServerless",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.transfer.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.Transfer",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.appflow.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.AppFlow",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.s3.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.S3",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.route53.patterns.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.Route53.Patterns",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.cloudassembly.schema.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.CloudAssembly.Schema",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.apigateway.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.APIGateway",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.autoscalingplans.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.AutoScalingPlans",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.cloudwatch.actions.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.CloudWatch.Actions",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.sns.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.SNS",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.supportapp.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.SupportApp",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.auditmanager.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.AuditManager",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.identitystore.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.IdentityStore",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.connect.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.Connect",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.amplifyuibuilder.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.AmplifyUIBuilder",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.32.43/amazon.cdk.aws.lambda.go.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce6bfa13-2505-4d8c-ba55-a1be8e312f23",
+      "commitTimeStamp": "2022-12-29T01:32:43.6414984Z",
+      "nuget:id": "Amazon.CDK.AWS.Lambda.Go",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.cloudformation.include.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.CloudFormation.Include",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.apigatewayv2.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.APIGatewayv2",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.appsync.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.AppSync",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.applicationautoscaling.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.ApplicationAutoScaling",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.qldb.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.QLDB",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.iotanalytics.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.IoTAnalytics",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.inspectorv2.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.InspectorV2",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.lookoutequipment.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.LookoutEquipment",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.cxapi.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.CXAPI",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.rekognition.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.Rekognition",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.licensemanager.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.LicenseManager",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.cloud9.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.Cloud9",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.resourcegroups.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.ResourceGroups",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.s3.deployment.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.S3.Deployment",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.logs.destinations.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.Logs.Destinations",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.backup.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.Backup",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.macie.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.Macie",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.datasync.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.DataSync",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.memorydb.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.MemoryDB",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.58/amazon.cdk.aws.mediastore.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5e822505-357d-41c5-8583-5b2c7394bde5",
+      "commitTimeStamp": "2022-12-29T01:31:58.9975719Z",
+      "nuget:id": "Amazon.CDK.AWS.MediaStore",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.ecr.assets.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.ECR.Assets",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.apigatewayv2.integrations.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.APIGatewayv2.Integrations",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.lex.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.Lex",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.iotevents.actions.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.IoTEvents.Actions",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.iotsitewise.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.IoTSiteWise",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.redshiftserverless.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.RedshiftServerless",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.kinesisanalyticsflink.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.KinesisAnalyticsFlink",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.iot.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.IoT",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.synthetics.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.Synthetics",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.fis.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.FIS",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.iot.actions.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.IoT.Actions",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.fms.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.FMS",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.alexa.ask.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.Alexa.Ask",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.groundstation.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.GroundStation",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.resiliencehub.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.ResilienceHub",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.inspector.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.Inspector",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.s3objectlambda.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.S3ObjectLambda",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.cur.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.CUR",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.aws.devopsguru.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK.AWS.DevOpsGuru",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.31.16/amazon.cdk.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "993b781c-8b6f-4026-8f6b-04d607a0f453",
+      "commitTimeStamp": "2022-12-29T01:31:16.6976239Z",
+      "nuget:id": "Amazon.CDK",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.opsworks.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.OpsWorks",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.lookoutmetrics.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.LookoutMetrics",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.servicecatalog.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.ServiceCatalog",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.connectcampaigns.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.ConnectCampaigns",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.ssm.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.SSM",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.triggers.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.Triggers",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.elasticbeanstalk.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.ElasticBeanstalk",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.budgets.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.Budgets",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.m2.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.M2",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.servicecatalogappregistry.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.ServiceCatalogAppRegistry",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.lakeformation.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.LakeFormation",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.evidently.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.Evidently",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.autoscaling.common.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.AutoScaling.Common",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.networkmanager.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.NetworkManager",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.assertions.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.Assertions",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.stepfunctions.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.StepFunctions",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.37/amazon.cdk.aws.databrew.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e76b2f23-ce90-432f-b350-cb3db61e29ad",
+      "commitTimeStamp": "2022-12-29T01:30:37.8666852Z",
+      "nuget:id": "Amazon.CDK.AWS.DataBrew",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.00/amazon.cdk.aws.kinesis.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f9efc520-e629-4fbc-aaf8-4d09db7d6f1c",
+      "commitTimeStamp": "2022-12-29T01:30:00.8639915Z",
+      "nuget:id": "Amazon.CDK.AWS.Kinesis",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.00/amazon.cdk.aws.organizations.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f9efc520-e629-4fbc-aaf8-4d09db7d6f1c",
+      "commitTimeStamp": "2022-12-29T01:30:00.8639915Z",
+      "nuget:id": "Amazon.CDK.AWS.Organizations",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.00/amazon.cdk.aws.batch.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f9efc520-e629-4fbc-aaf8-4d09db7d6f1c",
+      "commitTimeStamp": "2022-12-29T01:30:00.8639915Z",
+      "nuget:id": "Amazon.CDK.AWS.Batch",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.00/amazon.cdk.aws.dynamodb.global.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f9efc520-e629-4fbc-aaf8-4d09db7d6f1c",
+      "commitTimeStamp": "2022-12-29T01:30:00.8639915Z",
+      "nuget:id": "Amazon.CDK.AWS.DynamoDB.Global",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.00/amazon.cdk.aws.xray.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f9efc520-e629-4fbc-aaf8-4d09db7d6f1c",
+      "commitTimeStamp": "2022-12-29T01:30:00.8639915Z",
+      "nuget:id": "Amazon.CDK.AWS.XRay",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.00/amazon.cdk.aws.eks.legacy.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f9efc520-e629-4fbc-aaf8-4d09db7d6f1c",
+      "commitTimeStamp": "2022-12-29T01:30:00.8639915Z",
+      "nuget:id": "Amazon.CDK.AWS.EKS.Legacy",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.00/amazon.cdk.aws.redshift.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f9efc520-e629-4fbc-aaf8-4d09db7d6f1c",
+      "commitTimeStamp": "2022-12-29T01:30:00.8639915Z",
+      "nuget:id": "Amazon.CDK.AWS.Redshift",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.00/amazon.cdk.aws.iottwinmaker.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f9efc520-e629-4fbc-aaf8-4d09db7d6f1c",
+      "commitTimeStamp": "2022-12-29T01:30:00.8639915Z",
+      "nuget:id": "Amazon.CDK.AWS.IoTTwinMaker",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.00/amazon.cdk.aws.sqs.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f9efc520-e629-4fbc-aaf8-4d09db7d6f1c",
+      "commitTimeStamp": "2022-12-29T01:30:00.8639915Z",
+      "nuget:id": "Amazon.CDK.AWS.SQS",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.00/amazon.cdk.aws.cloudformation.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f9efc520-e629-4fbc-aaf8-4d09db7d6f1c",
+      "commitTimeStamp": "2022-12-29T01:30:00.8639915Z",
+      "nuget:id": "Amazon.CDK.AWS.CloudFormation",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.00/amazon.cdk.aws.greengrassv2.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f9efc520-e629-4fbc-aaf8-4d09db7d6f1c",
+      "commitTimeStamp": "2022-12-29T01:30:00.8639915Z",
+      "nuget:id": "Amazon.CDK.AWS.GreengrassV2",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.30.00/amazon.cdk.aws.managedblockchain.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f9efc520-e629-4fbc-aaf8-4d09db7d6f1c",
+      "commitTimeStamp": "2022-12-29T01:30:00.8639915Z",
+      "nuget:id": "Amazon.CDK.AWS.ManagedBlockchain",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.codepipeline.actions.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.CodePipeline.Actions",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.kendra.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.Kendra",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.grafana.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.Grafana",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.oam.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.Oam",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.guardduty.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.GuardDuty",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.sagemaker.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.Sagemaker",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.autoscaling.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.AutoScaling",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.cloudfront.origins.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.CloudFront.Origins",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.location.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.Location",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.elasticloadbalancingv2.actions.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.ElasticLoadBalancingV2.Actions",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.codegurureviewer.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.CodeGuruReviewer",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.cognito.identitypool.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.Cognito.IdentityPool",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.apprunner.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.AppRunner",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.quicksight.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.QuickSight",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.neptune.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.Neptune",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.elasticsearch.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.Elasticsearch",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.elasticloadbalancing.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.ElasticLoadBalancing",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.scheduler.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.Scheduler",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.aws.servicediscovery.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.AWS.ServiceDiscovery",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.29.25/amazon.cdk.pipelines.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "967fc2c2-fe47-46e3-9fe0-a0fa34a0a96e",
+      "commitTimeStamp": "2022-12-29T01:29:25.0020216Z",
+      "nuget:id": "Amazon.CDK.Pipelines",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.logs.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.Logs",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.signer.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.Signer",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.sns.subscriptions.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.SNS.Subscriptions",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.kinesisfirehose.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.KinesisFirehose",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.iotthingsgraph.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.IoTThingsGraph",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.voiceid.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.VoiceID",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.glue.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.Glue",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.kinesisanalytics.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.KinesisAnalytics",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.integtests.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.IntegTests",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.docdb.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.DocDB",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.mediaconnect.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.MediaConnect",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.gamelift.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.GameLift",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.codestarnotifications.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.CodeStarNotifications",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.assets.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.Assets",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.ecs.patterns.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.ECS.Patterns",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.lambdalayer.nodeproxyagent.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.LambdaLayer.NodeProxyAgent",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.route53.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.Route53",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.efs.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.EFS",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.codeartifact.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.CodeArtifact",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.49/amazon.cdk.aws.iam.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6d26c8c3-2167-4a75-911f-1948e3f4d478",
+      "commitTimeStamp": "2022-12-29T01:28:49.2025303Z",
+      "nuget:id": "Amazon.CDK.AWS.IAM",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.11/amazon.cdk.aws.billingconductor.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ab496f7f-2d3c-4f75-bc9e-1bfa37ce6850",
+      "commitTimeStamp": "2022-12-29T01:28:11.4810385Z",
+      "nuget:id": "Amazon.CDK.AWS.BillingConductor",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.11/amazon.cdk.aws.codebuild.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ab496f7f-2d3c-4f75-bc9e-1bfa37ce6850",
+      "commitTimeStamp": "2022-12-29T01:28:11.4810385Z",
+      "nuget:id": "Amazon.CDK.AWS.CodeBuild",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.11/amazon.cdk.aws.personalize.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ab496f7f-2d3c-4f75-bc9e-1bfa37ce6850",
+      "commitTimeStamp": "2022-12-29T01:28:11.4810385Z",
+      "nuget:id": "Amazon.CDK.AWS.Personalize",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.11/amazon.cdk.aws.sam.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ab496f7f-2d3c-4f75-bc9e-1bfa37ce6850",
+      "commitTimeStamp": "2022-12-29T01:28:11.4810385Z",
+      "nuget:id": "Amazon.CDK.AWS.SAM",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.11/amazon.cdk.aws.elasticloadbalancingv2.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ab496f7f-2d3c-4f75-bc9e-1bfa37ce6850",
+      "commitTimeStamp": "2022-12-29T01:28:11.4810385Z",
+      "nuget:id": "Amazon.CDK.AWS.ElasticLoadBalancingV2",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.11/amazon.cdk.aws.route53recoveryreadiness.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ab496f7f-2d3c-4f75-bc9e-1bfa37ce6850",
+      "commitTimeStamp": "2022-12-29T01:28:11.4810385Z",
+      "nuget:id": "Amazon.CDK.AWS.Route53RecoveryReadiness",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.11/amazon.cdk.aws.chatbot.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ab496f7f-2d3c-4f75-bc9e-1bfa37ce6850",
+      "commitTimeStamp": "2022-12-29T01:28:11.4810385Z",
+      "nuget:id": "Amazon.CDK.AWS.Chatbot",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.11/amazon.cdk.aws.appstream.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ab496f7f-2d3c-4f75-bc9e-1bfa37ce6850",
+      "commitTimeStamp": "2022-12-29T01:28:11.4810385Z",
+      "nuget:id": "Amazon.CDK.AWS.AppStream",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.11/amazon.cdk.aws.mediatailor.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ab496f7f-2d3c-4f75-bc9e-1bfa37ce6850",
+      "commitTimeStamp": "2022-12-29T01:28:11.4810385Z",
+      "nuget:id": "Amazon.CDK.AWS.MediaTailor",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.11/amazon.cdk.aws.s3.assets.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ab496f7f-2d3c-4f75-bc9e-1bfa37ce6850",
+      "commitTimeStamp": "2022-12-29T01:28:11.4810385Z",
+      "nuget:id": "Amazon.CDK.AWS.S3.Assets",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.11/amazon.cdk.aws.mwaa.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ab496f7f-2d3c-4f75-bc9e-1bfa37ce6850",
+      "commitTimeStamp": "2022-12-29T01:28:11.4810385Z",
+      "nuget:id": "Amazon.CDK.AWS.MWAA",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.11/amazon.cdk.aws.lambda.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ab496f7f-2d3c-4f75-bc9e-1bfa37ce6850",
+      "commitTimeStamp": "2022-12-29T01:28:11.4810385Z",
+      "nuget:id": "Amazon.CDK.AWS.Lambda",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.28.11/amazon.cdk.aws.pipes.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ab496f7f-2d3c-4f75-bc9e-1bfa37ce6850",
+      "commitTimeStamp": "2022-12-29T01:28:11.4810385Z",
+      "nuget:id": "Amazon.CDK.AWS.Pipes",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.eks.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.EKS",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.mediapackage.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.MediaPackage",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.cdkassets.schema.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.CdkAssets.Schema",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.appdelivery.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AppDelivery",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.cloudfront.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.CloudFront",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.rolesanywhere.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.RolesAnywhere",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.finspace.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.FinSpace",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.ecr.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.ECR",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.amazonmq.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.AmazonMQ",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.medialive.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.MediaLive",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.controltower.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.ControlTower",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.codecommit.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.CodeCommit",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.regioninfo.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.RegionInfo",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.elasticloadbalancingv2.targets.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.ElasticLoadBalancingV2.Targets",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.certificatemanager.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.CertificateManager",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.acmpca.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.ACMPCA",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.sso.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.SSO",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.lightsail.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.Lightsail",
+      "nuget:version": "1.186.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.36/amazon.cdk.aws.ce.1.186.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "473f4235-03f0-4a64-b73a-610b513634f3",
+      "commitTimeStamp": "2022-12-29T01:27:36.4316102Z",
+      "nuget:id": "Amazon.CDK.AWS.CE",
+      "nuget:version": "1.186.0"
+    },
     {
       "@id": "https://api.nuget.org/v3/catalog0/data/2022.12.29.01.27.04/amazon.cdk.aws.appconfig.1.186.0.json",
       "@type": "nuget:PackageDetails",
