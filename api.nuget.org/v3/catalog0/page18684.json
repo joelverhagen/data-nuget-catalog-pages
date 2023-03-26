@@ -1,11 +1,3867 @@
 {
   "@id": "https://api.nuget.org/v3/catalog0/page18684.json",
   "@type": "CatalogPage",
-  "commitId": "9f98f40a-6c2a-4a96-ada9-818ef830736a",
-  "commitTimeStamp": "2023-03-25T01:20:57.9052631Z",
-  "count": 68,
+  "commitId": "5fbbde5c-2785-4e15-ba0e-6c94f0866c1d",
+  "commitTimeStamp": "2023-03-25T05:40:46.9860943Z",
+  "count": 550,
   "parent": "https://api.nuget.org/v3/catalog0/index.json",
   "items": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.40.46/jcex.infra.sqlsugar.oracle.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5fbbde5c-2785-4e15-ba0e-6c94f0866c1d",
+      "commitTimeStamp": "2023-03-25T05:40:46.9860943Z",
+      "nuget:id": "Jcex.Infra.SqlSugar.Oracle",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.40.46/jcex.infra.sqlsugar.sqlserver.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5fbbde5c-2785-4e15-ba0e-6c94f0866c1d",
+      "commitTimeStamp": "2023-03-25T05:40:46.9860943Z",
+      "nuget:id": "Jcex.Infra.SqlSugar.SqlServer",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.40.17/jcex.infra.efcore.sqlite.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "db0de5fb-ff74-4aac-8d3c-95d465bb80b3",
+      "commitTimeStamp": "2023-03-25T05:40:17.9062333Z",
+      "nuget:id": "Jcex.Infra.EfCore.SQLite",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.40.17/jcex.infra.sqlsugar.mysql.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "db0de5fb-ff74-4aac-8d3c-95d465bb80b3",
+      "commitTimeStamp": "2023-03-25T05:40:17.9062333Z",
+      "nuget:id": "Jcex.Infra.SqlSugar.MySql",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.40.17/jcex.infra.efcore.postgresql.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "db0de5fb-ff74-4aac-8d3c-95d465bb80b3",
+      "commitTimeStamp": "2023-03-25T05:40:17.9062333Z",
+      "nuget:id": "Jcex.Infra.EfCore.PostgreSql",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.39.49/jcex.infra.efcore.mysql.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4553b976-516b-4494-8557-4c1ad68d9115",
+      "commitTimeStamp": "2023-03-25T05:39:49.7170491Z",
+      "nuget:id": "Jcex.Infra.EfCore.MySql",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.39.49/jcex.infra.efcore.oracle.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "4553b976-516b-4494-8557-4c1ad68d9115",
+      "commitTimeStamp": "2023-03-25T05:39:49.7170491Z",
+      "nuget:id": "Jcex.Infra.EfCore.Oracle",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.39.21/jcex.infra.consul.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6055229e-ee51-4309-8a3f-f2e223e5a4d5",
+      "commitTimeStamp": "2023-03-25T05:39:21.2465906Z",
+      "nuget:id": "Jcex.Infra.Consul",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.39.21/jcex.infra.mapper.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6055229e-ee51-4309-8a3f-f2e223e5a4d5",
+      "commitTimeStamp": "2023-03-25T05:39:21.2465906Z",
+      "nuget:id": "Jcex.Infra.Mapper",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.39.21/jcex.infra.idgenerater.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6055229e-ee51-4309-8a3f-f2e223e5a4d5",
+      "commitTimeStamp": "2023-03-25T05:39:21.2465906Z",
+      "nuget:id": "Jcex.Infra.IdGenerater",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.38.51/jcex.infra.caching.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f6d23473-0da1-4f61-ad40-73f472575d2f",
+      "commitTimeStamp": "2023-03-25T05:38:51.3698011Z",
+      "nuget:id": "Jcex.Infra.Caching",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.38.51/jcex.infra.caching.skyapm.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f6d23473-0da1-4f61-ad40-73f472575d2f",
+      "commitTimeStamp": "2023-03-25T05:38:51.3698011Z",
+      "nuget:id": "Jcex.Infra.Caching.SkyApm",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.38.23/jcex.infra.canal.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ca7170ad-bef6-4814-bc9f-240eaad728bc",
+      "commitTimeStamp": "2023-03-25T05:38:23.289998Z",
+      "nuget:id": "Jcex.Infra.Canal",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.38.23/jcex.infra.helper.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ca7170ad-bef6-4814-bc9f-240eaad728bc",
+      "commitTimeStamp": "2023-03-25T05:38:23.289998Z",
+      "nuget:id": "Jcex.Infra.Helper",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.37.55/jcex.infra.canal.rabbitmq.6.0.0-preview20230325-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d1051d61-5c01-4c0f-b190-475de5faea3b",
+      "commitTimeStamp": "2023-03-25T05:37:55.0070505Z",
+      "nuget:id": "Jcex.Infra.Canal.RabbitMQ",
+      "nuget:version": "6.0.0-preview20230325-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.35.49/gmailhelper.1.8.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6c1cd4c4-4f57-47a4-8b81-86fbca6159f9",
+      "commitTimeStamp": "2023-03-25T05:35:49.7807488Z",
+      "nuget:id": "GmailHelper",
+      "nuget:version": "1.8.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.35.49/kivii.barcode.services.5.6.2023.3000.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6c1cd4c4-4f57-47a4-8b81-86fbca6159f9",
+      "commitTimeStamp": "2023-03-25T05:35:49.7807488Z",
+      "nuget:id": "Kivii.Barcode.Services",
+      "nuget:version": "5.6.2023.3000"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.34.50/kivii.barcode.5.6.2023.3000.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "005e5609-77ea-43aa-9ccb-eefe38c25762",
+      "commitTimeStamp": "2023-03-25T05:34:50.1735617Z",
+      "nuget:id": "Kivii.Barcode",
+      "nuget:version": "5.6.2023.3000"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.29.23/firepuma.commandsandqueries.abstractions.0.24.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "90847aed-a69d-4c15-962e-9f19f680b5cf",
+      "commitTimeStamp": "2023-03-25T05:29:23.4509275Z",
+      "nuget:id": "Firepuma.CommandsAndQueries.Abstractions",
+      "nuget:version": "0.24.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.29.23/octohooks.net.1.0.6.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "90847aed-a69d-4c15-962e-9f19f680b5cf",
+      "commitTimeStamp": "2023-03-25T05:29:23.4509275Z",
+      "nuget:id": "Octohooks.net",
+      "nuget:version": "1.0.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.23.25/ruovea.exsugar.6.0.17.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a126ffed-412b-451a-8077-d74dd372434b",
+      "commitTimeStamp": "2023-03-25T05:23:25.1514556Z",
+      "nuget:id": "RuoVea.ExSugar",
+      "nuget:version": "6.0.17"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.21.15/kivii.codes.5.6.2023.3000.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "92a68be2-69d1-4b34-abf5-b6ce9045f2f8",
+      "commitTimeStamp": "2023-03-25T05:21:15.0969274Z",
+      "nuget:id": "Kivii.Codes",
+      "nuget:version": "5.6.2023.3000"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.20.14/octopus.server.messagecontracts.2023.2.4151.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "1d74d8a1-4e32-4fbb-8e36-6157e11dca67",
+      "commitTimeStamp": "2023-03-25T05:20:14.6088463Z",
+      "nuget:id": "Octopus.Server.MessageContracts",
+      "nuget:version": "2023.2.4151"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.19.12/octopus.server.messagecontracts.base.httproutes.2023.2.4151.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "206809d9-2164-47bc-b1ee-6ebfc63cf140",
+      "commitTimeStamp": "2023-03-25T05:19:12.402011Z",
+      "nuget:id": "Octopus.Server.MessageContracts.Base.HttpRoutes",
+      "nuget:version": "2023.2.4151"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.19.12/octopus.server.messagecontracts.httproutes.2023.2.4151.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "206809d9-2164-47bc-b1ee-6ebfc63cf140",
+      "commitTimeStamp": "2023-03-25T05:19:12.402011Z",
+      "nuget:id": "Octopus.Server.MessageContracts.HttpRoutes",
+      "nuget:version": "2023.2.4151"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.19.12/octopus.server.messagecontracts.base.2023.2.4151.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "206809d9-2164-47bc-b1ee-6ebfc63cf140",
+      "commitTimeStamp": "2023-03-25T05:19:12.402011Z",
+      "nuget:id": "Octopus.Server.MessageContracts.Base",
+      "nuget:version": "2023.2.4151"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.18.11/skulboard.helper.1.0.84.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "fcf45058-c23c-433c-9908-2e4d8fed84e2",
+      "commitTimeStamp": "2023-03-25T05:18:11.0233274Z",
+      "nuget:id": "Skulboard.Helper",
+      "nuget:version": "1.0.84.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.16.37/kivii.server.http.5.6.2023.3000.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ec644f70-4be2-4f56-8679-e3cdeaf514bc",
+      "commitTimeStamp": "2023-03-25T05:16:37.8771012Z",
+      "nuget:id": "Kivii.Server.Http",
+      "nuget:version": "5.6.2023.3000"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.15.37/kivii.server.runtime.5.6.2023.3000.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "cd1c08cc-1e16-4323-885a-e49ac87d6326",
+      "commitTimeStamp": "2023-03-25T05:15:37.3734876Z",
+      "nuget:id": "Kivii.Server.Runtime",
+      "nuget:version": "5.6.2023.3000"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.15.37/theomenden.shared.2023.3.25.112.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "cd1c08cc-1e16-4323-885a-e49ac87d6326",
+      "commitTimeStamp": "2023-03-25T05:15:37.3734876Z",
+      "nuget:id": "TheOmenDen.Shared",
+      "nuget:version": "2023.3.25.112"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.14.03/sailfish.testadapter.0.1.163.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5494a346-3187-419e-8b60-e5f88ee7a995",
+      "commitTimeStamp": "2023-03-25T05:14:03.8991621Z",
+      "nuget:id": "Sailfish.TestAdapter",
+      "nuget:version": "0.1.163"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.13.02/sailfish.0.1.163.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "898b2d74-40c2-4c6f-af97-789a0439a201",
+      "commitTimeStamp": "2023-03-25T05:13:02.6298891Z",
+      "nuget:id": "Sailfish",
+      "nuget:version": "0.1.163"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.12.02/kivii.linq.sqlserver.5.6.2023.3000.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "393e5ca6-e2cc-4762-8e6d-ba442f9fa07a",
+      "commitTimeStamp": "2023-03-25T05:12:02.7669508Z",
+      "nuget:id": "Kivii.Linq.SqlServer",
+      "nuget:version": "5.6.2023.3000"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.12.02/calabonga.unitofwork.3.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "393e5ca6-e2cc-4762-8e6d-ba442f9fa07a",
+      "commitTimeStamp": "2023-03-25T05:12:02.7669508Z",
+      "nuget:id": "Calabonga.UnitOfWork",
+      "nuget:version": "3.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.10.27/kivii.linq.sqlite.5.6.2023.3000.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e88e6611-07ad-40b7-abf6-6a44519dc18d",
+      "commitTimeStamp": "2023-03-25T05:10:27.7612827Z",
+      "nuget:id": "Kivii.Linq.Sqlite",
+      "nuget:version": "5.6.2023.3000"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.09.25/kivii.linq.oracle.5.6.2023.3000.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8a097729-60db-4a14-8d10-31dc6b0c6752",
+      "commitTimeStamp": "2023-03-25T05:09:25.7732164Z",
+      "nuget:id": "Kivii.Linq.Oracle",
+      "nuget:version": "5.6.2023.3000"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.08.56/kivii.linq.mysql.5.6.2023.3000.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "069c3683-8b32-42e7-b4bf-dcac64c2bf4f",
+      "commitTimeStamp": "2023-03-25T05:08:56.3027141Z",
+      "nuget:id": "Kivii.Linq.Mysql",
+      "nuget:version": "5.6.2023.3000"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.08.26/flowsy.web.api.10.1.6.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f7efae65-3af8-403a-a33c-4e32595699be",
+      "commitTimeStamp": "2023-03-25T05:08:26.5977559Z",
+      "nuget:id": "Flowsy.Web.Api",
+      "nuget:version": "10.1.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.07.25/kivii.linq.5.6.2023.3000.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "86e4d66b-f1d7-4398-8caf-404d0f703022",
+      "commitTimeStamp": "2023-03-25T05:07:25.6720978Z",
+      "nuget:id": "Kivii.Linq",
+      "nuget:version": "5.6.2023.3000"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.04.44/theomenden.shared.2023.3.24.2348.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dc37f60f-9fdc-47fc-871a-c99c3179ab31",
+      "commitTimeStamp": "2023-03-25T05:04:44.9501408Z",
+      "nuget:id": "TheOmenDen.Shared",
+      "nuget:version": "2023.3.24.2348"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.02.39/kivii.core.5.6.2023.3000.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f042c26f-4a59-44ff-885a-65a8d918613a",
+      "commitTimeStamp": "2023-03-25T05:02:39.5989716Z",
+      "nuget:id": "Kivii.Core",
+      "nuget:version": "5.6.2023.3000"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.02.39/flowsy.monitoring.applicationinsights.1.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f042c26f-4a59-44ff-885a-65a8d918613a",
+      "commitTimeStamp": "2023-03-25T05:02:39.5989716Z",
+      "nuget:id": "Flowsy.Monitoring.ApplicationInsights",
+      "nuget:version": "1.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.05.01.38/kivii.common.5.6.2023.3000.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "1d530c93-ee4e-4fdc-b472-e37580be8d1a",
+      "commitTimeStamp": "2023-03-25T05:01:38.7516039Z",
+      "nuget:id": "Kivii.Common",
+      "nuget:version": "5.6.2023.3000"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.57.53/flowsy.monitoring.abstractions.2.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d39faa42-a8f2-492c-9a9a-f47fee4ee47c",
+      "commitTimeStamp": "2023-03-25T04:57:53.7599983Z",
+      "nuget:id": "Flowsy.Monitoring.Abstractions",
+      "nuget:version": "2.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.56.19/flowsy.content.3.2.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "c520d621-ba60-4d68-b431-818798c585ae",
+      "commitTimeStamp": "2023-03-25T04:56:19.6040711Z",
+      "nuget:id": "Flowsy.Content",
+      "nuget:version": "3.2.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.54.12/mssptag.managed.library.1.6.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f73acaea-8afa-48e3-bbec-f4fb07110cd2",
+      "commitTimeStamp": "2023-03-25T04:54:12.8933923Z",
+      "nuget:id": "MSSPTAG.Managed.Library",
+      "nuget:version": "1.6.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.53.13/flowsy.mediation.6.1.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ae09284c-1d4f-45c6-84a1-b8b145fe8a57",
+      "commitTimeStamp": "2023-03-25T04:53:13.8186951Z",
+      "nuget:id": "Flowsy.Mediation",
+      "nuget:version": "6.1.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.50.01/xyxandwxx.zbar.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "fe57148d-771e-4ba2-ab0a-85bb7c9a72eb",
+      "commitTimeStamp": "2023-03-25T04:50:01.197832Z",
+      "nuget:id": "xyxandwxx.Zbar",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.50.01/flowsy.repository.sql.18.2.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "fe57148d-771e-4ba2-ab0a-85bb7c9a72eb",
+      "commitTimeStamp": "2023-03-25T04:50:01.197832Z",
+      "nuget:id": "Flowsy.Repository.Sql",
+      "nuget:version": "18.2.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.44.33/flowsy.core.2.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a379ed73-8263-4c6c-b7de-e2d710649c53",
+      "commitTimeStamp": "2023-03-25T04:44:33.0900236Z",
+      "nuget:id": "Flowsy.Core",
+      "nuget:version": "2.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.41.54/acme.5.0.24.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "3f007b1c-1eb1-4ee8-a23a-28617b51d062",
+      "commitTimeStamp": "2023-03-25T04:41:54.1899493Z",
+      "nuget:id": "Acme",
+      "nuget:version": "5.0.24"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.40.53/csharp.database.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "46bfa051-db88-423c-93b5-66ef95bb5897",
+      "commitTimeStamp": "2023-03-25T04:40:53.2800813Z",
+      "nuget:id": "CSharp.Database",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.37.43/acme.dapper.5.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "93bce64d-5a39-4286-8c82-9a9498873a09",
+      "commitTimeStamp": "2023-03-25T04:37:43.134161Z",
+      "nuget:id": "Acme.Dapper",
+      "nuget:version": "5.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.25.41/dynamic.crmsdk.webapi.1.0.11.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "16b44aef-fd1b-4383-ac92-d9b8023d272a",
+      "commitTimeStamp": "2023-03-25T04:25:41.8409755Z",
+      "nuget:id": "Dynamic.CrmSdk.WebApi",
+      "nuget:version": "1.0.11"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.36/dh.skit.flurlhttpclient.wechat.api.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "490fc048-8f3a-45e5-bd95-b2b2bdf94c50",
+      "commitTimeStamp": "2023-03-25T04:19:36.7723207Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.Wechat.Api",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.36/dh.skit.flurlhttpclient.wechat.tenpayv3.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "490fc048-8f3a-45e5-bd95-b2b2bdf94c50",
+      "commitTimeStamp": "2023-03-25T04:19:36.7723207Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.Wechat.TenpayV3",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.36/dh.utils.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "490fc048-8f3a-45e5-bd95-b2b2bdf94c50",
+      "commitTimeStamp": "2023-03-25T04:19:36.7723207Z",
+      "nuget:id": "DH.Utils",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.36/dh.skit.flurlhttpclient.bytedance.douyinshop.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "490fc048-8f3a-45e5-bd95-b2b2bdf94c50",
+      "commitTimeStamp": "2023-03-25T04:19:36.7723207Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.ByteDance.DouyinShop",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.36/dh.xcode.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "490fc048-8f3a-45e5-bd95-b2b2bdf94c50",
+      "commitTimeStamp": "2023-03-25T04:19:36.7723207Z",
+      "nuget:id": "DH.XCode",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.36/dh.skit.flurlhttpclient.bytedance.oceanengine.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "490fc048-8f3a-45e5-bd95-b2b2bdf94c50",
+      "commitTimeStamp": "2023-03-25T04:19:36.7723207Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.ByteDance.OceanEngine",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.36/dh.skit.flurlhttpclient.wechat.tenpaybusiness.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "490fc048-8f3a-45e5-bd95-b2b2bdf94c50",
+      "commitTimeStamp": "2023-03-25T04:19:36.7723207Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.Wechat.TenpayBusiness",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.36/dh.skit.flurlhttpclient.wechat.work.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "490fc048-8f3a-45e5-bd95-b2b2bdf94c50",
+      "commitTimeStamp": "2023-03-25T04:19:36.7723207Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.Wechat.Work",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.virtualfilesystem.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.VirtualFileSystem",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.skit.flurlhttpclient.upyun.uss.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.Upyun.Uss",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.skit.flurlhttpclient.wechat.ads.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.Wechat.Ads",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.skit.flurlhttpclient.baidu.smartapp.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.Baidu.SmartApp",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.skit.flurlhttpclient.upyun.sms.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.Upyun.Sms",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.skit.flurlhttpclient.wechat.openai.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.Wechat.OpenAI",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.vueclimiddleware.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.VueCliMiddleware",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.skit.flurlhttpclient.bytedance.microapp.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.ByteDance.MicroApp",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.skit.flurlhttpclient.bytedance.tiktokglobal.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.ByteDance.TikTokGlobal",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.skit.flurlhttpclient.common.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.Common",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.ssh.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.SSH",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.webhook.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.WebHook",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.skit.flurlhttpclient.bytedance.douyinopen.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.ByteDance.DouyinOpen",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.skit.flurlhttpclient.upyun.sim.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.Upyun.Sim",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.19.01/dh.skit.flurlhttpclient.wechat.tenpayv2.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "077c94b2-914a-464d-926f-302fdec4587d",
+      "commitTimeStamp": "2023-03-25T04:19:01.9577442Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.Wechat.TenpayV2",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.18.27/dh.ratelimter.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "20074692-d699-4db8-973e-3cb8826af816",
+      "commitTimeStamp": "2023-03-25T04:18:27.4869427Z",
+      "nuget:id": "DH.RateLimter",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.18.27/dh.questpdf.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "20074692-d699-4db8-973e-3cb8826af816",
+      "commitTimeStamp": "2023-03-25T04:18:27.4869427Z",
+      "nuget:id": "DH.QuestPDF",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.18.27/dh.pdfsharpcore.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "20074692-d699-4db8-973e-3cb8826af816",
+      "commitTimeStamp": "2023-03-25T04:18:27.4869427Z",
+      "nuget:id": "DH.PdfSharpCore",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.18.27/dh.permissions.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "20074692-d699-4db8-973e-3cb8826af816",
+      "commitTimeStamp": "2023-03-25T04:18:27.4869427Z",
+      "nuget:id": "DH.Permissions",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.18.27/dh.services.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "20074692-d699-4db8-973e-3cb8826af816",
+      "commitTimeStamp": "2023-03-25T04:18:27.4869427Z",
+      "nuget:id": "DH.Services",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.18.27/dh.pdu.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "20074692-d699-4db8-973e-3cb8826af816",
+      "commitTimeStamp": "2023-03-25T04:18:27.4869427Z",
+      "nuget:id": "DH.Pdu",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.18.27/dh.paysharp.allinpay.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "20074692-d699-4db8-973e-3cb8826af816",
+      "commitTimeStamp": "2023-03-25T04:18:27.4869427Z",
+      "nuget:id": "DH.PaySharp.Allinpay",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.18.27/dh.roslyncompile.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "20074692-d699-4db8-973e-3cb8826af816",
+      "commitTimeStamp": "2023-03-25T04:18:27.4869427Z",
+      "nuget:id": "DH.RoslynCompile",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.18.27/dh.skiacaptcha.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "20074692-d699-4db8-973e-3cb8826af816",
+      "commitTimeStamp": "2023-03-25T04:18:27.4869427Z",
+      "nuget:id": "DH.SkiaCaptcha",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.18.27/dh.skit.flurlhttpclient.upyun.console.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "20074692-d699-4db8-973e-3cb8826af816",
+      "commitTimeStamp": "2023-03-25T04:18:27.4869427Z",
+      "nuget:id": "DH.SKIT.FlurlHttpClient.Upyun.Console",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.18.27/dh.searchengine.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "20074692-d699-4db8-973e-3cb8826af816",
+      "commitTimeStamp": "2023-03-25T04:18:27.4869427Z",
+      "nuget:id": "DH.SearchEngine",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.18.27/dh.signalr.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "20074692-d699-4db8-973e-3cb8826af816",
+      "commitTimeStamp": "2023-03-25T04:18:27.4869427Z",
+      "nuget:id": "DH.SignalR",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.55/dh.payment.unionpay.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8d7e3371-9294-452f-8be4-f575d2f48d8e",
+      "commitTimeStamp": "2023-03-25T04:17:55.8288038Z",
+      "nuget:id": "DH.Payment.UnionPay",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.55/dh.payment.alipay.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8d7e3371-9294-452f-8be4-f575d2f48d8e",
+      "commitTimeStamp": "2023-03-25T04:17:55.8288038Z",
+      "nuget:id": "DH.Payment.Alipay",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.55/dh.nstardust.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8d7e3371-9294-452f-8be4-f575d2f48d8e",
+      "commitTimeStamp": "2023-03-25T04:17:55.8288038Z",
+      "nuget:id": "DH.NStardust",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.55/dh.payment.wechatpay.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8d7e3371-9294-452f-8be4-f575d2f48d8e",
+      "commitTimeStamp": "2023-03-25T04:17:55.8288038Z",
+      "nuget:id": "DH.Payment.WeChatPay",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.55/dh.payment.jdpay.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8d7e3371-9294-452f-8be4-f575d2f48d8e",
+      "commitTimeStamp": "2023-03-25T04:17:55.8288038Z",
+      "nuget:id": "DH.Payment.JDPay",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.55/dh.payment.qpay.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8d7e3371-9294-452f-8be4-f575d2f48d8e",
+      "commitTimeStamp": "2023-03-25T04:17:55.8288038Z",
+      "nuget:id": "DH.Payment.QPay",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.55/dh.payment.security.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8d7e3371-9294-452f-8be4-f575d2f48d8e",
+      "commitTimeStamp": "2023-03-25T04:17:55.8288038Z",
+      "nuget:id": "DH.Payment.Security",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.55/dh.paysharp.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8d7e3371-9294-452f-8be4-f575d2f48d8e",
+      "commitTimeStamp": "2023-03-25T04:17:55.8288038Z",
+      "nuget:id": "DH.PaySharp",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.55/dh.payment.paypal.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8d7e3371-9294-452f-8be4-f575d2f48d8e",
+      "commitTimeStamp": "2023-03-25T04:17:55.8288038Z",
+      "nuget:id": "DH.Payment.PayPal",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.55/dh.nstardust.extensions.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8d7e3371-9294-452f-8be4-f575d2f48d8e",
+      "commitTimeStamp": "2023-03-25T04:17:55.8288038Z",
+      "nuget:id": "DH.NStardust.Extensions",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.55/dh.nremoting.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8d7e3371-9294-452f-8be4-f575d2f48d8e",
+      "commitTimeStamp": "2023-03-25T04:17:55.8288038Z",
+      "nuget:id": "DH.NRemoting",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.22/dh.nredis.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ee0c7b20-63e2-432f-89e0-fcc1b43b0f3a",
+      "commitTimeStamp": "2023-03-25T04:17:22.3111832Z",
+      "nuget:id": "DH.NRedis",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.22/dh.nmap.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ee0c7b20-63e2-432f-89e0-fcc1b43b0f3a",
+      "commitTimeStamp": "2023-03-25T04:17:22.3111832Z",
+      "nuget:id": "DH.NMap",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.22/dh.magicodes.ie.word.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ee0c7b20-63e2-432f-89e0-fcc1b43b0f3a",
+      "commitTimeStamp": "2023-03-25T04:17:22.3111832Z",
+      "nuget:id": "DH.Magicodes.IE.Word",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.22/dh.npoi.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ee0c7b20-63e2-432f-89e0-fcc1b43b0f3a",
+      "commitTimeStamp": "2023-03-25T04:17:22.3111832Z",
+      "nuget:id": "DH.Npoi",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.22/dh.ncore.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ee0c7b20-63e2-432f-89e0-fcc1b43b0f3a",
+      "commitTimeStamp": "2023-03-25T04:17:22.3111832Z",
+      "nuget:id": "DH.NCore",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.22/dh.payment.lianlianpay.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ee0c7b20-63e2-432f-89e0-fcc1b43b0f3a",
+      "commitTimeStamp": "2023-03-25T04:17:22.3111832Z",
+      "nuget:id": "DH.Payment.LianLianPay",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.22/dh.niot.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ee0c7b20-63e2-432f-89e0-fcc1b43b0f3a",
+      "commitTimeStamp": "2023-03-25T04:17:22.3111832Z",
+      "nuget:id": "DH.NIoT",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.22/dh.nmodbusrtu.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ee0c7b20-63e2-432f-89e0-fcc1b43b0f3a",
+      "commitTimeStamp": "2023-03-25T04:17:22.3111832Z",
+      "nuget:id": "DH.NModbusRTU",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.22/dh.nmqtt.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ee0c7b20-63e2-432f-89e0-fcc1b43b0f3a",
+      "commitTimeStamp": "2023-03-25T04:17:22.3111832Z",
+      "nuget:id": "DH.NMQTT",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.22/dh.jieba.segmenter.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ee0c7b20-63e2-432f-89e0-fcc1b43b0f3a",
+      "commitTimeStamp": "2023-03-25T04:17:22.3111832Z",
+      "nuget:id": "DH.Jieba.Segmenter",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.17.22/dh.nip.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ee0c7b20-63e2-432f-89e0-fcc1b43b0f3a",
+      "commitTimeStamp": "2023-03-25T04:17:22.3111832Z",
+      "nuget:id": "DH.NIP",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.50/dh.ncode.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ff419301-bc8d-4e57-90fb-198a7ff6b0b7",
+      "commitTimeStamp": "2023-03-25T04:16:50.4186546Z",
+      "nuget:id": "DH.NCode",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.50/dh.core.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ff419301-bc8d-4e57-90fb-198a7ff6b0b7",
+      "commitTimeStamp": "2023-03-25T04:16:50.4186546Z",
+      "nuget:id": "DH.Core",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.50/dh.nmodbus.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ff419301-bc8d-4e57-90fb-198a7ff6b0b7",
+      "commitTimeStamp": "2023-03-25T04:16:50.4186546Z",
+      "nuget:id": "DH.NModbus",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.50/dh.miniword.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ff419301-bc8d-4e57-90fb-198a7ff6b0b7",
+      "commitTimeStamp": "2023-03-25T04:16:50.4186546Z",
+      "nuget:id": "DH.MiniWord",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.50/dh.miniexcel.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ff419301-bc8d-4e57-90fb-198a7ff6b0b7",
+      "commitTimeStamp": "2023-03-25T04:16:50.4186546Z",
+      "nuget:id": "DH.MiniExcel",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.50/dh.nagent.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ff419301-bc8d-4e57-90fb-198a7ff6b0b7",
+      "commitTimeStamp": "2023-03-25T04:16:50.4186546Z",
+      "nuget:id": "DH.NAgent",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.50/dh.mdb.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ff419301-bc8d-4e57-90fb-198a7ff6b0b7",
+      "commitTimeStamp": "2023-03-25T04:16:50.4186546Z",
+      "nuget:id": "DH.MDB",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.18/dh.aspnetcore.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f7e167cb-a609-4aed-8b25-b0dc5079ff34",
+      "commitTimeStamp": "2023-03-25T04:16:18.8698963Z",
+      "nuget:id": "DH.AspNetCore",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.18/dh.lazycaptcha.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f7e167cb-a609-4aed-8b25-b0dc5079ff34",
+      "commitTimeStamp": "2023-03-25T04:16:18.8698963Z",
+      "nuget:id": "DH.LazyCaptcha",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.18/dh.jieba.lucene.analyzer.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f7e167cb-a609-4aed-8b25-b0dc5079ff34",
+      "commitTimeStamp": "2023-03-25T04:16:18.8698963Z",
+      "nuget:id": "DH.JieBa.Lucene.Analyzer",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.18/dh.api.mui.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f7e167cb-a609-4aed-8b25-b0dc5079ff34",
+      "commitTimeStamp": "2023-03-25T04:16:18.8698963Z",
+      "nuget:id": "DH.Api.MUI",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.18/dh.magicodes.ie.pdf.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f7e167cb-a609-4aed-8b25-b0dc5079ff34",
+      "commitTimeStamp": "2023-03-25T04:16:18.8698963Z",
+      "nuget:id": "DH.Magicodes.IE.Pdf",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.18/dh.mailkit.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f7e167cb-a609-4aed-8b25-b0dc5079ff34",
+      "commitTimeStamp": "2023-03-25T04:16:18.8698963Z",
+      "nuget:id": "DH.MailKit",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.18/dh.magicodes.ie.excel.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f7e167cb-a609-4aed-8b25-b0dc5079ff34",
+      "commitTimeStamp": "2023-03-25T04:16:18.8698963Z",
+      "nuget:id": "DH.Magicodes.IE.Excel",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.18/dh.mockdata.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f7e167cb-a609-4aed-8b25-b0dc5079ff34",
+      "commitTimeStamp": "2023-03-25T04:16:18.8698963Z",
+      "nuget:id": "DH.MockData",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.16.18/dh.ftp.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f7e167cb-a609-4aed-8b25-b0dc5079ff34",
+      "commitTimeStamp": "2023-03-25T04:16:18.8698963Z",
+      "nuget:id": "DH.Ftp",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.15.49/dh.flurlhttpclient.keruyun.api.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f03c4f91-8b3e-4912-aa92-9f18cf0e6e35",
+      "commitTimeStamp": "2023-03-25T04:15:49.0868703Z",
+      "nuget:id": "DH.FlurlHttpClient.KeRuYun.Api",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.15.49/dh.cliwrap.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f03c4f91-8b3e-4912-aa92-9f18cf0e6e35",
+      "commitTimeStamp": "2023-03-25T04:15:49.0868703Z",
+      "nuget:id": "DH.CliWrap",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.15.49/dh.extensions.caching.redis.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f03c4f91-8b3e-4912-aa92-9f18cf0e6e35",
+      "commitTimeStamp": "2023-03-25T04:15:49.0868703Z",
+      "nuget:id": "DH.Extensions.Caching.Redis",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.15.49/dh.grpc.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f03c4f91-8b3e-4912-aa92-9f18cf0e6e35",
+      "commitTimeStamp": "2023-03-25T04:15:49.0868703Z",
+      "nuget:id": "DH.Grpc",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.15.49/dh.filezilla.api.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f03c4f91-8b3e-4912-aa92-9f18cf0e6e35",
+      "commitTimeStamp": "2023-03-25T04:15:49.0868703Z",
+      "nuget:id": "DH.FileZilla.Api",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.15.49/dh.clay.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f03c4f91-8b3e-4912-aa92-9f18cf0e6e35",
+      "commitTimeStamp": "2023-03-25T04:15:49.0868703Z",
+      "nuget:id": "DH.Clay",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.15.49/dh.flurlhttpclient.pospal.api.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f03c4f91-8b3e-4912-aa92-9f18cf0e6e35",
+      "commitTimeStamp": "2023-03-25T04:15:49.0868703Z",
+      "nuget:id": "DH.FlurlHttpClient.Pospal.Api",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.15.49/dh.extensions.hosting.agentservice.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f03c4f91-8b3e-4912-aa92-9f18cf0e6e35",
+      "commitTimeStamp": "2023-03-25T04:15:49.0868703Z",
+      "nuget:id": "DH.Extensions.Hosting.AgentService",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.15.49/dh.jieba.analyser.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f03c4f91-8b3e-4912-aa92-9f18cf0e6e35",
+      "commitTimeStamp": "2023-03-25T04:15:49.0868703Z",
+      "nuget:id": "DH.JieBa.Analyser",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.15.49/dh.base.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f03c4f91-8b3e-4912-aa92-9f18cf0e6e35",
+      "commitTimeStamp": "2023-03-25T04:15:49.0868703Z",
+      "nuget:id": "DH.Base",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.15.21/dh.common.1.3.2023.32561.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ae912aa3-d39d-4ebf-8995-665df1baba0f",
+      "commitTimeStamp": "2023-03-25T04:15:21.3977197Z",
+      "nuget:id": "DH.Common",
+      "nuget:version": "1.3.2023.32561"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.09.22/hashicorp.cdktf.providers.azurerm.5.0.11.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e65990a9-0fe3-4962-9fa0-93058c354390",
+      "commitTimeStamp": "2023-03-25T04:09:22.5325641Z",
+      "nuget:id": "HashiCorp.Cdktf.Providers.Azurerm",
+      "nuget:version": "5.0.11"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.05.37/sailfish.0.1.162.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b69c0304-8e4e-454b-bec7-25ad73c706a6",
+      "commitTimeStamp": "2023-03-25T04:05:37.8629106Z",
+      "nuget:id": "Sailfish",
+      "nuget:version": "0.1.162"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.04.05.09/sailfish.testadapter.0.1.162.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8aac0cc9-156b-4f4e-829c-fe9ced7b5104",
+      "commitTimeStamp": "2023-03-25T04:05:09.3143031Z",
+      "nuget:id": "Sailfish.TestAdapter",
+      "nuget:version": "0.1.162"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.54.23/pnp.core.1.8.131-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "3e32c752-7a4a-410b-83a2-128491bf4ad1",
+      "commitTimeStamp": "2023-03-25T03:54:23.0063778Z",
+      "nuget:id": "PnP.Core",
+      "nuget:version": "1.8.131-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.54.23/pnp.core.admin.1.8.131-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "3e32c752-7a4a-410b-83a2-128491bf4ad1",
+      "commitTimeStamp": "2023-03-25T03:54:23.0063778Z",
+      "nuget:id": "PnP.Core.Admin",
+      "nuget:version": "1.8.131-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.54.23/pnp.framework.1.11.128-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "3e32c752-7a4a-410b-83a2-128491bf4ad1",
+      "commitTimeStamp": "2023-03-25T03:54:23.0063778Z",
+      "nuget:id": "PnP.Framework",
+      "nuget:version": "1.11.128-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.54.23/pnp.core.auth.1.8.131-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "3e32c752-7a4a-410b-83a2-128491bf4ad1",
+      "commitTimeStamp": "2023-03-25T03:54:23.0063778Z",
+      "nuget:id": "PnP.Core.Auth",
+      "nuget:version": "1.8.131-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.53.25/spawndev.blazorjs.webtorrents.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "742866a1-5b1e-4b63-827d-adf83f8dd3fd",
+      "commitTimeStamp": "2023-03-25T03:53:25.2684973Z",
+      "nuget:id": "SpawnDev.BlazorJS.WebTorrents",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.53.01/hslcommunication.11.5.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0529fdaf-ebd0-4dfe-aaf8-aae42cd32606",
+      "commitTimeStamp": "2023-03-25T03:53:01.7356117Z",
+      "nuget:id": "HslCommunication",
+      "nuget:version": "11.5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.52.04/theomenden.shared.2023.3.24.2348.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "44dfa5d4-c7b2-4d6a-8d71-c7eec6471950",
+      "commitTimeStamp": "2023-03-25T03:52:04.7010457Z",
+      "nuget:id": "TheOmenDen.Shared",
+      "nuget:version": "2023.3.24.2348"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.51.41/zord.models.2.0.3.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "108d6351-5a59-4893-8e93-e67c0c2f2b38",
+      "commitTimeStamp": "2023-03-25T03:51:41.0747784Z",
+      "nuget:id": "Zord.Models",
+      "nuget:version": "2.0.3.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.49.38/zord.models.2.0.3.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "854d8161-a2ee-4282-bf16-cc06250f3305",
+      "commitTimeStamp": "2023-03-25T03:49:38.833237Z",
+      "nuget:id": "Zord.Models",
+      "nuget:version": "2.0.3.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.42.09/ruovea.exsugar.6.0.16.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "3e3df33a-e74b-4003-ad12-5ace2478201e",
+      "commitTimeStamp": "2023-03-25T03:42:09.6032283Z",
+      "nuget:id": "RuoVea.ExSugar",
+      "nuget:version": "6.0.16"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.39.02/zaabee.xz.2023.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "29770cda-0980-4587-8f2a-3665ebb7b8b3",
+      "commitTimeStamp": "2023-03-25T03:39:02.0763967Z",
+      "nuget:id": "Zaabee.XZ",
+      "nuget:version": "2023.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.37.33/alphacalc.2.0.0-alpha2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "815f3a27-2386-4dce-afdf-5dedfa71d044",
+      "commitTimeStamp": "2023-03-25T03:37:33.4461227Z",
+      "nuget:id": "AlphaCalc",
+      "nuget:version": "2.0.0-alpha2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.35.31/microsoft.psrule.tool.2.8.0-b0076.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f597047b-eed8-4a36-a0fc-f29300b5b27e",
+      "commitTimeStamp": "2023-03-25T03:35:31.438767Z",
+      "nuget:id": "Microsoft.PSRule.Tool",
+      "nuget:version": "2.8.0-B0076"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.34.03/microsoft.psrule.core.2.8.0-b0076.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b00f5dbc-701d-4f48-af6f-14cb0259cedb",
+      "commitTimeStamp": "2023-03-25T03:34:03.0897207Z",
+      "nuget:id": "Microsoft.PSRule.Core",
+      "nuget:version": "2.8.0-B0076"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.34.03/microsoft.psrule.sdk.2.8.0-b0076.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b00f5dbc-701d-4f48-af6f-14cb0259cedb",
+      "commitTimeStamp": "2023-03-25T03:34:03.0897207Z",
+      "nuget:id": "Microsoft.PSRule.SDK",
+      "nuget:version": "2.8.0-B0076"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.33.04/jcex.infra.canal.6.0.0-preview20230324-1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a2f09bcb-652f-487b-bf25-66fdc900acd1",
+      "commitTimeStamp": "2023-03-25T03:33:04.4924729Z",
+      "nuget:id": "Jcex.Infra.Canal",
+      "nuget:version": "6.0.0-preview20230324-1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.33.04/microsoft.psrule.types.2.8.0-b0076.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a2f09bcb-652f-487b-bf25-66fdc900acd1",
+      "commitTimeStamp": "2023-03-25T03:33:04.4924729Z",
+      "nuget:id": "Microsoft.PSRule.Types",
+      "nuget:version": "2.8.0-B0076"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.33.04/microsoft.psrule.badges.2.8.0-b0076.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a2f09bcb-652f-487b-bf25-66fdc900acd1",
+      "commitTimeStamp": "2023-03-25T03:33:04.4924729Z",
+      "nuget:id": "Microsoft.PSRule.Badges",
+      "nuget:version": "2.8.0-B0076"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.31.33/microsoft.psrule.rules.azure.1.26.0-b0011.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "08ee46d8-26d2-48c8-9253-2b946971f7ea",
+      "commitTimeStamp": "2023-03-25T03:31:33.4713896Z",
+      "nuget:id": "Microsoft.PSRule.Rules.Azure",
+      "nuget:version": "1.26.0-B0011"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.28.25/chm.oauth.1.0.95.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "797662e3-f0e7-4fad-8188-8bc0af5ef678",
+      "commitTimeStamp": "2023-03-25T03:28:25.7571246Z",
+      "nuget:id": "CHM.OAuth",
+      "nuget:version": "1.0.95"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.27.29/csharp-express.1.4.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9244795d-c134-482a-b640-11eca5c79705",
+      "commitTimeStamp": "2023-03-25T03:27:29.0660721Z",
+      "nuget:id": "csharp-express",
+      "nuget:version": "1.4.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.26.32/vicsind.shserver.config.2.0.12.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "3125acc6-62f9-44fe-bca2-674126e77363",
+      "commitTimeStamp": "2023-03-25T03:26:32.7033131Z",
+      "nuget:id": "VicSind.ShServer.Config",
+      "nuget:version": "2.0.12"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.24.30/hashicorp.cdktf.providers.newrelic.6.0.9.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d8d7867a-5044-417c-95a5-6f9e3dc21cb4",
+      "commitTimeStamp": "2023-03-25T03:24:30.3835298Z",
+      "nuget:id": "HashiCorp.Cdktf.Providers.Newrelic",
+      "nuget:version": "6.0.9"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.24.04/r34sharp.1.3.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "69cef59a-6ab8-4895-8bb5-d607372406a5",
+      "commitTimeStamp": "2023-03-25T03:24:04.0381913Z",
+      "nuget:id": "R34Sharp",
+      "nuget:version": "1.3.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.24.04/octopus.server.messagecontracts.base.2023.2.4149.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "69cef59a-6ab8-4895-8bb5-d607372406a5",
+      "commitTimeStamp": "2023-03-25T03:24:04.0381913Z",
+      "nuget:id": "Octopus.Server.MessageContracts.Base",
+      "nuget:version": "2023.2.4149"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.23.40/octopus.server.messagecontracts.2023.2.4149.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9baa484-3952-43bc-ab6b-cf3d3c0e4745",
+      "commitTimeStamp": "2023-03-25T03:23:40.7711748Z",
+      "nuget:id": "Octopus.Server.MessageContracts",
+      "nuget:version": "2023.2.4149"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.23.40/octopus.server.messagecontracts.httproutes.2023.2.4149.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9baa484-3952-43bc-ab6b-cf3d3c0e4745",
+      "commitTimeStamp": "2023-03-25T03:23:40.7711748Z",
+      "nuget:id": "Octopus.Server.MessageContracts.HttpRoutes",
+      "nuget:version": "2023.2.4149"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.23.40/octopus.server.messagecontracts.base.httproutes.2023.2.4149.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9baa484-3952-43bc-ab6b-cf3d3c0e4745",
+      "commitTimeStamp": "2023-03-25T03:23:40.7711748Z",
+      "nuget:id": "Octopus.Server.MessageContracts.Base.HttpRoutes",
+      "nuget:version": "2023.2.4149"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.16.42/sivicomponents.1.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7ef9163f-b325-4be0-8119-fdc4a41cea9a",
+      "commitTimeStamp": "2023-03-25T03:16:42.9930264Z",
+      "nuget:id": "SiviComponents",
+      "nuget:version": "1.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.10.19/cwtools_plus.1.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5d65b183-36b1-4126-be14-4368a3d1b1be",
+      "commitTimeStamp": "2023-03-25T03:10:19.8295355Z",
+      "nuget:id": "CWTools_Plus",
+      "nuget:version": "1.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.08.51/asteriskdothmg.common.1.6.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "92a94a62-879b-4686-8f28-69d7d0fe156c",
+      "commitTimeStamp": "2023-03-25T03:08:51.7212545Z",
+      "nuget:id": "AsteriskDotHMG.Common",
+      "nuget:version": "1.6.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.08.26/alphacalc.2.0.0-alpha1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "c078d329-b89f-4ccc-a88f-b9675f1f9dec",
+      "commitTimeStamp": "2023-03-25T03:08:26.3915886Z",
+      "nuget:id": "AlphaCalc",
+      "nuget:version": "2.0.0-alpha1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.08.26/scgl.oms.dom.common.ef3.1.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "c078d329-b89f-4ccc-a88f-b9675f1f9dec",
+      "commitTimeStamp": "2023-03-25T03:08:26.3915886Z",
+      "nuget:id": "SCGL.OMS.DOM.Common.ef3",
+      "nuget:version": "1.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.58/infoware.sri.leerxml.1.1.34.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "64578b31-a530-4ecc-8c0e-766676dc9f5a",
+      "commitTimeStamp": "2023-03-25T03:01:58.5304843Z",
+      "nuget:id": "Infoware.SRI.LeerXml",
+      "nuget:version": "1.1.34"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.31/datatables.msbuild.tasks.0.4.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "416c813e-3930-49ce-a970-675609ac5671",
+      "commitTimeStamp": "2023-03-25T03:01:31.7632639Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.4.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.5.6.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.5.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.5.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.5.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.1.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.1.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.5.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.5.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.4.6.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.4.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.2.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.2.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.1.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.1.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.5.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.5.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.4.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.4.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.1.6.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.1.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.5.9.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.5.9"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.4.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.4.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.4.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.4.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.2.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.2.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.5.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.5.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.3.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.3.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.5.8.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.5.8"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.5.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.5.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.2.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.1.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.1.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.4.8.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.4.8"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.4.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.4.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.03.01.02/datatables.msbuild.tasks.0.5.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "404ef24f-eba2-4e0b-bf6a-97c439ef980c",
+      "commitTimeStamp": "2023-03-25T03:01:02.9802962Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.59.31/wchloe.4.12.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a8d03ea4-2c94-40c1-b966-2e53c2af4189",
+      "commitTimeStamp": "2023-03-25T02:59:31.0373217Z",
+      "nuget:id": "wChloe",
+      "nuget:version": "4.12.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.58.01/datatables.generator.0.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dcb16c76-7f20-44af-a4d1-bf7c74b2f7ed",
+      "commitTimeStamp": "2023-03-25T02:58:01.531992Z",
+      "nuget:id": "DataTables.Generator",
+      "nuget:version": "0.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.58.01/datatables.msbuild.tasks.0.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dcb16c76-7f20-44af-a4d1-bf7c74b2f7ed",
+      "commitTimeStamp": "2023-03-25T02:58:01.531992Z",
+      "nuget:id": "DataTables.MSBuild.Tasks",
+      "nuget:version": "0.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.58.01/datatables.annotations.0.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dcb16c76-7f20-44af-a4d1-bf7c74b2f7ed",
+      "commitTimeStamp": "2023-03-25T02:58:01.531992Z",
+      "nuget:id": "DataTables.Annotations",
+      "nuget:version": "0.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.58.01/datatables.api.0.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dcb16c76-7f20-44af-a4d1-bf7c74b2f7ed",
+      "commitTimeStamp": "2023-03-25T02:58:01.531992Z",
+      "nuget:id": "DataTables.API",
+      "nuget:version": "0.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.51.38/newlife.core.10.2.2023.325-beta0247.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d0c0608e-96ff-4acd-b6dc-0a4bcec8fdca",
+      "commitTimeStamp": "2023-03-25T02:51:38.2563048Z",
+      "nuget:id": "NewLife.Core",
+      "nuget:version": "10.2.2023.325-beta0247"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.50.41/hisql.excel.1.0.0.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "1d3647c2-008c-4ff4-b7c7-680e9a483e2c",
+      "commitTimeStamp": "2023-03-25T02:50:41.2216303Z",
+      "nuget:id": "HiSql.Excel",
+      "nuget:version": "1.0.0.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.50.17/hisql.dameng.1.0.5.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0db2a18a-e8d5-47fd-bf1d-5dd3d29cf678",
+      "commitTimeStamp": "2023-03-25T02:50:17.2983081Z",
+      "nuget:id": "HiSql.DaMeng",
+      "nuget:version": "1.0.5.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.50.17/hisql.hana.1.0.5.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0db2a18a-e8d5-47fd-bf1d-5dd3d29cf678",
+      "commitTimeStamp": "2023-03-25T02:50:17.2983081Z",
+      "nuget:id": "HiSql.Hana",
+      "nuget:version": "1.0.5.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.49.19/l.common.core.ef3.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d4e86fa8-5e3c-48b5-9e38-47d8f597da65",
+      "commitTimeStamp": "2023-03-25T02:49:19.4980043Z",
+      "nuget:id": "L.Common.Core.ef3",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.48.56/binlogtool.1.0.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d365639c-edd2-4924-b3e1-5e798a43f4a9",
+      "commitTimeStamp": "2023-03-25T02:48:56.4185169Z",
+      "nuget:id": "binlogtool",
+      "nuget:version": "1.0.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.48.56/jimlicat.extensions.hostbuilder.3.2.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d365639c-edd2-4924-b3e1-5e798a43f4a9",
+      "commitTimeStamp": "2023-03-25T02:48:56.4185169Z",
+      "nuget:id": "Jimlicat.Extensions.HostBuilder",
+      "nuget:version": "3.2.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.48.56/hisql.mysql.1.0.5.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d365639c-edd2-4924-b3e1-5e798a43f4a9",
+      "commitTimeStamp": "2023-03-25T02:48:56.4185169Z",
+      "nuget:id": "HiSql.MySql",
+      "nuget:version": "1.0.5.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.48.56/jimlicat.extensions.aspnet.3.2.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d365639c-edd2-4924-b3e1-5e798a43f4a9",
+      "commitTimeStamp": "2023-03-25T02:48:56.4185169Z",
+      "nuget:id": "Jimlicat.Extensions.AspNet",
+      "nuget:version": "3.2.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.48.00/hisql.oracle.1.0.5.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "27d20b01-01cc-46f4-bf1c-38dff44b68cf",
+      "commitTimeStamp": "2023-03-25T02:48:00.9933343Z",
+      "nuget:id": "HiSql.Oracle",
+      "nuget:version": "1.0.5.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.47.04/cwtools_plus.1.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "38bdd0c9-f73d-49e4-9c22-89a41084e2f7",
+      "commitTimeStamp": "2023-03-25T02:47:04.3493207Z",
+      "nuget:id": "CWTools_Plus",
+      "nuget:version": "1.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.46.41/hisql.postgresql.1.0.5.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a70e5329-fb44-4f8f-99ce-b71dc7a87185",
+      "commitTimeStamp": "2023-03-25T02:46:41.535438Z",
+      "nuget:id": "HiSql.PostGreSql",
+      "nuget:version": "1.0.5.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.44.39/hisql.sqlserver.1.0.5.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "16183f99-2774-48a2-8382-86a151e40865",
+      "commitTimeStamp": "2023-03-25T02:44:39.8160333Z",
+      "nuget:id": "HiSql.SqlServer",
+      "nuget:version": "1.0.5.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.44.15/hisql.sqlite.1.0.5.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "46fda039-10ea-4d91-8e13-44bdc3cc5044",
+      "commitTimeStamp": "2023-03-25T02:44:15.7677507Z",
+      "nuget:id": "HiSql.Sqlite",
+      "nuget:version": "1.0.5.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.43.19/hisql.1.0.5.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6fbd9834-99b6-4e73-9e27-b981150b2c86",
+      "commitTimeStamp": "2023-03-25T02:43:19.4050011Z",
+      "nuget:id": "HiSql",
+      "nuget:version": "1.0.5.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.41.18/nostra.0.0.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6332db59-9ef0-45c0-9f5f-e5cf44c10e80",
+      "commitTimeStamp": "2023-03-25T02:41:18.1690171Z",
+      "nuget:id": "Nostra",
+      "nuget:version": "0.0.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.40.55/infoware.sri.leerxml.1.1.33.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "12826eda-9184-4c03-9008-516c52b4a291",
+      "commitTimeStamp": "2023-03-25T02:40:55.1520815Z",
+      "nuget:id": "Infoware.SRI.LeerXml",
+      "nuget:version": "1.1.33"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.40.33/asteriskdothmg.common.1.6.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b499900a-d73f-4918-ab4f-0fe762fe8d3b",
+      "commitTimeStamp": "2023-03-25T02:40:33.0257608Z",
+      "nuget:id": "AsteriskDotHMG.Common",
+      "nuget:version": "1.6.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.36.20/frmannotationlib.1.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8ed68e99-30b0-4c10-bbfb-992f4d5d2e66",
+      "commitTimeStamp": "2023-03-25T02:36:20.3388279Z",
+      "nuget:id": "FrmAnnotationLIb",
+      "nuget:version": "1.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.33.43/pnp.framework.1.11.138-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f57e77d1-f83b-4785-ae0f-e741a85f7c73",
+      "commitTimeStamp": "2023-03-25T02:33:43.9544679Z",
+      "nuget:id": "PnP.Framework",
+      "nuget:version": "1.11.138-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.33.43/riotdotnet.1.0.0-nightly-20230325-93247c5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f57e77d1-f83b-4785-ae0f-e741a85f7c73",
+      "commitTimeStamp": "2023-03-25T02:33:43.9544679Z",
+      "nuget:id": "RiotDotNET",
+      "nuget:version": "1.0.0-nightly-20230325-93247c5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.32.46/dotnetomar.helper.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "5da11996-4345-4e57-8f0a-ecfd1b27185e",
+      "commitTimeStamp": "2023-03-25T02:32:46.0760125Z",
+      "nuget:id": "DotnetOmar.Helper",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.30.43/cwtools_plus.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "71cf5fa7-8543-4457-828e-2ffd086e39eb",
+      "commitTimeStamp": "2023-03-25T02:30:43.7786441Z",
+      "nuget:id": "CWTools_Plus",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.20.31/perla.1.0.0-beta-011.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "82e6496d-b15a-4c54-a3ff-b35451d21639",
+      "commitTimeStamp": "2023-03-25T02:20:31.2262373Z",
+      "nuget:id": "Perla",
+      "nuget:version": "1.0.0-beta-011"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.18.29/newlife.core.10.2.2023.323-beta1548.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f6ac7405-d03e-4f12-8d1d-f07144257719",
+      "commitTimeStamp": "2023-03-25T02:18:29.0001088Z",
+      "nuget:id": "NewLife.Core",
+      "nuget:version": "10.2.2023.323-beta1548"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.18.29/newlife.core.10.2.2023.323-beta1539.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f6ac7405-d03e-4f12-8d1d-f07144257719",
+      "commitTimeStamp": "2023-03-25T02:18:29.0001088Z",
+      "nuget:id": "NewLife.Core",
+      "nuget:version": "10.2.2023.323-beta1539"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.18.29/newlife.core.10.2.2023.322-beta0150.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f6ac7405-d03e-4f12-8d1d-f07144257719",
+      "commitTimeStamp": "2023-03-25T02:18:29.0001088Z",
+      "nuget:id": "NewLife.Core",
+      "nuget:version": "10.2.2023.322-beta0150"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.17.32/steamkitdota2.1.2.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2021aaf9-f311-4f2d-b5d2-8963959c6c92",
+      "commitTimeStamp": "2023-03-25T02:17:32.9968516Z",
+      "nuget:id": "SteamKitDota2",
+      "nuget:version": "1.2.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.17.08/mellon-multitenant.1.1.29.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8c6896e5-aa6e-4377-9081-590f07340c9b",
+      "commitTimeStamp": "2023-03-25T02:17:08.9016815Z",
+      "nuget:id": "Mellon-MultiTenant",
+      "nuget:version": "1.1.29"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.17.08/mellon-multitenant-azure.1.1.29.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8c6896e5-aa6e-4377-9081-590f07340c9b",
+      "commitTimeStamp": "2023-03-25T02:17:08.9016815Z",
+      "nuget:id": "Mellon-MultiTenant-Azure",
+      "nuget:version": "1.1.29"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.16.41/mellon-multitenant-configserver.1.1.29.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2577ba5d-2af9-465e-b4fe-a875e61964e8",
+      "commitTimeStamp": "2023-03-25T02:16:41.4781225Z",
+      "nuget:id": "Mellon-MultiTenant-ConfigServer",
+      "nuget:version": "1.1.29"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.16.41/mellon-multitenant-hangfire.1.1.29.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2577ba5d-2af9-465e-b4fe-a875e61964e8",
+      "commitTimeStamp": "2023-03-25T02:16:41.4781225Z",
+      "nuget:id": "Mellon-MultiTenant-Hangfire",
+      "nuget:version": "1.1.29"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.16.15/perla.packagemanager.1.0.0-beta-011.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "fc04cbed-6adf-4d60-b231-250107d233bb",
+      "commitTimeStamp": "2023-03-25T02:16:15.8828348Z",
+      "nuget:id": "Perla.PackageManager",
+      "nuget:version": "1.0.0-beta-011"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.16.15/perla.plugins.1.0.0-beta-011.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "fc04cbed-6adf-4d60-b231-250107d233bb",
+      "commitTimeStamp": "2023-03-25T02:16:15.8828348Z",
+      "nuget:id": "Perla.Plugins",
+      "nuget:version": "1.0.0-beta-011"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.16.15/mellon-multitenant-base.1.1.29.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "fc04cbed-6adf-4d60-b231-250107d233bb",
+      "commitTimeStamp": "2023-03-25T02:16:15.8828348Z",
+      "nuget:id": "Mellon-MultiTenant-Base",
+      "nuget:version": "1.1.29"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.16.15/perla.logger.1.0.0-beta-011.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "fc04cbed-6adf-4d60-b231-250107d233bb",
+      "commitTimeStamp": "2023-03-25T02:16:15.8828348Z",
+      "nuget:id": "Perla.Logger",
+      "nuget:version": "1.0.0-beta-011"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.15.50/mellon-multitenant-azure.1.1.41-alpha.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9020b042-d7b7-4dde-ad5d-d1b88924f908",
+      "commitTimeStamp": "2023-03-25T02:15:50.8813066Z",
+      "nuget:id": "Mellon-MultiTenant-Azure",
+      "nuget:version": "1.1.41-alpha"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.15.26/mellon-multitenant-configserver.1.1.41-alpha.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "428518b2-159d-455d-91cd-2aab823492d2",
+      "commitTimeStamp": "2023-03-25T02:15:26.0673429Z",
+      "nuget:id": "Mellon-MultiTenant-ConfigServer",
+      "nuget:version": "1.1.41-alpha"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.15.26/mellon-multitenant-hangfire.1.1.41-alpha.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "428518b2-159d-455d-91cd-2aab823492d2",
+      "commitTimeStamp": "2023-03-25T02:15:26.0673429Z",
+      "nuget:id": "Mellon-MultiTenant-Hangfire",
+      "nuget:version": "1.1.41-alpha"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.15.26/mellon-multitenant.1.1.41-alpha.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "428518b2-159d-455d-91cd-2aab823492d2",
+      "commitTimeStamp": "2023-03-25T02:15:26.0673429Z",
+      "nuget:id": "Mellon-MultiTenant",
+      "nuget:version": "1.1.41-alpha"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.15.02/mellon-multitenant-base.1.1.41-alpha.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40a8bfab-5f74-4488-9c87-9717524e3fa1",
+      "commitTimeStamp": "2023-03-25T02:15:02.2221748Z",
+      "nuget:id": "Mellon-MultiTenant-Base",
+      "nuget:version": "1.1.41-alpha"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.08.06/pnp.core.transformation.sharepoint.1.8.141-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9a333017-5b15-46f1-b8a4-a71270cc5ec4",
+      "commitTimeStamp": "2023-03-25T02:08:06.4628441Z",
+      "nuget:id": "PnP.Core.Transformation.SharePoint",
+      "nuget:version": "1.8.141-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.08.06/pnp.core.1.8.141-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9a333017-5b15-46f1-b8a4-a71270cc5ec4",
+      "commitTimeStamp": "2023-03-25T02:08:06.4628441Z",
+      "nuget:id": "PnP.Core",
+      "nuget:version": "1.8.141-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.08.06/pnp.core.admin.1.8.141-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9a333017-5b15-46f1-b8a4-a71270cc5ec4",
+      "commitTimeStamp": "2023-03-25T02:08:06.4628441Z",
+      "nuget:id": "PnP.Core.Admin",
+      "nuget:version": "1.8.141-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.08.06/pnp.core.auth.1.8.141-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9a333017-5b15-46f1-b8a4-a71270cc5ec4",
+      "commitTimeStamp": "2023-03-25T02:08:06.4628441Z",
+      "nuget:id": "PnP.Core.Auth",
+      "nuget:version": "1.8.141-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.08.06/pnp.core.transformation.1.8.141-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9a333017-5b15-46f1-b8a4-a71270cc5ec4",
+      "commitTimeStamp": "2023-03-25T02:08:06.4628441Z",
+      "nuget:id": "PnP.Core.Transformation",
+      "nuget:version": "1.8.141-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.04.58/yotic.jni.1.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ec0ef2aa-7886-48fe-b41c-5a09da7be3dd",
+      "commitTimeStamp": "2023-03-25T02:04:58.9649703Z",
+      "nuget:id": "Yotic.JNI",
+      "nuget:version": "1.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.02.02.25/chaws.dotnet.codingstandards.1.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9c19daa-34a9-489a-a7a3-e91f3587a579",
+      "commitTimeStamp": "2023-03-25T02:02:25.320989Z",
+      "nuget:id": "Chaws.DotNet.CodingStandards",
+      "nuget:version": "1.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.54.23/generadorllaves.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "385ca25e-7a27-42c0-9076-f62bea350874",
+      "commitTimeStamp": "2023-03-25T01:54:23.0633274Z",
+      "nuget:id": "GeneradorLlaves",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.54.00/newlife.stardust.2.8.2023.325-beta0149.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a683a2fa-4ecc-44c2-b1c6-131de051f01a",
+      "commitTimeStamp": "2023-03-25T01:54:00.0306868Z",
+      "nuget:id": "NewLife.Stardust",
+      "nuget:version": "2.8.2023.325-beta0149"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.54.00/newlife.stardust.extensions.2.8.2023.325-beta0149.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a683a2fa-4ecc-44c2-b1c6-131de051f01a",
+      "commitTimeStamp": "2023-03-25T01:54:00.0306868Z",
+      "nuget:id": "NewLife.Stardust.Extensions",
+      "nuget:version": "2.8.2023.325-beta0149"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.54.00/newlife.remoting.2.1.2023.325-beta0151.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a683a2fa-4ecc-44c2-b1c6-131de051f01a",
+      "commitTimeStamp": "2023-03-25T01:54:00.0306868Z",
+      "nuget:id": "NewLife.Remoting",
+      "nuget:version": "2.1.2023.325-beta0151"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.51.57/lb-teams-domain.0.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "63405d83-a010-43c9-9033-36bf078c7ff3",
+      "commitTimeStamp": "2023-03-25T01:51:57.491992Z",
+      "nuget:id": "lb-teams-domain",
+      "nuget:version": "0.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.1.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.1.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.5.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.5.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.6.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.6.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.7.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.7.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.5.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.5.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.5.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.5.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.1.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.1.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.7.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.7.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.0.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.0.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.7.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.7.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.0.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.0.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.7.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.7.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.5.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.support.uwp.2.5.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Support.UWP",
+      "nuget:version": "2.5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.58/couchbase.lite.enterprise.support.uwp.2.6.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d9ea7311-fe76-496c-bc95-0db55e576157",
+      "commitTimeStamp": "2023-03-25T01:50:58.6445934Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.UWP",
+      "nuget:version": "2.6.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.32/couchbase.lite.enterprise.support.android.2.6.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dc18cbcf-12f7-42b4-86de-f340da21a5da",
+      "commitTimeStamp": "2023-03-25T01:50:32.8930567Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.Android",
+      "nuget:version": "2.6.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.32/couchbase.lite.enterprise.support.android.2.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dc18cbcf-12f7-42b4-86de-f340da21a5da",
+      "commitTimeStamp": "2023-03-25T01:50:32.8930567Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.Android",
+      "nuget:version": "2.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.32/couchbase.lite.enterprise.support.android.2.5.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dc18cbcf-12f7-42b4-86de-f340da21a5da",
+      "commitTimeStamp": "2023-03-25T01:50:32.8930567Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.Android",
+      "nuget:version": "2.5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.32/couchbase.lite.enterprise.support.android.2.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dc18cbcf-12f7-42b4-86de-f340da21a5da",
+      "commitTimeStamp": "2023-03-25T01:50:32.8930567Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.Android",
+      "nuget:version": "2.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.32/couchbase.lite.enterprise.support.android.2.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dc18cbcf-12f7-42b4-86de-f340da21a5da",
+      "commitTimeStamp": "2023-03-25T01:50:32.8930567Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.Android",
+      "nuget:version": "2.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.32/couchbase.lite.enterprise.support.android.2.5.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dc18cbcf-12f7-42b4-86de-f340da21a5da",
+      "commitTimeStamp": "2023-03-25T01:50:32.8930567Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.Android",
+      "nuget:version": "2.5.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.32/couchbase.lite.enterprise.support.android.2.7.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dc18cbcf-12f7-42b4-86de-f340da21a5da",
+      "commitTimeStamp": "2023-03-25T01:50:32.8930567Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.Android",
+      "nuget:version": "2.7.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.32/couchbase.lite.enterprise.support.android.2.1.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dc18cbcf-12f7-42b4-86de-f340da21a5da",
+      "commitTimeStamp": "2023-03-25T01:50:32.8930567Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.Android",
+      "nuget:version": "2.1.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.32/couchbase.lite.enterprise.support.android.2.7.0-b0109.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dc18cbcf-12f7-42b4-86de-f340da21a5da",
+      "commitTimeStamp": "2023-03-25T01:50:32.8930567Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.Android",
+      "nuget:version": "2.7.0-b0109"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.32/couchbase.lite.enterprise.support.android.2.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dc18cbcf-12f7-42b4-86de-f340da21a5da",
+      "commitTimeStamp": "2023-03-25T01:50:32.8930567Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.Android",
+      "nuget:version": "2.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.32/couchbase.lite.enterprise.support.android.2.5.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dc18cbcf-12f7-42b4-86de-f340da21a5da",
+      "commitTimeStamp": "2023-03-25T01:50:32.8930567Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.Android",
+      "nuget:version": "2.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.32/couchbase.lite.enterprise.support.android.2.7.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "dc18cbcf-12f7-42b4-86de-f340da21a5da",
+      "commitTimeStamp": "2023-03-25T01:50:32.8930567Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.Android",
+      "nuget:version": "2.7.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.7.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.7.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.5.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.7.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.7.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.5.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.5.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.1.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.1.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.6.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.6.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.5.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.0.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.0.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/reimaginate.dataservices.cosmos.1.0.0-preview.9.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Reimaginate.DataServices.Cosmos",
+      "nuget:version": "1.0.0-preview.9"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.50.08/couchbase.lite.support.android.2.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "73caca50-29bf-4bb5-a7ef-e45d4be16559",
+      "commitTimeStamp": "2023-03-25T01:50:08.4697308Z",
+      "nuget:id": "Couchbase.Lite.Support.Android",
+      "nuget:version": "2.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.49.42/reimaginate.dataservices.1.0.0-preview.9.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a10e88ec-d593-4f9a-a7e1-8423960fcf36",
+      "commitTimeStamp": "2023-03-25T01:49:42.2806791Z",
+      "nuget:id": "Reimaginate.DataServices",
+      "nuget:version": "1.0.0-preview.9"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.49.13/couchbase.lite.enterprise.support.ios.2.7.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ec04de9a-0ffc-4415-85c2-7fd274f178ea",
+      "commitTimeStamp": "2023-03-25T01:49:13.7789882Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.iOS",
+      "nuget:version": "2.7.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.49.13/couchbase.lite.enterprise.support.ios.2.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ec04de9a-0ffc-4415-85c2-7fd274f178ea",
+      "commitTimeStamp": "2023-03-25T01:49:13.7789882Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.iOS",
+      "nuget:version": "2.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.49.13/couchbase.lite.enterprise.support.ios.2.5.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ec04de9a-0ffc-4415-85c2-7fd274f178ea",
+      "commitTimeStamp": "2023-03-25T01:49:13.7789882Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.iOS",
+      "nuget:version": "2.5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.49.13/couchbase.lite.enterprise.support.ios.2.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ec04de9a-0ffc-4415-85c2-7fd274f178ea",
+      "commitTimeStamp": "2023-03-25T01:49:13.7789882Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.iOS",
+      "nuget:version": "2.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.49.13/couchbase.lite.enterprise.support.ios.2.7.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ec04de9a-0ffc-4415-85c2-7fd274f178ea",
+      "commitTimeStamp": "2023-03-25T01:49:13.7789882Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.iOS",
+      "nuget:version": "2.7.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.49.13/couchbase.lite.enterprise.support.ios.2.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ec04de9a-0ffc-4415-85c2-7fd274f178ea",
+      "commitTimeStamp": "2023-03-25T01:49:13.7789882Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.iOS",
+      "nuget:version": "2.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.49.13/couchbase.lite.enterprise.support.ios.2.1.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ec04de9a-0ffc-4415-85c2-7fd274f178ea",
+      "commitTimeStamp": "2023-03-25T01:49:13.7789882Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.iOS",
+      "nuget:version": "2.1.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.49.13/couchbase.lite.enterprise.support.ios.2.5.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ec04de9a-0ffc-4415-85c2-7fd274f178ea",
+      "commitTimeStamp": "2023-03-25T01:49:13.7789882Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.iOS",
+      "nuget:version": "2.5.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.49.13/couchbase.lite.enterprise.support.ios.2.6.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ec04de9a-0ffc-4415-85c2-7fd274f178ea",
+      "commitTimeStamp": "2023-03-25T01:49:13.7789882Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.iOS",
+      "nuget:version": "2.6.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.49.13/couchbase.lite.enterprise.support.ios.2.5.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ec04de9a-0ffc-4415-85c2-7fd274f178ea",
+      "commitTimeStamp": "2023-03-25T01:49:13.7789882Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.iOS",
+      "nuget:version": "2.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.49.13/couchbase.lite.enterprise.support.ios.2.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ec04de9a-0ffc-4415-85c2-7fd274f178ea",
+      "commitTimeStamp": "2023-03-25T01:49:13.7789882Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.iOS",
+      "nuget:version": "2.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.4.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "4.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.4.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "4.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.1.1.6.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "1.1.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.2.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "2.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.1.1.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "1.1.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.2.6.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.2.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.2.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "2.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.2.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.2.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.2.8.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.2.8"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.2.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "2.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.1.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "1.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.2.2.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "2.2.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.4.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "4.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.7.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.7.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.1.1.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "1.1.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.1.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "1.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.2.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.2.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.1.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "1.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.0.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.0.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.2.10.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.2.10"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.4.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "4.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.2.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.1.1.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "1.1.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.2.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.2.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.2.7.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.2.7"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.2.9.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.2.9"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.7.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.7.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.5.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.6.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.6.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.2.11.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.2.11"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.5.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.1.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "1.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.2.2.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "2.2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.2.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.2.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.3.2.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "3.2.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.1.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.1.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.1.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "1.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/couchbase.lite.support.ios.2.5.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "Couchbase.Lite.Support.iOS",
+      "nuget:version": "2.5.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.46/revoltsharp.2.2.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0f33ec25-1088-49f0-b0d4-176a7c2dcc5c",
+      "commitTimeStamp": "2023-03-25T01:48:46.9023727Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "2.2.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.0.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.0.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.5.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.6.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.6.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.7.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.7.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.5.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.5.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.5.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.7.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.7.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.1.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.1.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.48.19/couchbase.lite.enterprise.support.netdesktop.2.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9b1904f4-9e33-4f58-a03d-bcb86e96ffcd",
+      "commitTimeStamp": "2023-03-25T01:48:19.8382703Z",
+      "nuget:id": "Couchbase.Lite.Enterprise.Support.NetDesktop",
+      "nuget:version": "2.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.5.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.7.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.7.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.7.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.7.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.6.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.6.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.0.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.0.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.5.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/revoltsharp.4.0.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "RevoltSharp",
+      "nuget:version": "4.0.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.5.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.5.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.47.54/couchbase.lite.support.netdesktop.2.1.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "40e12d29-7cc9-4b94-8f3e-854932654fbe",
+      "commitTimeStamp": "2023-03-25T01:47:54.1023602Z",
+      "nuget:id": "Couchbase.Lite.Support.NetDesktop",
+      "nuget:version": "2.1.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.5.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.0.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.0.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.7.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.7.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.7.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.7.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.5.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.6.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.6.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.1.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.1.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.46.56/couchbase.lite.enterprise.2.5.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "8be57a41-1ba9-462b-8bab-46d1f999a09b",
+      "commitTimeStamp": "2023-03-25T01:46:56.7864409Z",
+      "nuget:id": "Couchbase.Lite.Enterprise",
+      "nuget:version": "2.5.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.59/couchbase.lite.2.6.4.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6cb9046-03aa-4271-8b73-cd160387266a",
+      "commitTimeStamp": "2023-03-25T01:45:59.1267317Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.6.4"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.59/couchbase.lite.2.1.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6cb9046-03aa-4271-8b73-cd160387266a",
+      "commitTimeStamp": "2023-03-25T01:45:59.1267317Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.1.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.59/couchbase.lite.2.5.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6cb9046-03aa-4271-8b73-cd160387266a",
+      "commitTimeStamp": "2023-03-25T01:45:59.1267317Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.5.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.59/couchbase.lite.2.0.3.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6cb9046-03aa-4271-8b73-cd160387266a",
+      "commitTimeStamp": "2023-03-25T01:45:59.1267317Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.0.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.59/couchbase.lite.2.5.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6cb9046-03aa-4271-8b73-cd160387266a",
+      "commitTimeStamp": "2023-03-25T01:45:59.1267317Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.59/couchbase.lite.2.7.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6cb9046-03aa-4271-8b73-cd160387266a",
+      "commitTimeStamp": "2023-03-25T01:45:59.1267317Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.7.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.59/couchbase.lite.2.1.5.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6cb9046-03aa-4271-8b73-cd160387266a",
+      "commitTimeStamp": "2023-03-25T01:45:59.1267317Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.1.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.59/couchbase.lite.2.7.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6cb9046-03aa-4271-8b73-cd160387266a",
+      "commitTimeStamp": "2023-03-25T01:45:59.1267317Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.7.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.59/couchbase.lite.2.1.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6cb9046-03aa-4271-8b73-cd160387266a",
+      "commitTimeStamp": "2023-03-25T01:45:59.1267317Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.1.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.59/couchbase.lite.2.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6cb9046-03aa-4271-8b73-cd160387266a",
+      "commitTimeStamp": "2023-03-25T01:45:59.1267317Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.59/couchbase.lite.2.0.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6cb9046-03aa-4271-8b73-cd160387266a",
+      "commitTimeStamp": "2023-03-25T01:45:59.1267317Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.0.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.59/couchbase.lite.2.6.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6cb9046-03aa-4271-8b73-cd160387266a",
+      "commitTimeStamp": "2023-03-25T01:45:59.1267317Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.59/couchbase.lite.2.5.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b6cb9046-03aa-4271-8b73-cd160387266a",
+      "commitTimeStamp": "2023-03-25T01:45:59.1267317Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.34/couchbase.lite.2.0.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f0e09c8b-1eac-4a89-b7a6-3f0b46778cc5",
+      "commitTimeStamp": "2023-03-25T01:45:34.0315159Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.0.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.45.08/couchbase.lite.2.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "919f3e4a-a694-4cd9-8b32-779bbbfc806c",
+      "commitTimeStamp": "2023-03-25T01:45:08.3738034Z",
+      "nuget:id": "Couchbase.Lite",
+      "nuget:version": "2.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.44.41/quirco.cqrs.infrastructure.1.2.0-rc.1.165.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "48ed8f44-4a11-4ba4-8de9-e6ddc100d0c8",
+      "commitTimeStamp": "2023-03-25T01:44:41.2471243Z",
+      "nuget:id": "Quirco.Cqrs.Infrastructure",
+      "nuget:version": "1.2.0-rc.1.165"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.44.17/quirco.security.1.2.0-rc.1.165.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce416750-3945-428a-84bd-1f908c3c15f2",
+      "commitTimeStamp": "2023-03-25T01:44:17.5582183Z",
+      "nuget:id": "Quirco.Security",
+      "nuget:version": "1.2.0-rc.1.165"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.44.17/quirco.cqrs.domain.1.2.0-rc.1.165.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce416750-3945-428a-84bd-1f908c3c15f2",
+      "commitTimeStamp": "2023-03-25T01:44:17.5582183Z",
+      "nuget:id": "Quirco.Cqrs.Domain",
+      "nuget:version": "1.2.0-rc.1.165"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.44.17/quirco.cqrs.dataaccess.npgsql.1.2.0-rc.1.165.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce416750-3945-428a-84bd-1f908c3c15f2",
+      "commitTimeStamp": "2023-03-25T01:44:17.5582183Z",
+      "nuget:id": "Quirco.Cqrs.DataAccess.Npgsql",
+      "nuget:version": "1.2.0-rc.1.165"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.44.17/quirco.cqrs.tests.1.2.0-rc.1.165.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce416750-3945-428a-84bd-1f908c3c15f2",
+      "commitTimeStamp": "2023-03-25T01:44:17.5582183Z",
+      "nuget:id": "Quirco.Cqrs.Tests",
+      "nuget:version": "1.2.0-rc.1.165"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.44.17/quirco.cqrs.elasticsearch.1.2.0-rc.1.165.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce416750-3945-428a-84bd-1f908c3c15f2",
+      "commitTimeStamp": "2023-03-25T01:44:17.5582183Z",
+      "nuget:id": "Quirco.Cqrs.Elasticsearch",
+      "nuget:version": "1.2.0-rc.1.165"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.44.17/quirco.cqrs.hangfire.1.2.0-rc.1.165.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce416750-3945-428a-84bd-1f908c3c15f2",
+      "commitTimeStamp": "2023-03-25T01:44:17.5582183Z",
+      "nuget:id": "Quirco.Cqrs.Hangfire",
+      "nuget:version": "1.2.0-rc.1.165"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.44.17/quirco.cqrs.dataaccess.1.2.0-rc.1.165.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce416750-3945-428a-84bd-1f908c3c15f2",
+      "commitTimeStamp": "2023-03-25T01:44:17.5582183Z",
+      "nuget:id": "Quirco.Cqrs.DataAccess",
+      "nuget:version": "1.2.0-rc.1.165"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.44.17/quirco.cqrs.blazor.1.2.0-rc.1.165.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ce416750-3945-428a-84bd-1f908c3c15f2",
+      "commitTimeStamp": "2023-03-25T01:44:17.5582183Z",
+      "nuget:id": "Quirco.Cqrs.Blazor",
+      "nuget:version": "1.2.0-rc.1.165"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.43.53/quirco.cqrs.mvc.1.2.0-rc.1.165.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "aad7266d-e0a0-49f7-8724-6cad45f1980a",
+      "commitTimeStamp": "2023-03-25T01:43:53.7755442Z",
+      "nuget:id": "Quirco.Cqrs.Mvc",
+      "nuget:version": "1.2.0-rc.1.165"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.42.58/notan.0.64.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9961abd3-63e5-49a8-913b-69137dde7028",
+      "commitTimeStamp": "2023-03-25T01:42:58.4128504Z",
+      "nuget:id": "Notan",
+      "nuget:version": "0.64.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.39.17/screencapture.net.1.2.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "31e23084-f574-48a5-8ef4-e220176de357",
+      "commitTimeStamp": "2023-03-25T01:39:17.8840727Z",
+      "nuget:id": "ScreenCapture.NET",
+      "nuget:version": "1.2.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.35.36/infoware.sri.webservice.1.1.32.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b702ea7f-a873-4263-8315-b0f0f097c8c4",
+      "commitTimeStamp": "2023-03-25T01:35:36.029639Z",
+      "nuget:id": "Infoware.SRI.WebService",
+      "nuget:version": "1.1.32"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.35.11/infoware.sri.ride.1.1.32.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "3008e8e9-f237-4529-9f4e-dc70a89b2b28",
+      "commitTimeStamp": "2023-03-25T01:35:11.7312708Z",
+      "nuget:id": "Infoware.SRI.RIDE",
+      "nuget:version": "1.1.32"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.35.11/infoware.sri.leerxml.1.1.32.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "3008e8e9-f237-4529-9f4e-dc70a89b2b28",
+      "commitTimeStamp": "2023-03-25T01:35:11.7312708Z",
+      "nuget:id": "Infoware.SRI.LeerXml",
+      "nuget:version": "1.1.32"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.35.11/infoware.sri.xsds.1.1.32.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "3008e8e9-f237-4529-9f4e-dc70a89b2b28",
+      "commitTimeStamp": "2023-03-25T01:35:11.7312708Z",
+      "nuget:id": "Infoware.SRI.XSDs",
+      "nuget:version": "1.1.32"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.34.47/infoware.sri.firmar.1.1.32.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "08e73bb0-09f8-47ce-a0b1-7ed838e4fd6b",
+      "commitTimeStamp": "2023-03-25T01:34:47.3236042Z",
+      "nuget:id": "Infoware.SRI.Firmar",
+      "nuget:version": "1.1.32"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.34.47/infoware.sri.modelos.1.1.32.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "08e73bb0-09f8-47ce-a0b1-7ed838e4fd6b",
+      "commitTimeStamp": "2023-03-25T01:34:47.3236042Z",
+      "nuget:id": "Infoware.SRI.Modelos",
+      "nuget:version": "1.1.32"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.34.47/infoware.sri.core.1.1.32.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "08e73bb0-09f8-47ce-a0b1-7ed838e4fd6b",
+      "commitTimeStamp": "2023-03-25T01:34:47.3236042Z",
+      "nuget:id": "Infoware.SRI.Core",
+      "nuget:version": "1.1.32"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.34.47/infoware.sri.documentoselectronicos.1.1.32.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "08e73bb0-09f8-47ce-a0b1-7ed838e4fd6b",
+      "commitTimeStamp": "2023-03-25T01:34:47.3236042Z",
+      "nuget:id": "Infoware.SRI.DocumentosElectronicos",
+      "nuget:version": "1.1.32"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.33.49/txq.utils.2023.3.25.929.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "379da031-9e0f-48af-bc7c-732cdf850d13",
+      "commitTimeStamp": "2023-03-25T01:33:49.4764315Z",
+      "nuget:id": "TXQ.Utils",
+      "nuget:version": "2023.3.25.929"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.29.02/lookwater.client.app.1.7.64.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "682cc1f3-45d8-456a-8082-cd2ca6384ca2",
+      "commitTimeStamp": "2023-03-25T01:29:02.7466768Z",
+      "nuget:id": "lookwater.client.app",
+      "nuget:version": "1.7.64"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.28.05/guildedsharp.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "c0acfe24-7225-4a88-ad2b-7d93ba685ba1",
+      "commitTimeStamp": "2023-03-25T01:28:05.7745274Z",
+      "nuget:id": "GuildedSharp",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.28.05/guildedsharp.1.1.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "c0acfe24-7225-4a88-ad2b-7d93ba685ba1",
+      "commitTimeStamp": "2023-03-25T01:28:05.7745274Z",
+      "nuget:id": "GuildedSharp",
+      "nuget:version": "1.1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.28.05/octopus.server.messagecontracts.base.httproutes.2023.2.4146.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "c0acfe24-7225-4a88-ad2b-7d93ba685ba1",
+      "commitTimeStamp": "2023-03-25T01:28:05.7745274Z",
+      "nuget:id": "Octopus.Server.MessageContracts.Base.HttpRoutes",
+      "nuget:version": "2023.2.4146"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.27.40/octopus.server.messagecontracts.2023.2.4146.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2286a872-96a1-4c85-bbe4-c3aa580f5402",
+      "commitTimeStamp": "2023-03-25T01:27:40.3354899Z",
+      "nuget:id": "Octopus.Server.MessageContracts",
+      "nuget:version": "2023.2.4146"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.26.42/octopus.server.messagecontracts.httproutes.2023.2.4146.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "debe1960-a51d-4d58-9b67-60523117afc3",
+      "commitTimeStamp": "2023-03-25T01:26:42.1914031Z",
+      "nuget:id": "Octopus.Server.MessageContracts.HttpRoutes",
+      "nuget:version": "2023.2.4146"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.26.42/octopus.server.messagecontracts.base.2023.2.4146.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "debe1960-a51d-4d58-9b67-60523117afc3",
+      "commitTimeStamp": "2023-03-25T01:26:42.1914031Z",
+      "nuget:id": "Octopus.Server.MessageContracts.Base",
+      "nuget:version": "2023.2.4146"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.26.42/guildedsharp.1.2.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "debe1960-a51d-4d58-9b67-60523117afc3",
+      "commitTimeStamp": "2023-03-25T01:26:42.1914031Z",
+      "nuget:id": "GuildedSharp",
+      "nuget:version": "1.2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.21.53/zeus.net.nfe.nfce.2023.3.25.117.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7304067-ca4c-489d-b039-557642b464dd",
+      "commitTimeStamp": "2023-03-25T01:21:53.7054658Z",
+      "nuget:id": "Zeus.Net.NFe.NFCe",
+      "nuget:version": "2023.3.25.117"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.21.53/zeus.net.cte.2023.3.25.117.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7304067-ca4c-489d-b039-557642b464dd",
+      "commitTimeStamp": "2023-03-25T01:21:53.7054658Z",
+      "nuget:id": "Zeus.Net.CTe",
+      "nuget:version": "2023.3.25.117"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.21.53/skwas.mockhttp.json.4.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7304067-ca4c-489d-b039-557642b464dd",
+      "commitTimeStamp": "2023-03-25T01:21:53.7054658Z",
+      "nuget:id": "skwas.MockHttp.Json",
+      "nuget:version": "4.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.21.53/skwas.mockhttp.4.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7304067-ca4c-489d-b039-557642b464dd",
+      "commitTimeStamp": "2023-03-25T01:21:53.7054658Z",
+      "nuget:id": "skwas.MockHttp",
+      "nuget:version": "4.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.21.53/skwas.mockhttp.server.4.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "b7304067-ca4c-489d-b039-557642b464dd",
+      "commitTimeStamp": "2023-03-25T01:21:53.7054658Z",
+      "nuget:id": "skwas.MockHttp.Server",
+      "nuget:version": "4.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.21.26/zeus.net.mdfe.2023.3.25.117.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "1c8a87f1-fd57-4fc4-953e-68708a4cd2dc",
+      "commitTimeStamp": "2023-03-25T01:21:26.2819519Z",
+      "nuget:id": "Zeus.Net.MDFe",
+      "nuget:version": "2023.3.25.117"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.21.26/shiny.notifications.3.0.0-alpha-0545.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "1c8a87f1-fd57-4fc4-953e-68708a4cd2dc",
+      "commitTimeStamp": "2023-03-25T01:21:26.2819519Z",
+      "nuget:id": "Shiny.Notifications",
+      "nuget:version": "3.0.0-alpha-0545"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.21.26/discordservices.cs.1.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "1c8a87f1-fd57-4fc4-953e-68708a4cd2dc",
+      "commitTimeStamp": "2023-03-25T01:21:26.2819519Z",
+      "nuget:id": "DiscordServices.cs",
+      "nuget:version": "1.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.21.26/discordservices.cs.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "1c8a87f1-fd57-4fc4-953e-68708a4cd2dc",
+      "commitTimeStamp": "2023-03-25T01:21:26.2819519Z",
+      "nuget:id": "DiscordServices.cs",
+      "nuget:version": "1.0.0"
+    },
     {
       "@id": "https://api.nuget.org/v3/catalog0/data/2023.03.25.01.20.57/shiny.logging.appcenter.3.0.0-alpha-0545.json",
       "@type": "nuget:PackageDetails",
