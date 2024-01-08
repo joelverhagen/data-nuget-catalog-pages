@@ -1,11 +1,971 @@
 {
   "@id": "https://api.nuget.org/v3/catalog0/page19891.json",
   "@type": "CatalogPage",
-  "commitId": "193824da-13be-4ac0-a61b-4468a8da8b7f",
-  "commitTimeStamp": "2024-01-07T01:19:08.6134566Z",
-  "count": 2625,
+  "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+  "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+  "count": 2745,
   "parent": "https://api.nuget.org/v3/catalog0/index.json",
   "items": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/nox.secrets.azure.7.0.158.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "Nox.Secrets.Azure",
+      "nuget:version": "7.0.158"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/shtrihm.wattle3.containers.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "ShtrihM.Wattle3.Containers",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/shtrihm.wattle3.mappers.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "ShtrihM.Wattle3.Mappers",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/nox.entityframework.sqlserver.7.0.158.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "Nox.EntityFramework.SqlServer",
+      "nuget:version": "7.0.158"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/nox.entityframework.sqlite.7.0.158.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "Nox.EntityFramework.SqLite",
+      "nuget:version": "7.0.158"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/shtrihm.wattle3.statesnapshots.mappers.postgresql.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "ShtrihM.Wattle3.StateSnapshots.Mappers.Postgresql",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/shtrihm.wattle3.codegeneration.generator.implements.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "ShtrihM.Wattle3.CodeGeneration.Generator.Implements",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/nox.solution.7.0.158.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "Nox.Solution",
+      "nuget:version": "7.0.158"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/shtrihm.wattle3.testing.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "ShtrihM.Wattle3.Testing",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/shtrihm.wattle3.caching.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "ShtrihM.Wattle3.Caching",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/shtrihm.wattle3.domainobjects.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "ShtrihM.Wattle3.DomainObjects",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/shtrihm.wattle3.codegeneration.generator.tests.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "ShtrihM.Wattle3.CodeGeneration.Generator.Tests",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/shtrihm.wattle3.domainobjects.common.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "ShtrihM.Wattle3.DomainObjects.Common",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/nox.types.abstractions.7.0.158.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "Nox.Types.Abstractions",
+      "nuget:version": "7.0.158"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/shtrihm.wattle3.statesmachines.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "ShtrihM.Wattle3.StatesMachines",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/shtrihm.wattle3.infrastructures.interfaces.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "ShtrihM.Wattle3.Infrastructures.Interfaces",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/nox.docs.7.0.158.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "Nox.Docs",
+      "nuget:version": "7.0.158"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.04.27/shtrihm.wattle3.primitives.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2c5f3a11-b4ef-44a0-b326-b06e29d632fb",
+      "commitTimeStamp": "2024-01-07T02:04:27.445249Z",
+      "nuget:id": "ShtrihM.Wattle3.Primitives",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.03.55/pnp.core.admin.1.11.29-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2f5e7a8f-5d8c-4597-8cb3-18a9d9279eb9",
+      "commitTimeStamp": "2024-01-07T02:03:55.5681513Z",
+      "nuget:id": "PnP.Core.Admin",
+      "nuget:version": "1.11.29-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.03.55/shtrihm.wattle3.replication.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2f5e7a8f-5d8c-4597-8cb3-18a9d9279eb9",
+      "commitTimeStamp": "2024-01-07T02:03:55.5681513Z",
+      "nuget:id": "ShtrihM.Wattle3.Replication",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.03.55/shtrihm.wattle3.codegeneration.generators.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2f5e7a8f-5d8c-4597-8cb3-18a9d9279eb9",
+      "commitTimeStamp": "2024-01-07T02:03:55.5681513Z",
+      "nuget:id": "ShtrihM.Wattle3.CodeGeneration.Generators",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.03.55/shtrihm.wattle3.statesnapshots.mappers.common.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2f5e7a8f-5d8c-4597-8cb3-18a9d9279eb9",
+      "commitTimeStamp": "2024-01-07T02:03:55.5681513Z",
+      "nuget:id": "ShtrihM.Wattle3.StateSnapshots.Mappers.Common",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.03.55/shtrihm.wattle3.uniqueregisters.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2f5e7a8f-5d8c-4597-8cb3-18a9d9279eb9",
+      "commitTimeStamp": "2024-01-07T02:03:55.5681513Z",
+      "nuget:id": "ShtrihM.Wattle3.UniqueRegisters",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.03.55/shtrihm.wattle3.infrastructures.rest.controllers.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2f5e7a8f-5d8c-4597-8cb3-18a9d9279eb9",
+      "commitTimeStamp": "2024-01-07T02:03:55.5681513Z",
+      "nuget:id": "ShtrihM.Wattle3.Infrastructures.Rest.Controllers",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.03.55/shtrihm.wattle3.statesnapshots.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2f5e7a8f-5d8c-4597-8cb3-18a9d9279eb9",
+      "commitTimeStamp": "2024-01-07T02:03:55.5681513Z",
+      "nuget:id": "ShtrihM.Wattle3.StateSnapshots",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.03.55/shtrihm.wattle3.entityframework.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2f5e7a8f-5d8c-4597-8cb3-18a9d9279eb9",
+      "commitTimeStamp": "2024-01-07T02:03:55.5681513Z",
+      "nuget:id": "ShtrihM.Wattle3.EntityFramework",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.03.55/pnp.core.transformation.1.11.29-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2f5e7a8f-5d8c-4597-8cb3-18a9d9279eb9",
+      "commitTimeStamp": "2024-01-07T02:03:55.5681513Z",
+      "nuget:id": "PnP.Core.Transformation",
+      "nuget:version": "1.11.29-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.03.55/pnp.core.transformation.sharepoint.1.11.29-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2f5e7a8f-5d8c-4597-8cb3-18a9d9279eb9",
+      "commitTimeStamp": "2024-01-07T02:03:55.5681513Z",
+      "nuget:id": "PnP.Core.Transformation.SharePoint",
+      "nuget:version": "1.11.29-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.03.55/shtrihm.wattle3.testing.databases.sqlserver.3.9.0.3276.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "2f5e7a8f-5d8c-4597-8cb3-18a9d9279eb9",
+      "commitTimeStamp": "2024-01-07T02:03:55.5681513Z",
+      "nuget:id": "ShtrihM.Wattle3.Testing.Databases.SqlServer",
+      "nuget:version": "3.9.0.3276"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.03.23/pnp.core.1.11.29-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "eaa49e80-348c-48b2-a5bd-8d1f31f75673",
+      "commitTimeStamp": "2024-01-07T02:03:23.722281Z",
+      "nuget:id": "PnP.Core",
+      "nuget:version": "1.11.29-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.03.23/pnp.core.auth.1.11.29-nightly.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "eaa49e80-348c-48b2-a5bd-8d1f31f75673",
+      "commitTimeStamp": "2024-01-07T02:03:23.722281Z",
+      "nuget:id": "PnP.Core.Auth",
+      "nuget:version": "1.11.29-nightly"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.02.51/iconpacks.fontawesome.1.0.8772.1-build.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6c55ef97-c265-4d32-8cc7-35f58f4c11a9",
+      "commitTimeStamp": "2024-01-07T02:02:51.2045115Z",
+      "nuget:id": "IconPacks.FontAwesome",
+      "nuget:version": "1.0.8772.1-build"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.02.51/iconpacks.simple.1.0.8772.1-build.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6c55ef97-c265-4d32-8cc7-35f58f4c11a9",
+      "commitTimeStamp": "2024-01-07T02:02:51.2045115Z",
+      "nuget:id": "IconPacks.Simple",
+      "nuget:version": "1.0.8772.1-build"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.02.51/iconpacks.ionic.1.0.8772.1-build.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6c55ef97-c265-4d32-8cc7-35f58f4c11a9",
+      "commitTimeStamp": "2024-01-07T02:02:51.2045115Z",
+      "nuget:id": "IconPacks.Ionic",
+      "nuget:version": "1.0.8772.1-build"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.02.51/skybridge.instantremoting.netframework.3.0.3.967.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6c55ef97-c265-4d32-8cc7-35f58f4c11a9",
+      "commitTimeStamp": "2024-01-07T02:02:51.2045115Z",
+      "nuget:id": "SkyBridge.InstantRemoting.NetFramework",
+      "nuget:version": "3.0.3.967"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.02.19/iconpacks.materialcommunity.1.0.8772.1-build.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ea6ea73b-21b0-4947-a1d1-c6610688ca3c",
+      "commitTimeStamp": "2024-01-07T02:02:19.905568Z",
+      "nuget:id": "IconPacks.MaterialCommunity",
+      "nuget:version": "1.0.8772.1-build"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.02.19/skybridge.instantremoting.netcore.3.0.3.967.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ea6ea73b-21b0-4947-a1d1-c6610688ca3c",
+      "commitTimeStamp": "2024-01-07T02:02:19.905568Z",
+      "nuget:id": "SkyBridge.InstantRemoting.NetCore",
+      "nuget:version": "3.0.3.967"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.02.19/iconpacks.feather.1.0.8772.1-build.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ea6ea73b-21b0-4947-a1d1-c6610688ca3c",
+      "commitTimeStamp": "2024-01-07T02:02:19.905568Z",
+      "nuget:id": "IconPacks.Feather",
+      "nuget:version": "1.0.8772.1-build"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.02.19/iconpacks.material.1.0.8772.1-build.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ea6ea73b-21b0-4947-a1d1-c6610688ca3c",
+      "commitTimeStamp": "2024-01-07T02:02:19.905568Z",
+      "nuget:id": "IconPacks.Material",
+      "nuget:version": "1.0.8772.1-build"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.02.19/iconpacks.tabler.1.0.8772.1-build.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "ea6ea73b-21b0-4947-a1d1-c6610688ca3c",
+      "commitTimeStamp": "2024-01-07T02:02:19.905568Z",
+      "nuget:id": "IconPacks.Tabler",
+      "nuget:version": "1.0.8772.1-build"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.01.14/thenoobs.results.2.2.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "609af517-8cea-40f4-b3f6-eeb2b88c7fc6",
+      "commitTimeStamp": "2024-01-07T02:01:14.5731582Z",
+      "nuget:id": "TheNoobs.Results",
+      "nuget:version": "2.2.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.02.01.14/rotationsolver.rotationbasics.1.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "609af517-8cea-40f4-b3f6-eeb2b88c7fc6",
+      "commitTimeStamp": "2024-01-07T02:01:14.5731582Z",
+      "nuget:id": "RotationSolver.RotationBasics",
+      "nuget:version": "1.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.56.08/qath.guardian.node.1.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "23462c05-6998-463e-aa51-dc826163917e",
+      "commitTimeStamp": "2024-01-07T01:56:08.7716224Z",
+      "nuget:id": "Qath.Guardian.Node",
+      "nuget:version": "1.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.56.08/beef.database.mysql.5.8.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "23462c05-6998-463e-aa51-dc826163917e",
+      "commitTimeStamp": "2024-01-07T01:56:08.7716224Z",
+      "nuget:id": "Beef.Database.MySql",
+      "nuget:version": "5.8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.56.08/fabrela.domain.core.3.1.9.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "23462c05-6998-463e-aa51-dc826163917e",
+      "commitTimeStamp": "2024-01-07T01:56:08.7716224Z",
+      "nuget:id": "Fabrela.Domain.Core",
+      "nuget:version": "3.1.9"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.56.08/beef.template.solution.5.8.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "23462c05-6998-463e-aa51-dc826163917e",
+      "commitTimeStamp": "2024-01-07T01:56:08.7716224Z",
+      "nuget:id": "Beef.Template.Solution",
+      "nuget:version": "5.8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.55.38/beef.test.nunit.5.8.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9d2f200c-6182-4b07-8186-9101108e4414",
+      "commitTimeStamp": "2024-01-07T01:55:38.0507271Z",
+      "nuget:id": "Beef.Test.NUnit",
+      "nuget:version": "5.8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.55.38/beef.database.sqlserver.5.8.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9d2f200c-6182-4b07-8186-9101108e4414",
+      "commitTimeStamp": "2024-01-07T01:55:38.0507271Z",
+      "nuget:id": "Beef.Database.SqlServer",
+      "nuget:version": "5.8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.55.38/beef.database.core.5.8.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9d2f200c-6182-4b07-8186-9101108e4414",
+      "commitTimeStamp": "2024-01-07T01:55:38.0507271Z",
+      "nuget:id": "Beef.Database.Core",
+      "nuget:version": "5.8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.55.38/beef.codegen.core.5.8.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9d2f200c-6182-4b07-8186-9101108e4414",
+      "commitTimeStamp": "2024-01-07T01:55:38.0507271Z",
+      "nuget:id": "Beef.CodeGen.Core",
+      "nuget:version": "5.8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.51.44/zhis.utilities.aws.1.2.2.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "9ebf37ad-922d-495e-8d20-5518c02ef871",
+      "commitTimeStamp": "2024-01-07T01:51:44.5881379Z",
+      "nuget:id": "Zhis.Utilities.Aws",
+      "nuget:version": "1.2.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.43.08/fabrela.domain.core.3.1.8.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "af92a353-a4d9-4ac0-a36c-6608f8c9ba3a",
+      "commitTimeStamp": "2024-01-07T01:43:08.9445811Z",
+      "nuget:id": "Fabrela.Domain.Core",
+      "nuget:version": "3.1.8"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.42.02/tk.nuget.0.1.31.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "99e327a4-afb0-4d49-baa2-0840e80cfb7f",
+      "commitTimeStamp": "2024-01-07T01:42:02.3776413Z",
+      "nuget:id": "Tk.Nuget",
+      "nuget:version": "0.1.31"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.41.30/baoxia.service.cache.client.7.0.13.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "f3a62133-d7dd-46b6-83af-e55e47cbce78",
+      "commitTimeStamp": "2024-01-07T01:41:30.0630488Z",
+      "nuget:id": "BaoXia.Service.Cache.Client",
+      "nuget:version": "7.0.13"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.40.57/fiftyone.geolocation.core.4.4.97.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "0b024e30-94a2-45c1-9078-651a3ea6e31f",
+      "commitTimeStamp": "2024-01-07T01:40:57.7639344Z",
+      "nuget:id": "FiftyOne.Geolocation.Core",
+      "nuget:version": "4.4.97"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.40.27/fiftyone.geolocation.4.4.97.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e833b4a5-2e19-438e-8a32-12028185ea37",
+      "commitTimeStamp": "2024-01-07T01:40:27.0900693Z",
+      "nuget:id": "FiftyOne.Geolocation",
+      "nuget:version": "4.4.97"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.40.27/fiftyone.geolocation.cloud.4.4.97.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "e833b4a5-2e19-438e-8a32-12028185ea37",
+      "commitTimeStamp": "2024-01-07T01:40:27.0900693Z",
+      "nuget:id": "FiftyOne.Geolocation.Cloud",
+      "nuget:version": "4.4.97"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.39.21/shtrihm.wattle3.testing.domainobjects.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d528cd29-108a-454a-99f6-b435f04918af",
+      "commitTimeStamp": "2024-01-07T01:39:21.5543598Z",
+      "nuget:id": "ShtrihM.Wattle3.Testing.DomainObjects",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.38.43/shtrihm.wattle3.infrastructures.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7c3da962-a9ec-4f7b-9639-3196c20a4cd4",
+      "commitTimeStamp": "2024-01-07T01:38:43.1455254Z",
+      "nuget:id": "ShtrihM.Wattle3.Infrastructures",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.38.43/shtrihm.wattle3.mappers.primitives.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "7c3da962-a9ec-4f7b-9639-3196c20a4cd4",
+      "commitTimeStamp": "2024-01-07T01:38:43.1455254Z",
+      "nuget:id": "ShtrihM.Wattle3.Mappers.Primitives",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.38.05/shtrihm.wattle3.testing.databases.postgresql.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "159cc698-1205-4fc5-ae9d-44625a0a1825",
+      "commitTimeStamp": "2024-01-07T01:38:05.1742043Z",
+      "nuget:id": "ShtrihM.Wattle3.Testing.Databases.PostgreSql",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.38.05/shtrihm.wattle3.statesnapshots.common.protobuf.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "159cc698-1205-4fc5-ae9d-44625a0a1825",
+      "commitTimeStamp": "2024-01-07T01:38:05.1742043Z",
+      "nuget:id": "ShtrihM.Wattle3.StateSnapshots.Common.Protobuf",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.38.05/shtrihm.wattle3.sms.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "159cc698-1205-4fc5-ae9d-44625a0a1825",
+      "commitTimeStamp": "2024-01-07T01:38:05.1742043Z",
+      "nuget:id": "ShtrihM.Wattle3.Sms",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.38.05/shtrihm.wattle3.lua.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "159cc698-1205-4fc5-ae9d-44625a0a1825",
+      "commitTimeStamp": "2024-01-07T01:38:05.1742043Z",
+      "nuget:id": "ShtrihM.Wattle3.Lua",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.38.05/shtrihm.wattle3.common.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "159cc698-1205-4fc5-ae9d-44625a0a1825",
+      "commitTimeStamp": "2024-01-07T01:38:05.1742043Z",
+      "nuget:id": "ShtrihM.Wattle3.Common",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.38.05/shtrihm.wattle3.statesnapshots.common.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "159cc698-1205-4fc5-ae9d-44625a0a1825",
+      "commitTimeStamp": "2024-01-07T01:38:05.1742043Z",
+      "nuget:id": "ShtrihM.Wattle3.StateSnapshots.Common",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.38.05/shtrihm.wattle3.codegeneration.generator.path.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "159cc698-1205-4fc5-ae9d-44625a0a1825",
+      "commitTimeStamp": "2024-01-07T01:38:05.1742043Z",
+      "nuget:id": "ShtrihM.Wattle3.CodeGeneration.Generator.Path",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.38.05/shtrihm.wattle3.rawdocuments.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "159cc698-1205-4fc5-ae9d-44625a0a1825",
+      "commitTimeStamp": "2024-01-07T01:38:05.1742043Z",
+      "nuget:id": "ShtrihM.Wattle3.RawDocuments",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.38.05/tk.nuget.0.1.29-preview.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "159cc698-1205-4fc5-ae9d-44625a0a1825",
+      "commitTimeStamp": "2024-01-07T01:38:05.1742043Z",
+      "nuget:id": "Tk.Nuget",
+      "nuget:version": "0.1.29-preview"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.38.05/shtrihm.wattle3.infrastructures.rest.configurations.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "159cc698-1205-4fc5-ae9d-44625a0a1825",
+      "commitTimeStamp": "2024-01-07T01:38:05.1742043Z",
+      "nuget:id": "ShtrihM.Wattle3.Infrastructures.Rest.Configurations",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.38.05/shtrihm.wattle3.codegeneration.generator.interfaces.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "159cc698-1205-4fc5-ae9d-44625a0a1825",
+      "commitTimeStamp": "2024-01-07T01:38:05.1742043Z",
+      "nuget:id": "ShtrihM.Wattle3.CodeGeneration.Generator.Interfaces",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.opentelemetry.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.OpenTelemetry",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.codegeneration.common.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.CodeGeneration.Common",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.infrastructures.rest.clients.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.Infrastructures.Rest.Clients",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.statesmachines.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.StatesMachines",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.entityframework.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.EntityFramework",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.testing.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.Testing",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.domainobjects.common.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.DomainObjects.Common",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.mappers.postgresql.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.Mappers.PostgreSql",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.utils.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.Utils",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.queueprocessors.interfaces.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.QueueProcessors.Interfaces",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.codegeneration.generators.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.CodeGeneration.Generators",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.statesnapshots.mappers.sqlserver.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.StateSnapshots.Mappers.SqlServer",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.primitives.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.Primitives",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.infrastructures.rest.common.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.Infrastructures.Rest.Common",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.domainobjects.interfaces.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.DomainObjects.Interfaces",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.uniqueregisters.interfaces.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.UniqueRegisters.Interfaces",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.mappers.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.Mappers",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.triggers.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.Triggers",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.domainobjects.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.DomainObjects",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.37.27/shtrihm.wattle3.queueprocessors.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "a19b6e4c-3640-4046-8e26-01ffb59d9659",
+      "commitTimeStamp": "2024-01-07T01:37:27.4841297Z",
+      "nuget:id": "ShtrihM.Wattle3.QueueProcessors",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.statesnapshots.mappers.common.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.StateSnapshots.Mappers.Common",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.codegeneration.generator.tests.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.CodeGeneration.Generator.Tests",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.infrastructures.rest.controllers.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.Infrastructures.Rest.Controllers",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.containers.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.Containers",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.caching.interfaces.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.Caching.Interfaces",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.objectschains.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.ObjectsChains",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.statesnapshots.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.StateSnapshots",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.statesnapshots.mappers.postgresql.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.StateSnapshots.Mappers.Postgresql",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.mappers.interfaces.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.Mappers.Interfaces",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.codegeneration.generator.implements.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.CodeGeneration.Generator.Implements",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.statesnapshots.persistent.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.StateSnapshots.Persistent",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/xtate.core.0.1.61.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "Xtate.Core",
+      "nuget:version": "0.1.61"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.uniqueregisters.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.UniqueRegisters",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.services.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.Services",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.codegeneration.generator.common.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.CodeGeneration.Generator.Common",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.mappers.sqlserver.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.Mappers.SqlServer",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.swashbuckle.aspnetcore.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.Swashbuckle.AspNetCore",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.49/shtrihm.wattle3.replication.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "464e674a-3991-40ea-84df-46910ef890ba",
+      "commitTimeStamp": "2024-01-07T01:36:49.6534286Z",
+      "nuget:id": "ShtrihM.Wattle3.Replication",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.17/shtrihm.wattle3.infrastructures.interfaces.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "c6d47787-84c7-4d00-af3b-28de7210af3f",
+      "commitTimeStamp": "2024-01-07T01:36:17.3074445Z",
+      "nuget:id": "ShtrihM.Wattle3.Infrastructures.Interfaces",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.17/shtrihm.wattle3.testing.databases.sqlserver.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "c6d47787-84c7-4d00-af3b-28de7210af3f",
+      "commitTimeStamp": "2024-01-07T01:36:17.3074445Z",
+      "nuget:id": "ShtrihM.Wattle3.Testing.Databases.SqlServer",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.17/shtrihm.wattle3.elasticsearch.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "c6d47787-84c7-4d00-af3b-28de7210af3f",
+      "commitTimeStamp": "2024-01-07T01:36:17.3074445Z",
+      "nuget:id": "ShtrihM.Wattle3.Elasticsearch",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.17/shtrihm.wattle3.json.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "c6d47787-84c7-4d00-af3b-28de7210af3f",
+      "commitTimeStamp": "2024-01-07T01:36:17.3074445Z",
+      "nuget:id": "ShtrihM.Wattle3.Json",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.36.17/shtrihm.wattle3.caching.3.9.0.3275.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "c6d47787-84c7-4d00-af3b-28de7210af3f",
+      "commitTimeStamp": "2024-01-07T01:36:17.3074445Z",
+      "nuget:id": "ShtrihM.Wattle3.Caching",
+      "nuget:version": "3.9.0.3275"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.33.27/codevia.fastapi.1.0.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "6e5ee79c-a322-4b43-8624-cb41d161c6b7",
+      "commitTimeStamp": "2024-01-07T01:33:27.3741119Z",
+      "nuget:id": "Codevia.FastApi",
+      "nuget:version": "1.0.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.24.44/rotationsolver.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "1abb2b65-d239-4037-949d-804223db86e8",
+      "commitTimeStamp": "2024-01-07T01:24:44.0738716Z",
+      "nuget:id": "RotationSolver",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.23.39/cpap-lib.1.0.0.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "1cbb9e7b-4f05-444e-a4c1-771bce8c8076",
+      "commitTimeStamp": "2024-01-07T01:23:39.0694965Z",
+      "nuget:id": "cpap-lib",
+      "nuget:version": "1.0.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.22.32/tbddevelop.mediator.outbox.0.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "785b2ec6-e637-4d9d-88fa-c4cc16c828e1",
+      "commitTimeStamp": "2024-01-07T01:22:32.1743577Z",
+      "nuget:id": "TbdDevelop.Mediator.Outbox",
+      "nuget:version": "0.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.22.01/tbddevelop.mediator.outbox.sqlserver.0.0.1.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "d80f7c20-656d-4c66-9a9c-1aa3c94b0923",
+      "commitTimeStamp": "2024-01-07T01:22:01.0161108Z",
+      "nuget:id": "TbdDevelop.Mediator.Outbox.SqlServer",
+      "nuget:version": "0.0.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.21.30/projen.statemachine.2.0.374.json",
+      "@type": "nuget:PackageDetails",
+      "commitId": "824839f2-b4b7-445d-97e3-099a6fe57d1c",
+      "commitTimeStamp": "2024-01-07T01:21:30.0608226Z",
+      "nuget:id": "Projen.Statemachine",
+      "nuget:version": "2.0.374"
+    },
     {
       "@id": "https://api.nuget.org/v3/catalog0/data/2024.01.07.01.19.08/tk.nuget.0.1.29-preview.json",
       "@type": "nuget:PackageDetails",
