@@ -154,6 +154,11 @@
       "comment": "URI template used by NuGet Client to construct details URL for packages"
     },
     {
+      "@id": "https://www.nuget.org/profiles/{owner}?_src=template",
+      "@type": "OwnerDetailsUriTemplate/6.11.0",
+      "comment": "URI template used by NuGet Client to construct owner URL for packages"
+    },
+    {
       "@id": "https://api.nuget.org/v3/registration5-gz-semver1/",
       "@type": "RegistrationsBaseUrl/3.4.0",
       "comment": "Base URL of Azure storage where NuGet package registration info is stored in GZIP format. This base URL does not include SemVer 2.0.0 packages."
