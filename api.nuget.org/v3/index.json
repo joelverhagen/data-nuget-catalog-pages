@@ -193,6 +193,11 @@
       "@id": "https://api.nuget.org/v3/catalog0/index.json",
       "@type": "Catalog/3.0.0",
       "comment": "Index of the NuGet package catalog."
+    },
+    {
+      "@id": "https://api.nuget.org/v3-flatcontainer/{lower_id}/{lower_version}/readme",
+      "@type": "ReadmeUriTemplate/6.13.0",
+      "comment": "URI template used by NuGet Client to construct a URL for downloading a package's README."
     }
   ],
   "@context": {
