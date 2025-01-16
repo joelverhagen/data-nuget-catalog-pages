@@ -13,15 +13,15 @@ jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
+      uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 3.1.403
+        dotnet-version: 8.0.x
     - name: Install tool
-      run: dotnet tool install --global Knapcode.CatalogDownloader --version 0.0.2-beta
+      run: dotnet tool install --global Knapcode.CatalogCrawler --version 0.0.5-beta
     - name: Run tool
-      run: Knapcode.CatalogDownloader --data-dir . --depth CatalogPage --json-formatting PrettyWhenUnindented
+      run: Knapcode.CatalogCrawler download --data-dir . --depth CatalogPage --json-formatting PrettyWhenUnindented
     - name: Commit and push data has changed
       run: |-
         git config user.name "Automated"
